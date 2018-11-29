@@ -1,10 +1,3 @@
----
-description: >-
-  Welcome to the Vulekamali Maintenance Manual. Here you'll find guides for
-  specific actions like uploading new datasets, managing users and how to test,
-  develop and deploy new software to Vulekamali.
----
-
 # Home
 
 ## Manual Structure

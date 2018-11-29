@@ -1,7 +1,3 @@
----
-description: How to add a new Division of Revenue bill to the DataStore.
----
-
 # Adding a new Division of Revenue bill
 
 Each year's Division of Revenue bill should be a separate dataset with:

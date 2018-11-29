@@ -22,3 +22,5 @@ Add the resource ID to `CPI_RESOURCE_IDS` in the Data Manager's `models.py`
 
 Now the Data Manager can adjust for inflation using the latest CPI data.
 
+Finally update the CPI dataset URL in the vulekamali static site repository `static-budget-portal/_data/global_values.yaml`
+

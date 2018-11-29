@@ -1,9 +1,3 @@
----
-description: >-
-  CKAN dataset storage, metadata, search and API. This is where the data on
-  Vulekamali is stored.
----
-
 # vulekamali Datastore
 
 ## Functions

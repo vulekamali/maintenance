@@ -1,10 +1,3 @@
----
-description: >-
-  Content on vulekamali.gov.za is located in a couple of different
-  locations/services. Where you need to change information depends on what type
-  of information you're trying to change.
----
-
 # Adding/modifying information on the site
 
 ## Dataset names and descriptions

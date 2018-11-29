@@ -1,7 +1,3 @@
----
-description: How to make another user an admin of the Datastore
----
-
 # Adding Datastore Admin users
 
 Datastore admins can make other users admins.

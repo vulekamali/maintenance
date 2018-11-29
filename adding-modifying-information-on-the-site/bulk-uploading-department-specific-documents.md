@@ -1,9 +1,3 @@
----
-description: >-
-  How to upload many documents at the same time, with all the metadata to
-  associate them with specific departments
----
-
 # Bulk-uploading department-specific documents
 
 The Bulk Upload interface allows you to upload many documents at the same time. It is specifically intended for documents that need to be related to specific government departments using metadata. This helps you upload the files, and metadata including filenames, the relevant financial year, the sphere of government, and the department name.

@@ -1,7 +1,3 @@
----
-description: How to make another user an Admin of the Data Manager
----
-
 # Adding Data Manager Admin users
 
 Data Manager admins can make other users admins.

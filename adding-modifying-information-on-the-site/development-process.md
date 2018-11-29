@@ -1,9 +1,3 @@
----
-description: >-
-  Development process adhered to by both back- and front end developers while
-  building a story/feature
----
-
 # Simultaneous user story development in front and backend
 
 ## Story-driven branching

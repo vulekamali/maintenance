@@ -1,9 +1,3 @@
----
-description: >-
-  Data Manager - aka Dynamic Budget Portal. This service manages data retrieval,
-  processing and output for vulekamali.gov.za.
----
-
 # vulekamali Data Manager
 
 ## Environments

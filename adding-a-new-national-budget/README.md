@@ -18,3 +18,4 @@ The following is required to add a new budget to vulekamali
 * New Additional Resource links must be added to vulekamali
 * The current financial year and visible years must be updated in vulekamali
 * The data for vulekamali must be rebuilt, previewed, and uploaded when ready to publish the updated site.
+

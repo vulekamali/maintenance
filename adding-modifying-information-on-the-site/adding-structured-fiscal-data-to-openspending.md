@@ -1,10 +1,3 @@
----
-description: >-
-  How to add structured fiscal data to OpenSpending and the Datastore, including
-  requirements for vulekamali to be able to summarise and demo the structured
-  data
----
-
 # Adding structured fiscal data
 
 At key budget events like the tabling of the Main Appropriation and Adjusted Appropriation, and release of Annual Report Expenditure data, we upload structured data OpenSpending and make it accessible via the Datastore and vulekamali. This data is intended to support further analysis by the public, and is used for summaries and demonstration of the capability of the data on vulekamali.

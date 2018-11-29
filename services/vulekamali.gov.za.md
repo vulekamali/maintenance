@@ -1,9 +1,3 @@
----
-description: >-
-  The vulekamali website - user friendly access to budget data (AKA
-  static-budget-portal)
----
-
 # vulekamali.gov.za
 
 {% embed url="https://vulekamali.gov.za" caption="The vulekamali website itself" %}

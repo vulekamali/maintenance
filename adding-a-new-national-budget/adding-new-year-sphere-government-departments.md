@@ -1,5 +1,5 @@
 ---
-description: ""
+description: ''
 ---
 
 # Adding the new financial year, sphere, government, and departments
@@ -40,3 +40,4 @@ Departments can be added using the admin form. Since it can take a lot of time t
 * The department Introduction can be formatted using [Markdown syntax](https://daringfireball.net/projects/markdown/syntax)
 
 ![](../.gitbook/assets/vulekamali-admin-department-form.png)
+

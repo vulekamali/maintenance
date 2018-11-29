@@ -1,9 +1,3 @@
----
-description: >-
-  How to enable non-treasury data owners to upload data and analyses to
-  vulekamali
----
-
 # Adding a non-treasury contributor
 
 To be able to contribute data/analyses, a contributor must be added to an organisation for they are authorised to publish on vulekamali.
