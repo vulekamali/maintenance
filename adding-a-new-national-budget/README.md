@@ -8,7 +8,7 @@ description: >-
 
 The following is required to add a new budget to vulekamali
 
-* The [new financial year, sphere, government, and departments must be added to the Data Manager](#adding-new-year-sphere-government-departments.md)
+* The [new financial year, sphere, government, and departments must be added to the Data Manager](adding-new-year-sphere-government-departments.md)
 * The [ENE Vote e-publications and accompanying per-vote Excel files must be added to the Datastore](../adding-modifying-information-on-the-site/bulk-uploading-department-specific-documents.md#estimates-of-national-expenditure-vote-chapters)
 * The [ENE Expenditure dataset must be added to OpenSpending, and the data on OpenSpending added  to the Datastore](../adding-modifying-information-on-the-site/adding-structured-fiscal-data-to-openspending.md#estimates-of-national-expenditure)
 * The [Division of Revenue Bill must be added to the Datastore](adding-a-new-division-of-revenue-bill.md)

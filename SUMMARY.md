@@ -2,6 +2,7 @@
 
 * [Home](README.md)
 * [Adding a new national budget](adding-a-new-national-budget/README.md)
+  * [Adding the new financial year, sphere, government, and departments](adding-a-new-national-budget/adding-new-year-sphere-government-departments.md)
   * [Adding a new Division of Revenue bill](adding-a-new-national-budget/adding-a-new-division-of-revenue-bill.md)
   * [Adding revenue sources data](adding-a-new-national-budget/adding-a-new-national-budget-adding-revenue-sources-data.md)
   * [Adding CPI Inflation data](adding-a-new-national-budget/adding-cpi-inflation-data.md)
@@ -18,4 +19,3 @@
   * [Adding Datastore Admin users](services/vulekamali-datastore/adding-datastore-admin-users.md)
 * [vulekamali Data Manager](services/vulekamali-data-manager/README.md)
   * [Adding Data Manager Admin users](services/vulekamali-data-manager/adding-data-manager-admin-users.md)
-
