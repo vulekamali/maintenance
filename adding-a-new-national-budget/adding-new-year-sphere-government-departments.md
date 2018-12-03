@@ -1,18 +1,26 @@
 ---
-description: ''
+description: >-
+  This page describes how to add a new financial year and the items associated
+  therewith.
 ---
 
 # Adding the new financial year, sphere, government, and departments
 
+### Admin Interface
+
 The new financial year, sphere, government, and departments must be added to the Data Manager
 
-These items are added using the Data Manager admin interface
+These items are added using the [Data Manager admin interface](https://datamanager.vulekamali.gov.za/admin/) under the "Budget Portal" section
 
 ![Data Manager admin homepage](../.gitbook/assets/vulekamali-admin-new-year.png)
+
+### Add a new Financial Year
 
 The "Slug" of a financial year is the hyphenated form, e.g. 2019-20
 
 ![Adding a new financial year](../.gitbook/assets/vulekamali-admin-new-year-form.png)
+
+### Add a new Sphere
 
 Spheres are repeated each financial year to help structure the data
 
@@ -26,9 +34,13 @@ Each sphere has at least one government that the departments are part of
 
 ![](../.gitbook/assets/vulekamali-admin-governments.png)
 
+### Add a new Government
+
 Add the new government. The government and sphere are used to identify data and documents specific to national government, as opposed to consolidated national and provincial finances together.
 
 ![](../.gitbook/assets/vulekamali-admin-government-form.png)
+
+### Add new Departments
 
 Departments are related to the government as defined in a given financial year. That helps to distinguish information related to a department's configuration in that year, and show historical information following function shifts.
 
