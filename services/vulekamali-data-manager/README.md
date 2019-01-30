@@ -56,8 +56,6 @@ Once this deployment is finished, you should be able to see the changes \(YAML f
 
 In order to view the changes as they would appear in production, with templating, a Travis CI build will need to be initiated for static-budget-portal.
 
-For instructions on how to do this, [please see here](https://google.com/)
-
 ## Procedure to deploy to production
 
 Check out the latest master locally.
