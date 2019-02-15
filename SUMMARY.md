@@ -6,6 +6,7 @@
   * [Adding a new Division of Revenue bill](adding-a-new-national-budget/adding-a-new-division-of-revenue-bill.md)
   * [Adding revenue sources data](adding-a-new-national-budget/adding-a-new-national-budget-adding-revenue-sources-data.md)
   * [Adding CPI Inflation data](adding-a-new-national-budget/adding-cpi-inflation-data.md)
+  * [Adding/updating Infrastructure Projects](adding-a-new-national-budget/adding-updating-infrastructure-projects.md)
   * [Changes to static site hosted on Github](adding-a-new-national-budget/changes-to-static-site-hosted-on-github.md)
 * [Adding/modifying information on the site](adding-modifying-information-on-the-site/README.md)
   * [Bulk-uploading department-specific documents](adding-modifying-information-on-the-site/bulk-uploading-department-specific-documents.md)
