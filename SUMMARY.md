@@ -2,6 +2,7 @@
 
 * [Home](README.md)
 * [Adding a new national budget](adding-a-new-national-budget/README.md)
+  * [Update the homepage state](adding-a-new-national-budget/update-the-homepage-state.md)
   * [Adding the new financial year, sphere, government, and departments](adding-a-new-national-budget/adding-new-year-sphere-government-departments.md)
   * [Adding a new Division of Revenue bill](adding-a-new-national-budget/adding-a-new-division-of-revenue-bill.md)
   * [Adding revenue sources data](adding-a-new-national-budget/adding-a-new-national-budget-adding-revenue-sources-data.md)

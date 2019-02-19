@@ -6,6 +6,8 @@ description: >-
 
 # Adding a new national budget
 
+When the budget speech starts, and then when the data is available on vulekamali, [the homepage notices need to be updated.](update-the-homepage-state.md)
+
 The following is required to add a new budget to vulekamali
 
 * The [new financial year, sphere, government, and departments must be added to the Data Manager](adding-new-year-sphere-government-departments.md)
