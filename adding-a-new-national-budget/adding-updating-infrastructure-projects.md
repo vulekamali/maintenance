@@ -8,7 +8,7 @@ description: >-
 
 ## DataStore Structure
 
-The  `National Departmental Infrastructure Projects 2019-20` dataset should be in a group called `Infrastructure Projects` on the DataStore.
+The  `National Departmental Infrastructure Projects 2019-20` dataset should be in a group with the slug `infrastructure-projects`  on the DataStore.
 
 The dataset should have a single `CSV` resource with the Infrastructure Projects data
 
@@ -18,15 +18,15 @@ The dataset should have a single `CSV` resource with the Infrastructure Projects
 
 The structure of the processed dataset \(after it's been through our pipeline\) and when uploaded to CKAN, should look like this:
 
-| Sphere | Department | Sector | Project name | Project description | GPS code | Nature of investment | Infrastructure type | Current project stage | SIP category | Total project cost | Financial Y | Budget Phase | Featured | Amount |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| National | Health | Social Services | Eastern Cape: Bambisana hospital \(emergency repairs\) | Emergency repairs | -31.45019, 29.45397 | Maintenance and repair | District Hospital | Hand over | SIP 12: Revitalisation of public hospitals and other health facilities | 100 | 2015 | Audited Outcome | TRUE | 100 |
-| National | Health | Social Services | Eastern Cape: Bambisana hospital \(emergency repairs\) | Emergency repairs | -31.45019, 29.45397 | Maintenance and repair | District Hospital | Hand over | SIP 12: Revitalisation of public hospitals and other health facilities | 100 | 2016 | Audited Outcome | TRUE | 100 |
-| National | Health | Social Services | Eastern Cape: Bambisana hospital \(emergency repairs\) | Emergency repairs | -31.45019, 29.45397 | Maintenance and repair | District Hospital | Hand over | SIP 12: Revitalisation of public hospitals and other health facilities | 100 | 2017 | Audited Outcome | TRUE | 100 |
-| National | Health | Social Services | Eastern Cape: Bambisana hospital \(emergency repairs\) | Emergency repairs | -31.45019, 29.45397 | Maintenance and repair | District Hospital | Hand over | SIP 12: Revitalisation of public hospitals and other health facilities | 100 | 2018 | Adjusted Appropriation | TRUE | 100 |
-| National | Health | Social Services | Eastern Cape: Bambisana hospital \(emergency repairs\) | Emergency repairs | -31.45019, 29.45397 | Maintenance and repair | District Hospital | Hand over | SIP 12: Revitalisation of public hospitals and other health facilities | 100 | 2019 | MTEF | TRUE | 100 |
-| National | Health | Social Services | Eastern Cape: Bambisana hospital \(emergency repairs\) | Emergency repairs | -31.45019, 29.45397 | Maintenance and repair | District Hospital | Hand over | SIP 12: Revitalisation of public hospitals and other health facilities | 100 | 2020 | MTEF | TRUE | 100 |
-| National | Health | Social Services | Eastern Cape: Bambisana hospital \(emergency repairs\) | Emergency repairs | -31.45019, 29.45397 | Maintenance and repair | District Hospital | Hand over | SIP 12: Revitalisation of public hospitals and other health facilities | 100 | 2021 | MTEF | TRUE | 100 |
+| Sphere | Department | Sector | Project name | Project description | GPS code | Nature of investment | Infrastructure type | Current project stage | SIP category | Total project cost | Financial Y | Budget Phase | Featured | Project slug | Amount |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| National | Health | Social Services | Eastern Cape: Bambisana hospital \(emergency repairs\) | Emergency repairs | -31.45019, 29.45397 | Maintenance and repair | District Hospital | Hand over | SIP 12: Revitalisation of public hospitals and other health facilities | 100 | 2015 | Audited Outcome | TRUE | health-eastern-cape-bambisana-hospital-emergency-repairs | 100 |
+| National | Health | Social Services | Eastern Cape: Bambisana hospital \(emergency repairs\) | Emergency repairs | -31.45019, 29.45397 | Maintenance and repair | District Hospital | Hand over | SIP 12: Revitalisation of public hospitals and other health facilities | 100 | 2016 | Audited Outcome | TRUE | health-eastern-cape-bambisana-hospital-emergency-repairs | 100 |
+| National | Health | Social Services | Eastern Cape: Bambisana hospital \(emergency repairs\) | Emergency repairs | -31.45019, 29.45397 | Maintenance and repair | District Hospital | Hand over | SIP 12: Revitalisation of public hospitals and other health facilities | 100 | 2017 | Audited Outcome | TRUE | health-eastern-cape-bambisana-hospital-emergency-repairs | 100 |
+| National | Health | Social Services | Eastern Cape: Bambisana hospital \(emergency repairs\) | Emergency repairs | -31.45019, 29.45397 | Maintenance and repair | District Hospital | Hand over | SIP 12: Revitalisation of public hospitals and other health facilities | 100 | 2018 | Adjusted Appropriation | TRUE | health-eastern-cape-bambisana-hospital-emergency-repairs | 100 |
+| National | Health | Social Services | Eastern Cape: Bambisana hospital \(emergency repairs\) | Emergency repairs | -31.45019, 29.45397 | Maintenance and repair | District Hospital | Hand over | SIP 12: Revitalisation of public hospitals and other health facilities | 100 | 2019 | MTEF | TRUE | health-eastern-cape-bambisana-hospital-emergency-repairs | 100 |
+| National | Health | Social Services | Eastern Cape: Bambisana hospital \(emergency repairs\) | Emergency repairs | -31.45019, 29.45397 | Maintenance and repair | District Hospital | Hand over | SIP 12: Revitalisation of public hospitals and other health facilities | 100 | 2020 | MTEF | TRUE | health-eastern-cape-bambisana-hospital-emergency-repairs | 100 |
+| National | Health | Social Services | Eastern Cape: Bambisana hospital \(emergency repairs\) | Emergency repairs | -31.45019, 29.45397 | Maintenance and repair | District Hospital | Hand over | SIP 12: Revitalisation of public hospitals and other health facilities | 100 | 2021 | MTEF | TRUE | health-eastern-cape-bambisana-hospital-emergency-repairs | 100 |
 
 ### Structure required for dataset from National Treasury
 
