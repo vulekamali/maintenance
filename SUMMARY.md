@@ -9,6 +9,7 @@
   * [Adding CPI Inflation data](adding-a-new-national-budget/adding-cpi-inflation-data.md)
   * [Adding/updating Infrastructure Projects](adding-a-new-national-budget/adding-updating-infrastructure-projects.md)
   * [Changes to static site hosted on Github](adding-a-new-national-budget/changes-to-static-site-hosted-on-github.md)
+  * [Adding new Expenditure Time Series data](adding-a-new-national-budget/adding-new-expenditure-time-series-data.md)
 * [Adding a new provincial budget](adding-a-new-provincial-budget.md)
 * [Adding/modifying information on the site](adding-modifying-information-on-the-site/README.md)
   * [Bulk-uploading department-specific documents](adding-modifying-information-on-the-site/bulk-uploading-department-specific-documents.md)
