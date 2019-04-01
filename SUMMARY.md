@@ -25,3 +25,7 @@
 * [vulekamali Data Manager](services/vulekamali-data-manager/README.md)
   * [Adding Data Manager Admin users](services/vulekamali-data-manager/adding-data-manager-admin-users.md)
 
+## Design
+
+* [Site principles](design/site-principles.md)
+
