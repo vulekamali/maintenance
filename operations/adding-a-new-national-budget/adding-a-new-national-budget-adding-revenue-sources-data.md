@@ -25,11 +25,11 @@ Save this as a CSV and upload as a resource to the Datastore
 
 Find the Resource ID on the popup after clicking the Data API button on the CSV resource page
 
-![](../.gitbook/assets/vulekamai-revenue-data-resource-id.png)
+![](../../.gitbook/assets/vulekamai-revenue-data-resource-id.png)
 
 Add the new resource ID to the mapping of financial year to revenue resource IDs in the Data Manager's `models.py`
 
-![](../.gitbook/assets/vulekamali-datamanager-revenue-resource-ids.png)
+![](../../.gitbook/assets/vulekamali-datamanager-revenue-resource-ids.png)
 
 This will allow the Data Manager to find revenue estimate data for the new financial year.
 

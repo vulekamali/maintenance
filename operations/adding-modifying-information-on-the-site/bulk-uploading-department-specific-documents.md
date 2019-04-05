@@ -13,7 +13,7 @@ The bulk upload retrieves each file from the internet via the URLs that should b
 Visit the [Bulk Upload interface](https://datamanager.vulekamali.gov.za/admin/bulk_upload) directly or from the menu on the [Data Manager Admin homepage](https://datamanager.vulekamali.gov.za/admin).
 
 {% hint style="info" %}
-You need to be a [Data Manager Admin](../services/vulekamali-data-manager/adding-data-manager-admin-users.md) to use the Bulk Upload interface.
+You need to be a [Data Manager Admin](../../services/vulekamali-data-manager/adding-data-manager-admin-users.md) to use the Bulk Upload interface.
 {% endhint %}
 
 ### Metadata spreadsheet template
@@ -26,7 +26,7 @@ Since uploading many documents can take some time, a task queue is used to uploa
 
 Preview bulk upload
 
-![The Bulk Upload interface when first opened](../.gitbook/assets/datamanager-admin-bulk-upload-start.png)
+![The Bulk Upload interface when first opened](../../.gitbook/assets/datamanager-admin-bulk-upload-start.png)
 
 ## Upload a metadata spreadsheet
 
@@ -48,9 +48,9 @@ Please ensure your spreadsheet is in XLSX format prior to uploading.
 
 The Bulk Upload interface will check your metadata and show a preview of the changes that will take place
 
-![Example metadata spreadsheet](../.gitbook/assets/vulekamali-bulk-upload-metadata.png)
+![Example metadata spreadsheet](../../.gitbook/assets/vulekamali-bulk-upload-metadata.png)
 
-{% file src="../.gitbook/assets/adjusted-budget-vote-docs-bulk-upload-example.xlsx" caption="Example metadata file for AENE 2017 vote documents" %}
+{% file src="../../.gitbook/assets/adjusted-budget-vote-docs-bulk-upload-example.xlsx" caption="Example metadata file for AENE 2017 vote documents" %}
 
 ## Preview and start bulk upload
 
@@ -62,7 +62,7 @@ If you click submit while the Bulk Upload interface shows a preview, it will que
 If upload the same metadata file again, it will re-check your metadata without queuing any pending actions. That way you can see which actions have been completed.
 {% endhint %}
 
-![Preview of the bulk upload for the above spreadsheet example](../.gitbook/assets/vulekamali-bulk-upload-preview.png)
+![Preview of the bulk upload for the above spreadsheet example](../../.gitbook/assets/vulekamali-bulk-upload-preview.png)
 
 * Green indicates something that is set up correctly already
 * Blue indicates something the Bulk Upload interface can take for you
@@ -80,21 +80,21 @@ When you are ready to upload the documents, click **Submit** below the preview t
 
 After starting the bulk upload, you'll see the queue length has increased by the number of tasks needed to complete the bulk upload for your spreadsheet.
 
-![38 tasks were queued for the previewed bulk upload](../.gitbook/assets/vulekamali-bulk-upload-submitted.png)
+![38 tasks were queued for the previewed bulk upload](../../.gitbook/assets/vulekamali-bulk-upload-submitted.png)
 
 The easiest way to check that all documents were uploaded successfully is to upload the metadata spreadsheet again with the correct Sphere and preview the bulk upload process again
 
-![All documents are now uploaded successfully.](../.gitbook/assets/vulekamali-bulk-upload-review.png)
+![All documents are now uploaded successfully.](../../.gitbook/assets/vulekamali-bulk-upload-review.png)
 
 After the first set of tasks were submitted, and the Communications department spelling mistake was fixed and resubmitted, all documents are now uploaded to the right departments.
 
-Completed uploads can also be seen in the [Datastore](../services/vulekamali-datastore/)
+Completed uploads can also be seen in the [Datastore](../../services/vulekamali-datastore/)
 
-![Recently-modified datasets in the Datastore](../.gitbook/assets/vulekamali-bulk-upload-datastore.png)
+![Recently-modified datasets in the Datastore](../../.gitbook/assets/vulekamali-bulk-upload-datastore.png)
 
 After datasets are modified in the Datastore, \(manually or using the Bulk Upload interface in the Data Manager\), the vulekamali site has to be updated to show the new data or documents and their metadata. The progress of this can be seen in Travis-CI which is used to automate this update. Changes are usually available on vulekamali.gov.za about 30 minutes after they're made in the Datastore.
 
-![](../.gitbook/assets/vulekamali-bulk-upload-travis.png)
+![](../../.gitbook/assets/vulekamali-bulk-upload-travis.png)
 
 ### Task details
 
@@ -102,19 +102,19 @@ After datasets are modified in the Datastore, \(manually or using the Bulk Uploa
 
 You can check the progress of the queue by clicking on the queue length, or under the Queued tasks section in the Data Manager admin menu. When the Queued task list is empty, all tasks have been completed \(succeeded or failed\)
 
-![](../.gitbook/assets/vulekamali-task-queue-queued.png)
+![](../../.gitbook/assets/vulekamali-task-queue-queued.png)
 
 #### Successful tasks
 
 When the tasks are completed, you should see them on the Successful tasks page. The most helpful information is the start/stop date and time. The task names are just randomly-generated human-readable names for developers to track issues.
 
-![](../.gitbook/assets/vulekamali-task-queue-successfu.png)
+![](../../.gitbook/assets/vulekamali-task-queue-successfu.png)
 
 #### Failed tasks
 
 Tasks should only fail if an unexpected error occurred - the bulk upload interface tries to only queue tasks it expects to be successful. However if something goes wrong, more information about why it failed can be found in the Result and detail of the task. Click on the name for details.
 
-![](../.gitbook/assets/vulekamali-task-queue-failed.png)
+![](../../.gitbook/assets/vulekamali-task-queue-failed.png)
 
 ## Correcting mistakes
 
@@ -124,7 +124,7 @@ You can correct mistakes by finding the relevant dataset in the Datastore, and m
 Note that you can delete a dataset in the Datastore, but it will just be hidden from the public with state "deleted". Bulk Upload interface won't be able to replace it until it's been [purged](https://data.vulekamali.gov.za/ckan-admin/trash).
 {% endhint %}
 
-![Datasets in the Datastore created by the Bulk Upload interface](../.gitbook/assets/vulekamali-bulk-upload-datastore.png)
+![Datasets in the Datastore created by the Bulk Upload interface](../../.gitbook/assets/vulekamali-bulk-upload-datastore.png)
 
 ## Requirements and specific sets of documents
 
@@ -142,7 +142,7 @@ Metadata spreadsheet requirements
 | Column | Details |
 | :--- | :--- |
 | government | Must be the government name with standard capitalisation, e.g. South Africa or KwaZulu-Natal |
-| group\_id | The ID of the group in the [Datastore ](../services/vulekamali-datastore/)that this document should be part of. Specific document set conventions in this section should indicate which group to use. Find the group\_id in the URL of the group, e.g. for [Adjusted Budget Vote Documents](https://data.vulekamali.gov.za/group/adjusted-budget-vote-documents) use `adjusted-budget-vote-documents` |
+| group\_id | The ID of the group in the [Datastore ](../../services/vulekamali-datastore/)that this document should be part of. Specific document set conventions in this section should indicate which group to use. Find the group\_id in the URL of the group, e.g. for [Adjusted Budget Vote Documents](https://data.vulekamali.gov.za/group/adjusted-budget-vote-documents) use `adjusted-budget-vote-documents` |
 | department\_name | Use the department name as in the DataManager. Capitalisation, spelling and hyphenation must match exactly. |
 | dataset\_name | Must be unique in the entire system. See the convention for the specific set of documents in this section. We try to make this human-readable but ultimately it is intended to be a computer-readable ID. The Bulk Upload interface will help turn a name like "ENE 2018-19 - Vote 1 - The Presidency" into its slug "ene-2018-19-vote-1-the-presidency" |
 | dataset\_title | This is the human-readable title of the dataset. We tend to include the document type abbreviation and financial year in the title to distinguish between the same dataset in different years in search results. |
