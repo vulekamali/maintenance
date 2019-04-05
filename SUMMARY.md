@@ -27,5 +27,5 @@
 
 ## Design
 
-* [Site principles](design/site-principles.md)
+* [Data principles](design/site-principles.md)
 

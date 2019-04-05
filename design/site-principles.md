@@ -1,4 +1,4 @@
-# Site principles
+# Data principles
 
 * Initial assumption: Departments only change at the boundaries of financial years. 
   * That means we could have a department instance repeated for each financial year it exists, and where it doesn't exist in cross-year navigation, we could detect it quite easily and link to the government where it might have existed instead.
