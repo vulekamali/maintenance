@@ -1,3 +1,10 @@
+---
+description: >-
+  What people need to know to be able to effectively make changes to the
+  structure and design of the site. This page should be updated as those ideas
+  develop.
+---
+
 # Data principles
 
 * Initial assumption: Departments only change at the boundaries of financial years. 
