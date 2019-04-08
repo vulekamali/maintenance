@@ -175,6 +175,8 @@ We use the e-publication PDF rather than the smaller PDF that is just the chapte
 * resource\_format: PDF for the e-publication, XLS or XLSX for the spreadsheet used to produce the tables in the e-publication.
 * resource\_url: The URL of the file on [http://treasury.gov.za/](http://treasury.gov.za/)
 
+#### Estimates of Provincial Revenue and Expenditure Vote Chapters
+
 We create a dataset per vote, and a resource for the PDF part of the EPRE specific to the vote, and a second resource for the spreadsheet used to produce the tables in the PDF.
 
 * group: budget-vote-documents
@@ -193,22 +195,6 @@ We create a dataset per vote, and a resource for the PDF part of the EPRE specif
 
 #### Adjusted Estimates of National Expenditure Vote Chapters
 
-We create a dataset per vote, and a resource for the PDF part of the AEPRE specific to the vote, and a second resource for the spreadsheet used to produce the tables in the PDF.
-
-* group: adjusted-budget-vote-documents
-* dataset\_id: 
-  * Province code e.g. NW
-  * document type abbreviation i.e. AEPRE
-  * financial year e.g. 2018-19
-  * vote number e.g. Vote 1
-  * department name e.g. Office of the premier
-  * e.g. before sluggifying: _NW AEPRE 2018-19 - Vote 1 - Office of the Premier_
-  * e.g. the slug: `nw-aepre-2018-19-vote-1-office-of-the-premier`
-* dataset\_title: Similar to the pre-sluggified dataset\_id except the province in full e.g. _North West AEPRE 2018-19 - Vote 1 - Office of the Premier_
-* resource\_name: Same as dataset\_title
-* resource\_format: PDF for the chapter, XLS or XLSX for the spreadsheet used to produce the tables in the chapter.
-* resource\_url: The URL of the file on [http://treasury.gov.za/](http://treasury.gov.za/)
-
 We create a dataset per vote, and a resource for the PDF part of the AENE specific to the vote, and a second resource for the spreadsheet used to produce the tables in the PDF.
 
 * group: adjusted-budget-vote-documents
@@ -224,7 +210,20 @@ We create a dataset per vote, and a resource for the PDF part of the AENE specif
 * resource\_format: PDF for the chapter, XLS or XLSX for the spreadsheet used to produce the tables in the chapter.
 * resource\_url: The URL of the file on [http://treasury.gov.za/](http://treasury.gov.za/)
 
-#### Estimates of Provincial Revenue and Expenditure Vote Chapters
-
 #### Adjusted Estimates of Provincial Revenue and Expenditure Vote Chapters
 
+We create a dataset per vote, and a resource for the PDF part of the AEPRE specific to the vote, and a second resource for the spreadsheet used to produce the tables in the PDF.
+
+* group: adjusted-budget-vote-documents
+* dataset\_id: 
+  * Province code e.g. NW
+  * document type abbreviation i.e. AEPRE
+  * financial year e.g. 2018-19
+  * vote number e.g. Vote 1
+  * department name e.g. Office of the premier
+  * e.g. before sluggifying: _NW AEPRE 2018-19 - Vote 1 - Office of the Premier_
+  * e.g. the slug: `nw-aepre-2018-19-vote-1-office-of-the-premier`
+* dataset\_title: Similar to the pre-sluggified dataset\_id except the province in full e.g. _North West AEPRE 2018-19 - Vote 1 - Office of the Premier_
+* resource\_name: Same as dataset\_title
+* resource\_format: PDF for the chapter, XLS or XLSX for the spreadsheet used to produce the tables in the chapter.
+* resource\_url: The URL of the file on [http://treasury.gov.za/](http://treasury.gov.za/)
