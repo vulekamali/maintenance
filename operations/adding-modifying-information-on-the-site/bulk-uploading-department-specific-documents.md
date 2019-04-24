@@ -30,7 +30,7 @@ Preview bulk upload
 
 ## Upload a metadata spreadsheet
 
-[See the guides for specific kinds of documents \(e.g. ENE vote chapters, AENE vote chapters\) for conventions for names and which groups to use](bulk-uploading-department-specific-documents.md#conventions-for-specific-sets-of-documents). 
+[See the guides for specific kinds of documents \(e.g. ENE vote chapters, AENE vote chapters\) for conventions for names and which groups to use](bulk-uploading-department-specific-documents.md#conventions-for-specific-sets-of-documents).
 
 Read this alongside the [document metadata requirements](bulk-uploading-department-specific-documents.md#requirements-and-specific-sets-of-documents).
 
@@ -227,3 +227,4 @@ We create a dataset per vote, and a resource for the PDF part of the AEPRE speci
 * resource\_name: Same as dataset\_title
 * resource\_format: PDF for the chapter, XLS or XLSX for the spreadsheet used to produce the tables in the chapter.
 * resource\_url: The URL of the file on [http://treasury.gov.za/](http://treasury.gov.za/)
+

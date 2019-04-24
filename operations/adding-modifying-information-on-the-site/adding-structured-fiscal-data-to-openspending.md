@@ -67,21 +67,21 @@ Note this dataset is called Estimates of Provincial Expenditure, not Estimates o
 | Column Name | Description |
 | :--- | :--- |
 | Province | Spelled out and capitalised normally, i.e. one of `Eastern Cape`, `Free State`, `Gauteng`, `KwaZulu-Natal`, `Limpopo`, `Mpumalanga`, `Northern Cape`, `North West`, `Western Cape` |
-| VoteNumber |  |
-| Department |  |
-| ProgNumber |  |
-| Programme |  |
-| SubprogNumber |  |
-| Subprogramme |  |
+| VoteNumber | integer |
+| Department | Capitalised and hyphenated correctly - this must be consistent across all datasets on vulekamali otherwise undercounting or errors could occur. |
+| ProgNumber | integer |
+| Programme | Must be capitalised as it should be presented. |
+| SubprogNumber | integer |
+| Subprogramme | Must be capitalised as it should be presented. |
 | EconomicClassification1 |  |
 | EconomicClassification2 |  |
 | EconomicClassification3 |  |
 | EconomicClassification4 |  |
 | EconomicClassification5 |  |
-| FunctionGroup1 |  |
+| FunctionGroup1 | Must be capitalised and hyphenated consistently across all datasets on vulekamali \(barring changes from one year to another\) otherwise undercounting or other errors could occur. |
 | FunctionGroup2 |  |
-| FinancialYear |  |
-| BudgetPhase | Valid values are `Audited Outcome`, `Adjusted appropriation`, `Main appropriation`, `Medium Term Estimates`. While the newly-tabled budget is classified under `Medium Term Estimates` in some tables in the ENE documents, we classify it under `Main appropriation` for the purposes of analysis from this dataset.  |
+| FinancialYear | Integer, e.g. `2018` for the year `2018-19` |
+| BudgetPhase | Valid values are `Audited Outcome`, `Adjusted appropriation`, `Main appropriation`, `Medium Term Estimates`. While the newly-tabled budget is classified under `Medium Term Estimates` in some tables in the budget documents, we classify it under `Main appropriation` for the purposes of analysis from this dataset. E.g. the EPRE 2019-20 dataset should have budget phase `Main appropriation` for rows where FinancialYear is `2019` |
 | Value | Rands, not thousands of rands |
 |  |  |
 
