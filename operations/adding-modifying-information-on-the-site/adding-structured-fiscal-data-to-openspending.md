@@ -21,6 +21,10 @@ After adding the dataset to the [Datastore](../../services/vulekamali-datastore/
 
 ### Budgeted and Actual National Expenditure
 
+This dataset consists of all the existing years for the  `Expenditure` datasets. 
+
+Only the rows for where `Financial Year` is equal to the dataset's year, and where `Budget Phase` is `Main appropriation` \(e.g. for `ENE 2015-16` only rows where `Financial Year` is equal to `2015)`is included in this combined dataset.`Estimate of National`
+
 [Datastore](../../services/vulekamali-datastore/) Metadata
 
 * Group: [Budgeted and Actual National Expenditure](https://data.vulekamali.gov.za/group/budgeted-and-actual-national-expenditure)
@@ -61,6 +65,10 @@ Main appropriation,Public Service and Administration,Current payments,Goods and 
 ```
 
 ### Budgeted and Actual Provincial Expenditure
+
+This dataset consists of all the existing years for the  `Estimates of Provincial Expenditure` datasets. 
+
+Only the rows for where `Financial Year` is equal to the dataset's year, and where `Budget Phase` is `Main appropriation` \(e.g. for `EPRE 2015-16` only rows where `Financial Year` is equal to `2015)`is included in this combined dataset.
 
 [Datastore](../../services/vulekamali-datastore/) Metadata
 
