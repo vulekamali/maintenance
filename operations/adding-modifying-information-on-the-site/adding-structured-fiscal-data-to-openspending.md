@@ -19,6 +19,87 @@ After adding the dataset to the [Datastore](../../services/vulekamali-datastore/
 
 ## Specific dataset requirements
 
+### Budgeted and Actual National Expenditure
+
+[Datastore](../../services/vulekamali-datastore/) Metadata
+
+* Group: [Budgeted and Actual National Expenditure](https://data.vulekamali.gov.za/group/budgeted-and-actual-national-expenditure)
+* Sphere: national
+* Dimensions: as per the fields available
+
+Fields:
+
+| column name | Fiscal Data Package type | Description |
+| :--- | :--- | :--- |
+| Vote Number | administrative-classification:generic:level1:code |  |
+| Department Name | administrative-classification:generic:level1:label |  |
+| Programme Number | activity:generic:program:code |  |
+| Programme Name | activity:generic:program:label |  |
+| Subprogramme Number | activity:generic:subprogram:code:part |  |
+| Subprogramme Name | activity:generic:subprogram:label |  |
+| Econ1 | economic-classification:generic:level1:code |  |
+| Econ2 | economic-classification:generic:level2:code:part |  |
+| Econ3 | economic-classification:generic:level3:code:part |  |
+| Econ4 | economic-classification:generic:level4:code:part |  |
+| Econ5 | economic-classification:generic:level5:code:part |  |
+| Function Group 1 | functional-classification:generic:level1:code |  |
+| Financial Year | date:fiscal-year |  |
+| Budget Phase | phase:id | Valid values are `Audit Outcome`, `Adjusted appropriation`, `Main appropriation`, `Final appropriation`. This is, in some documents, equivalent to `Medium Term Estimates`  |
+| Value | value | The Rand value of the row |
+| Amount Kind | value-kind:code | A type like `Total` or `Adjustments - Roll-overs` |
+| Government | source:geo-source:code | Always `South Africa` for this national dataset. In the `Actual and Budgeted Provincial Expenditure` dataset this is the Province name |
+|  |  |  |
+
+For example, as CSV
+
+```text
+Budget Phase,Department,Econ1,Econ2,Econ3,Econ4,Financial Year,Function Group 1,Programme,Programme Number,Subprogramme,Subprogramme Number,Value,Vote Number,Amount Kind,Government
+Main appropriation,Public Service and Administration,Current payments,Compensation of employees,Salaries and wages,Salaries and wages,2018,General public services,Administration,1,Ministry,1,31989000.0,10,Total,South Africa
+Main appropriation,Public Service and Administration,Current payments,Compensation of employees,Social contributions,Social contributions,2018,General public services,Administration,1,Ministry,1,2213000.0,10,Total,South Africa
+Main appropriation,Public Service and Administration,Current payments,Goods and services,Administrative fees,Administrative fees,2018,General public services,Administration,1,Ministry,1,393000.0,10,Total,South Africa
+Main appropriation,Public Service and Administration,Current payments,Goods and services,Advertising,Advertising,2018,General public services,Administration,1,Ministry,1,27000.0,10,Total,South Africa
+```
+
+### Budgeted and Actual Provincial Expenditure
+
+[Datastore](../../services/vulekamali-datastore/) Metadata
+
+* Group: [Budgeted and Actual Provincial Expenditure](https://data.vulekamali.gov.za/group/budgeted-and-actual-provincial-expenditure)
+* Sphere: provincial
+* Dimensions: as per the fields available
+
+Fields:
+
+| column name | Fiscal Data Package type | Description |
+| :--- | :--- | :--- |
+| Vote Number | administrative-classification:generic:level1:code |  |
+| Department Name | administrative-classification:generic:level1:label |  |
+| Programme Number | activity:generic:program:code |  |
+| Programme Name | activity:generic:program:label |  |
+| Subprogramme Number | activity:generic:subprogram:code:part |  |
+| Subprogramme Name | activity:generic:subprogram:label |  |
+| Econ1 | economic-classification:generic:level1:code |  |
+| Econ2 | economic-classification:generic:level2:code:part |  |
+| Econ3 | economic-classification:generic:level3:code:part |  |
+| Econ4 | economic-classification:generic:level4:code:part |  |
+| Econ5 | economic-classification:generic:level5:code:part |  |
+| Function Group 1 | functional-classification:generic:level1:code |  |
+| Financial Year | date:fiscal-year |  |
+| Budget Phase | phase:id | Valid values are `Audit Outcome`, `Adjusted appropriation`, `Main appropriation`, `Final appropriation`. This is, in some documents, equivalent to `Medium Term Estimates`  |
+| Value | value | The Rand value of the row |
+| Amount Kind | value-kind:code | A type like `Total` or `Adjustments - Roll-overs` |
+| Government | source:geo-source:code | In this dataset, this is the Province name e.g. 'North West' or 'Western Cape' |
+
+For example, as CSV
+
+```text
+Budget Phase,Department,Econ1,Econ2,Econ3,Econ4,Financial Year,Function Group 1,Programme,Programme Number,Subprogramme,Subprogramme Number,Value,Vote Number,Amount Kind,Government
+Main appropriation,Public Service and Administration,Current payments,Compensation of employees,Salaries and wages,Salaries and wages,2018,General public services,Administration,1,Ministry,1,31989000.0,10,Total,North West
+Main appropriation,Public Service and Administration,Current payments,Compensation of employees,Social contributions,Social contributions,2018,General public services,Administration,1,Ministry,1,2213000.0,10,Total,Eastern Cape
+Main appropriation,Public Service and Administration,Current payments,Goods and services,Administrative fees,Administrative fees,2018,General public services,Administration,1,Ministry,1,393000.0,10,Total,Western Cape
+Main appropriation,Public Service and Administration,Current payments,Goods a
+```
+
 ### Estimates of National Expenditure
 
 [Datastore](../../services/vulekamali-datastore/) Metadata
