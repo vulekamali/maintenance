@@ -21,9 +21,13 @@ After adding the dataset to the [Datastore](../../services/vulekamali-datastore/
 
 ### Budgeted and Actual National Expenditure
 
-This dataset consists of all the existing years for the  `Expenditure` datasets. 
+This dataset consists of all of the following datasets, for each financial year available:
 
-Only the rows for where `Financial Year` is equal to the dataset's year, and where `Budget Phase` is `Main appropriation` \(e.g. for `ENE 2015-16` only rows where `Financial Year` is equal to `2015)`is included in this combined dataset.`Estimate of National`
+* Estimates of National Expenditure \(only for rows where `Budget Phase` is equal to `Main appropriation`
+* Adjusted Estimates of National Expenditure \(only for rows where `Budget Phase` is equal to `Adjusted appropriation`\)
+* Annual Report \(only for rows where `Budget Phase` is equal to `Audit Outcome` or `Final Appropriation`\)
+
+Only the rows for where `Financial Year` is equal to the dataset's year \(e.g. for `ENE 2015-16` only rows where `Financial Year` is equal to `2015)`is included in this combined dataset.
 
 [Datastore](../../services/vulekamali-datastore/) Metadata
 
@@ -66,9 +70,12 @@ Main appropriation,Public Service and Administration,Current payments,Goods and 
 
 ### Budgeted and Actual Provincial Expenditure
 
-This dataset consists of all the existing years for the  `Estimates of Provincial Expenditure` datasets. 
+Only the rows for where `Financial Year` is equal to the dataset's year, \(e.g. for `EPRE 2015-16` only rows where `Financial Year` is equal to `2015)`is included in this combined dataset.
 
-Only the rows for where `Financial Year` is equal to the dataset's year, and where `Budget Phase` is `Main appropriation` \(e.g. for `EPRE 2015-16` only rows where `Financial Year` is equal to `2015)`is included in this combined dataset.
+This dataset consists of all of the following datasets, for each financial year available:
+
+* Estimates of Provincial Expenditure \(only for rows where `Budget Phase` is equal to `Main appropriation`
+* Annual Report  \(only for rows where `Budget Phase` is equal to `Audit Outcome` or `Final Appropriation`\)
 
 [Datastore](../../services/vulekamali-datastore/) Metadata
 
