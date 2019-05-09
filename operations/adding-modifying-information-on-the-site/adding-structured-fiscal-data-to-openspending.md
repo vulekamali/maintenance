@@ -9,81 +9,13 @@ The consequence of not adhering to these requirements is that the summaries and 
 ## General requirements for data uploaded to OpenSpending
 
 * At least one "measure" is needed, e.g. the value column
-* The value column must be in Rands, not Thousands of Rands
+* The value column must be in Rands, not Thousands of Rands 
 * The combination of the non-measure columns must be unique on each row
 * Financial year must be an integer - for National and Provincial budget data we use the starting year, as is convention. So for 2018-19, we use `2018`.
 * Department names and budget phases must match what is used in the Data Manager precisely. That includes capitalisation and punctuation, including hyphenation and commas. Avoid stray spaces at the beginning and end of values. See dataset specifics below.
 * Text and numeric values must be consistent. Occasional inconsistencies like stray spaces at the start or end of a value result in that category being treated as a different category, just like it would in a pivot table.
 
 After adding the dataset to the [Datastore](../../services/vulekamali-datastore/), [add it to the right group and add the right metadata](adding-structured-fiscal-data-to-openspending.md#specific-dataset-requirements) so that the [Data Manager](../../services/vulekamali-data-manager/) can find each dataset to prepare the summaries for each financial year using the correct dataset.
-
-## Automated data checks
-
-Check data sets for errors before uploading them at our [data-checks repository](https://github.com/vulekamali/data-checks).
-
-### Uploading data guide
-
-1. Log in or [sign up](https://github.com/join?source=header-home) for [github.com](https://github.com/)
-2. Make sure your data is available on a publicly accessible url in "raw" format, such as s3 or a github [gist](https://gist.github.com/).
-3. Go to https://github.com/vulekamali/data-checks
-4. Click on "Create new file"
-
-   ![Create new file button](../../.gitbook/assets/automated-data-checks/create-new-file-button.png "Create new file button")
-
-5. Type the file name as `datapackages/<financial year>/<dataset type>/datapackage.json`, for example `datapackages/2019-20/epre/datapackage.json`
-
-   ![File name format](../../.gitbook/assets/automated-data-checks/file-name.png "File name format")
-
-6. Copy the following text to the new file:
-
-   ```
-   {
-    "name": "<INSERT NAME OF YOUR DATA SET>",
-    "schema": "tabular-data-package",
-    "profile": "tabular-data-package",
-    "resources": [
-        {
-            "path": "<INSERT URL TO YOUR DATA SET>",
-            "profile": "tabular-data-resource",
-            "name": "<INSERT NAME OF YOUR DATA SET>",
-            "format": "csv",
-            "mediatype": "text/csv",
-            "encoding": "utf-8",
-            "schema": "https://raw.githubusercontent.com/vulekamali/data-checks/master/schema/<INSERT TYPE OF YOUR DATA SET>.json"
-        }
-    ]
-   }
-   ```
-
-7. Update the `name` value and the `path`, `name` and `schema` values inside the `resources` value in your new file.
-
-   ![Filled file values](../../.gitbook/assets/automated-data-checks/file-values.png "Filled file values")
-
-8. Scroll down to the "Commit new file" heading. Select the "Create a new branch for this commit and start a pull request." option and click on "Propose new file".
-
-   ![Select "Create a new branch..."](../../.gitbook/assets/automated-data-checks/commit-new-file.png "Select 'Create a new branch...'")
-
-9. On the next screen, give your pull request a descriptive title such as "Add 2019-20 EPRE data" and click on "Create pull request"
-
-   ![Click 'Create pull request'](../../.gitbook/assets/automated-data-checks/pull-request.png "Click 'Create pull request'")
-
-10. You should now see a section with yellow text that reads: "Some checks haven’t completed yet". Wait until the text turns either red or green.
-
-   ![Some checks haven't completed yet](../../.gitbook/assets/automated-data-checks/checks-havent-completed.png "Some checks haven't completed yet")
-
-  - If you see a section with green text reading "All checks have passed", your data set has passed all of the checks **successfully**:
-
-     ![All checks have passed](../../.gitbook/assets/automated-data-checks/success.png "All checks have passed")
-
-  - If you see a section with red text reading "All checks have failed", your data set did not pass all of the checks:
-
-     ![All checks have failed](../../.gitbook/assets/automated-data-checks/failure.png "All checks have failed")
-
-11. If your data set did not pass all of the checks, you can click on "details" on the first item under "All checks have failed". On the next screen, scroll down to the bottom of the screen. You should see a list of error messages generated for your data set.
-
-     ![Error messages](../../.gitbook/assets/automated-data-checks/errors.png "Error messages")
-
-
 
 ## Specific dataset requirements
 
@@ -226,7 +158,7 @@ Adjusted appropriation,Public Service and Administration,Capital,Payments for ca
 Note this dataset is called Estimates of Provincial Expenditure, not Estimates of Provincial Revenue and Expenditure because it only contains expenditure data. While it might throw those who know what the EPRE is, it tries to make sense to users of expenditure data and not leave users wondering where the revenue data is if it was called EPRE.
 {% endhint %}
 
-###
+### 
 
 | Column Name | Description |
 | :--- | :--- |
@@ -296,7 +228,7 @@ The Dataset ID is the combination of the OpenSpending account ID \(`owner` in th
 
 ![](../../.gitbook/assets/openspending-datapackage-json-file.png)
 
-So for the above example, the dataset ID is
+So for the above example, the dataset ID is 
 
 ```text
 b9d2af843f3a7ca223eea07fb608e62a:adjusted-estimates-of-national-expenditure-2016-17
