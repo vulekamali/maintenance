@@ -39,24 +39,23 @@ Fields:
 
 | column name | Fiscal Data Package type | Description |
 | :--- | :--- | :--- |
-| Vote Number | administrative-classification:generic:level1:code |  |
-| Department Name | administrative-classification:generic:level1:label |  |
-| Programme Number | activity:generic:program:code |  |
-| Programme Name | activity:generic:program:label |  |
-| Subprogramme Number | activity:generic:subprogram:code:part |  |
-| Subprogramme Name | activity:generic:subprogram:label |  |
+| VoteNumber | administrative-classification:generic:level1:code |  |
+| DepartmentName | administrative-classification:generic:level1:label |  |
+| ProgrammeNumber | activity:generic:program:code |  |
+| ProgrammeName | activity:generic:program:label |  |
+| SubprogrammeNumber | activity:generic:subprogram:code:part |  |
+| SubprogrammeName | activity:generic:subprogram:label |  |
 | Econ1 | economic-classification:generic:level1:code |  |
 | Econ2 | economic-classification:generic:level2:code:part |  |
 | Econ3 | economic-classification:generic:level3:code:part |  |
 | Econ4 | economic-classification:generic:level4:code:part |  |
 | Econ5 | economic-classification:generic:level5:code:part |  |
-| Function Group 1 | functional-classification:generic:level1:code |  |
-| Financial Year | date:fiscal-year |  |
-| Budget Phase | phase:id | Valid values are `Audit Outcome`, `Adjusted appropriation`, `Main appropriation`, `Final appropriation`. This is, in some documents, equivalent to `Medium Term Estimates`  |
+| FunctionGroup1 | functional-classification:generic:level1:code |  |
+| FinancialYear | date:fiscal-year |  |
+| BudgetPhase | phase:id | Valid values are `Audit Outcome`, `Adjusted appropriation`, `Main appropriation`, `Final appropriation`. This is, in some documents, equivalent to `Medium Term Estimates`  |
 | Value | value | The Rand value of the row |
-| Amount Kind | value-kind:code | A type like `Total` or `Adjustments - Roll-overs` |
-| Government | source:geo-source:code | Always `South Africa` for this national dataset. In the `Actual and Budgeted Provincial Expenditure` dataset this is the Province name |
-|  |  |  |
+| AmountKind | value-kind:code | A type like `Total` or `Adjustments - Roll-overs` |
+| Government | source:geo-source:code | Always `South Africa` for this national dataset. |
 
 For example, as CSV
 
@@ -67,6 +66,15 @@ Main appropriation,Public Service and Administration,Current payments,Compensati
 Main appropriation,Public Service and Administration,Current payments,Goods and services,Administrative fees,Administrative fees,2018,General public services,Administration,1,Ministry,1,393000.0,10,Total,South Africa
 Main appropriation,Public Service and Administration,Current payments,Goods and services,Advertising,Advertising,2018,General public services,Administration,1,Ministry,1,27000.0,10,Total,South Africa
 ```
+
+Example pivot table, with the following parameters:
+
+* **Filter:** Financial Year = 2017
+* **Columns:** Budget Phase
+* **Rows:** Amount Kind
+* **Values:** Amount
+
+![](../../.gitbook/assets/avsbnatpivottablescreenshotdocs.PNG)
 
 ### Budgeted and Actual Provincial Expenditure
 
@@ -87,22 +95,22 @@ Fields:
 
 | column name | Fiscal Data Package type | Description |
 | :--- | :--- | :--- |
-| Vote Number | administrative-classification:generic:level1:code |  |
-| Department Name | administrative-classification:generic:level1:label |  |
-| Programme Number | activity:generic:program:code |  |
-| Programme Name | activity:generic:program:label |  |
-| Subprogramme Number | activity:generic:subprogram:code:part |  |
-| Subprogramme Name | activity:generic:subprogram:label |  |
+| VoteNumber | administrative-classification:generic:level1:code |  |
+| DepartmentName | administrative-classification:generic:level1:label |  |
+| ProgrammeNumber | activity:generic:program:code |  |
+| ProgrammeName | activity:generic:program:label |  |
+| SubprogrammeNumber | activity:generic:subprogram:code:part |  |
+| SubprogrammeName | activity:generic:subprogram:label |  |
 | Econ1 | economic-classification:generic:level1:code |  |
 | Econ2 | economic-classification:generic:level2:code:part |  |
 | Econ3 | economic-classification:generic:level3:code:part |  |
 | Econ4 | economic-classification:generic:level4:code:part |  |
 | Econ5 | economic-classification:generic:level5:code:part |  |
-| Function Group 1 | functional-classification:generic:level1:code |  |
-| Financial Year | date:fiscal-year |  |
-| Budget Phase | phase:id | Valid values are `Audit Outcome`, `Adjusted appropriation`, `Main appropriation`, `Final appropriation`. This is, in some documents, equivalent to `Medium Term Estimates`  |
+| FunctionGroup1 | functional-classification:generic:level1:code |  |
+| FinancialYear | date:fiscal-year |  |
+| BudgetPhase | phase:id | Valid values are `Audit Outcome`, `Adjusted appropriation`, `Main appropriation`, `Final appropriation`. This is, in some documents, equivalent to `Medium Term Estimates`  |
 | Value | value | The Rand value of the row |
-| Amount Kind | value-kind:code | A type like `Total` or `Adjustments - Roll-overs` |
+| AmountKind | value-kind:code | A type like `Total` or `Adjustments - Roll-overs` |
 | Government | source:geo-source:code | In this dataset, this is the Province name e.g. 'North West' or 'Western Cape' |
 
 For example, as CSV
