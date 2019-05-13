@@ -17,6 +17,79 @@ The consequence of not adhering to these requirements is that the summaries and 
 
 After adding the dataset to the [Datastore](../../services/vulekamali-datastore/), [add it to the right group and add the right metadata](adding-structured-fiscal-data-to-openspending.md#specific-dataset-requirements) so that the [Data Manager](../../services/vulekamali-data-manager/) can find each dataset to prepare the summaries for each financial year using the correct dataset.
 
+## Automated data checks
+
+Data sets can be checked for adherence to the requirements listed in the [Specific dataset requirements](https://maintenance.vulekamali.gov.za/operations/adding-modifying-information-on-the-site/adding-structured-fiscal-data-to-openspending#specific-dataset-requirements) section below on the vulekamali automated data checks [repository](https://github.com/vulekamali/data-checks).
+
+#### Instruction Video
+
+{% embed url="https://www.youtube.com/watch?v=m8HFtlSF4hY&feature=youtu.be" %}
+
+#### Step-by-step guide
+
+1. Log in or [sign up](https://github.com/join?source=header-home) for [github.com](https://github.com/)
+
+2. Make sure your data is available on a publicly accessible url in "raw" format, such as s3 or a github [gist](https://gist.github.com/).
+
+3. Go to [https://github.com/vulekamali/data-checks](https://github.com/vulekamali/data-checks)
+
+4. Click on "Create new file"
+
+![](../../.gitbook/assets/create-new-file-button%20%281%29.png)
+
+5. Type the file name as `datapackages/<financial year>/<dataset type>/datapackage.json`, for example `datapackages/2019-20/epre/datapackage.json`
+
+![](../../.gitbook/assets/file-name%20%281%29.png)
+
+6. Copy the following text to the new file:
+
+```text
+{
+ "name": "<INSERT NAME OF YOUR DATA SET>",
+ "schema": "tabular-data-package",
+ "profile": "tabular-data-package",
+ "resources": [
+     {
+         "path": "<INSERT URL TO YOUR DATA SET>",
+         "profile": "tabular-data-resource",
+         "name": "<INSERT NAME OF YOUR DATA SET>",
+         "format": "csv",
+         "mediatype": "text/csv",
+         "encoding": "utf-8",
+         "schema": "https://raw.githubusercontent.com/vulekamali/data-checks/master/schema/<INSERT TYPE OF YOUR DATA SET>.json"
+     }
+ ]
+}
+```
+
+7. Update the `name` value and the `path`, `name` and `schema` values inside the `resources` value in your new file.
+
+![](../../.gitbook/assets/file-values.png)
+
+8. Scroll down to the "Commit new file" heading. Select the "Create a new branch for this commit and start a pull request." option and click on "Propose new file".
+
+![](../../.gitbook/assets/commit-new-file.png)
+
+9. On the next screen, give your pull request a descriptive title such as "Add 2019-20 EPRE data" and click on "Create pull request"
+
+![](../../.gitbook/assets/pull-request%20%281%29.png)
+
+10. You should now see a section with yellow text that reads: "Some checks haven’t completed yet". Wait until the text turns either red or green.
+
+![](../../.gitbook/assets/checks-havent-completed.png)
+
+* If you see a section with green text reading "All checks have passed", your data set has passed all of the checks **successfully**:
+
+  ![](../../.gitbook/assets/success.png) 
+
+* If you see a section with red text reading "All checks have failed", your data set did not pass all of the checks:
+
+  ![](../../.gitbook/assets/failure.png) 
+
+11. If your data set did not pass all of the checks, you can click on "details" on the first item under "All checks have failed". On the next screen, scroll down to the bottom of the screen. You should see a list of error messages generated for your data set.
+
+![Dataset error messages](../../.gitbook/assets/errors.png)
+
 ## Specific dataset requirements
 
 ### Budgeted and Actual National Expenditure
