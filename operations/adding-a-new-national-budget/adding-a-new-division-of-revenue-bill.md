@@ -24,6 +24,9 @@ Each year's Division of Revenue bill should be a separate dataset with:
 
 * One PDF resource \(Division of Revenue bill\)
 * One XLS resource \(Annexes\)
+* Financial Year set to the correct year
+
+Use the naming convention from previous years.
 
 Each DOR should be in the "Division of Revenue Bills" group.
 

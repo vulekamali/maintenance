@@ -27,7 +27,7 @@ Groups allow us to categorise datasets
 * Dataset **titles** and **slugs** should be human readable i.e. contain full names instead of acronyms.
 * No duplication.
 * Include data for each financial year available.
-* If you've deleted a dataset or resource - be sure to purge it afterwards, otherwise it won't actually be deleted.
+* If you've deleted a dataset or resource - be sure to purge it afterwards, otherwise it won't actually be deleted and you'll get a message like "That URL is already in use" when trying to recreate it.
 
 ## [Github Repository \(code\)](https://github.com/OpenUpSA/treasury-ckan)
 
