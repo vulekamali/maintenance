@@ -115,16 +115,16 @@ Fields:
 | column name | Fiscal Data Package type | Description |
 | :--- | :--- | :--- |
 | VoteNumber | administrative-classification:generic:level1:code |  |
-| DepartmentName | administrative-classification:generic:level1:label |  |
-| ProgrammeNumber | activity:generic:program:code |  |
-| ProgrammeName | activity:generic:program:label |  |
-| SubprogrammeNumber | activity:generic:subprogram:code:part |  |
-| SubprogrammeName | activity:generic:subprogram:label |  |
-| Econ1 | economic-classification:generic:level1:code |  |
-| Econ2 | economic-classification:generic:level2:code:part |  |
-| Econ3 | economic-classification:generic:level3:code:part |  |
-| Econ4 | economic-classification:generic:level4:code:part |  |
-| Econ5 | economic-classification:generic:level5:code:part |  |
+| Department | administrative-classification:generic:level1:label |  |
+| ProgNumber | activity:generic:program:code |  |
+| Programme | activity:generic:program:label |  |
+| SubprogNumber | activity:generic:subprogram:code:part |  |
+| Subprogramme | activity:generic:subprogram:label |  |
+| EconomicClassification1 | economic-classification:generic:level1:code |  |
+| EconomicClassification2 | economic-classification:generic:level2:code:part |  |
+| EconomicClassification3 | economic-classification:generic:level3:code:part |  |
+| EconomicClassification4 | economic-classification:generic:level4:code:part |  |
+| EconomicClassification5 | economic-classification:generic:level5:code:part |  |
 | FunctionGroup1 | functional-classification:generic:level1:code |  |
 | FinancialYear | date:fiscal-year |  |
 | BudgetPhase | phase:id | Valid values are `Audit Outcome`, `Adjusted appropriation`, `Main appropriation`, `Final appropriation`. This is, in some documents, equivalent to `Medium Term Estimates`  |
@@ -153,12 +153,7 @@ Example pivot table, with the following parameters:
 
 ### Budgeted and Actual Provincial Expenditure
 
-Only the rows for where `Financial Year` is equal to the dataset's year, \(e.g. for `EPRE 2015-16` only rows where `Financial Year` is equal to `2015)`is included in this combined dataset.
-
-This dataset consists of all of the following datasets, for each financial year available:
-
-* Estimates of Provincial Expenditure \(only for rows where `Budget Phase` is equal to `Main appropriation`
-* Annual Report  \(only for rows where `Budget Phase` is equal to `Audit Outcome` or `Final Appropriation`\)
+Same as [Budgeted and Actual National Expenditure,](adding-structured-fiscal-data-to-openspending.md#budgeted-and-actual-national-expenditure) but the Governments in this case are the provincial governments. The data sources are then the EPRE, AEPRE and Provincial Annual Report expenditure.
 
 [Datastore](../../services/vulekamali-datastore/) Metadata
 
@@ -171,16 +166,16 @@ Fields:
 | column name | Fiscal Data Package type | Description |
 | :--- | :--- | :--- |
 | VoteNumber | administrative-classification:generic:level1:code |  |
-| DepartmentName | administrative-classification:generic:level1:label |  |
-| ProgrammeNumber | activity:generic:program:code |  |
-| ProgrammeName | activity:generic:program:label |  |
-| SubprogrammeNumber | activity:generic:subprogram:code:part |  |
-| SubprogrammeName | activity:generic:subprogram:label |  |
-| Econ1 | economic-classification:generic:level1:code |  |
-| Econ2 | economic-classification:generic:level2:code:part |  |
-| Econ3 | economic-classification:generic:level3:code:part |  |
-| Econ4 | economic-classification:generic:level4:code:part |  |
-| Econ5 | economic-classification:generic:level5:code:part |  |
+| Department | administrative-classification:generic:level1:label |  |
+| ProgNumber | activity:generic:program:code |  |
+| Programme | activity:generic:program:label |  |
+| SubprogNumber | activity:generic:subprogram:code:part |  |
+| Subprogramme | activity:generic:subprogram:label |  |
+| EconomicClassification1 | economic-classification:generic:level1:code |  |
+| EconomicClassification2 | economic-classification:generic:level2:code:part |  |
+| EconomicClassification3 | economic-classification:generic:level3:code:part |  |
+| EconomicClassification4 | economic-classification:generic:level4:code:part |  |
+| EconomicClassification5 | economic-classification:generic:level5:code:part |  |
 | FunctionGroup1 | functional-classification:generic:level1:code |  |
 | FinancialYear | date:fiscal-year |  |
 | BudgetPhase | phase:id | Valid values are `Audit Outcome`, `Adjusted appropriation`, `Main appropriation`, `Final appropriation`. This is, in some documents, equivalent to `Medium Term Estimates`  |
