@@ -34,4 +34,5 @@
 ## Development
 
 * [Simultaneous user story development in front and backend](development/development-process.md)
+* [Verifying changes before deployment](development/verifying-changes.md)
 
