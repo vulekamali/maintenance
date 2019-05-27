@@ -2,7 +2,7 @@
 
 ## Dataset names and descriptions
 
-Dataset names and descriptions, and resources that are part of a dataset, are maintained in the [DataStore](../../services/vulekamali-datastore/). 
+Dataset names and descriptions, and resources that are part of a dataset, are maintained in the [DataStore](../../services/vulekamali-datastore/).
 
 If you want to upload lots of new documents, please have a look at the [Bulk-uploading](bulk-uploading-department-specific-documents.md) feature.
 
@@ -15,5 +15,4 @@ Data summaries and charts are based on
   * querying the relevant Data API\(s\) for the right data for that page
   * perhaps transforming the data to be easy to use in vulekamali.gov.za
 * vulekamali.gov.za presenting the data found in Page Data to the user
-
 

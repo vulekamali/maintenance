@@ -1,12 +1,10 @@
-# Verifying changes before deploying to production
+# Verifying changes before deployment
 
-We verify changes to the Data Manager by building the site data against staging because we'll see that all years are working properly, not just the years we've been testing against locally. 
+We verify changes to the Data Manager by building the site data against staging because we'll see that all years are working properly, not just the years we've been testing against locally.
 
 We'll see if any errors turn up. We get a commit in the static-budget-portal repository showing all the data changes introduced by this change to see if there are any surprises. This helps us notice mistakes in how data is modeled in the Datastore as well.
 
-
-
-Deploy [Data Manager](../../services/vulekamali-data-manager/#staging) changes to staging
+Deploy [Data Manager](../services/vulekamali-data-manager/#staging) changes to staging
 
 Rebuild vulekamali.gov.za against staging
 
@@ -30,3 +28,4 @@ Rebuild vulekamali.gov.za against production
 Deploy the production static-budget-portal changes
 
 * Rebuild static-budget-portal against the production Data Manager and merge those changes to master
+
