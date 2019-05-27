@@ -16,7 +16,7 @@ Add a CSV version of the file as a resource of a dataset specific to this new ye
 
 Add it to the group CPI Inflation
 
-Get the resource ID as you did for the [revenue sources data](adding-a-new-national-budget-adding-revenue-sources-data.md)
+Get the resource ID as you did for the [revenue sources data]()
 
 Add the resource ID to `CPI_RESOURCE_IDS` in the Data Manager's `models.py`
 

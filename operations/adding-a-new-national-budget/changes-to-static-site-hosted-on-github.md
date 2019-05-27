@@ -1,4 +1,4 @@
-# Changes to static site hosted on Github
+# Changes to vulekamali static site
 
 * Add the consolidated expenditure summary by adding a file of the [same structure as a previous year](https://github.com/OpenUpSA/static-budget-portal/blob/master/_data/2018-19/government_functions.yaml), based on the summary of consolidated expenditure in the Budget Guide.
 * Add new [additional resource links](https://github.com/OpenUpSA/static-budget-portal/blob/master/_data/2018-19/manual_resources.yaml) to vulekamali
