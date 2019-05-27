@@ -20,5 +20,9 @@ The following is required to add a new national budget to vulekamali
 6. The[ new CPI Inflation dataset must be added to the Datastore](adding-cpi-inflation-data.md)
 7. Make the following [changes to the static site hosted on Github](changes-to-static-site-hosted-on-github.md)
 
+When the allocations and frameworks for conditional grants to municipalities and provinces are gazetted,
+
+1. [Add the Conditional Grant Frameworks](adding-conditional-grant-frameworks.md)
+
 
 
