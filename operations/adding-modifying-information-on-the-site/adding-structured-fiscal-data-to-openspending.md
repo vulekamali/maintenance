@@ -236,7 +236,22 @@ Adjusted appropriation,Public Service and Administration,Capital,Payments for ca
 Note this dataset is called Estimates of Provincial Expenditure, not Estimates of Provincial Revenue and Expenditure because it only contains expenditure data. While it might throw those who know what the EPRE is, it tries to make sense to users of expenditure data and not leave users wondering where the revenue data is if it was called EPRE.
 {% endhint %}
 
-### 
+#### DataStore Metadata
+
+* Group: Estimates of Provincial Expenditure
+* Financial Years: Exactly one: the year being tabled
+* Sphere: provincial
+* Dimensions: as per the fields available
+
+#### OpenSpending Metadata
+
+* **Human-readable name:** Estimates of Provincial Expenditure of South Africa 2019-20 uploaded 2019-06-05 16:15 
+  * with appropriate financial year and upload timestamp
+* **Unique Identifier:** estimates-of-provincial-expenditure-south-africa-2019-20-uploaded-2019-06-05-1615
+* **Description:** This dataset includes expenditure data as published in the Estimates of Provincial Revenue and Expenditure. Departmental expenditure data in previous financial years have been aligned with the budget and programme structures of departments as they are structured in the current Medium Term Expenditure Framework. This means that the structure of historical expenditure data for a department, may not necessarily reflect the same structure of that department when expenditure was incurred during a particular financial year. This may be due to functions shifts which may have occurred within a particular department or a general change in a department’s budget programme structures \(BPS\) as departments are afforded an opportunity before the start of the Budget to change their BPS.This is to ensure a more economical, efficient and effective delivery of public services and performance by the department as a whole.
+* You can skip the City and Period fields
+
+#### Dataset columns and value requirements
 
 | Column Name | Description |
 | :--- | :--- |
@@ -284,9 +299,13 @@ The easiest way to add another datapackage pipeline is to copy an existing `pipe
 
 The CSV output can then be uploaded to OpenSpending Packager.
 
-### Uploading data to OpenSpending Packager
+### Uploading data to OpenSpending using OS Packager
 
- Login to the vulekamali account on OS Packager and [follow the upload wizard.](https://openspending.org/packager/provide-data)
+ Login to the vulekamali account on OS Packager and [follow the upload wizard](https://openspending.org/packager/provide-data).
+
+Assign column types by uploading the data-checks schema file for the dataset, which includes column type mappings.
+
+![Upload a schema file to assign types to your columns](../../.gitbook/assets/os-packager-column-types.png)
 
 ## Adding OpenSpending datasets to the Datastore
 
