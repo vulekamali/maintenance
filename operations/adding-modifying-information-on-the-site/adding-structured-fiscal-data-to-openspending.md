@@ -307,9 +307,19 @@ Assign column types by uploading the data-checks schema file for the dataset, wh
 
 ![Upload a schema file to assign types to your columns](../../.gitbook/assets/os-packager-column-types.png)
 
+Enter the dataset metadata as per the [specifications for the dataset](adding-structured-fiscal-data-to-openspending.md#specific-dataset-requirements).
+
+![](../../.gitbook/assets/os-packager-metadata.png)
+
+Keep the upload tab open to be able to monitor progress if possible. This takes 20 minutes to an hour.
+
+When the dataset is successfully loaded, it's ready to be added to the Datastore:
+
 ## Adding OpenSpending datasets to the Datastore
 
-### OpenSpending API for programmatic access
+Create a dataset with the following resources, and metadata as per the [specification for the dataset](adding-structured-fiscal-data-to-openspending.md#specific-dataset-requirements).
+
+### Resource: OpenSpending API for programmatic access
 
 Add the OpenSpending API Model URL as a resource of the dataset.
 
@@ -338,6 +348,10 @@ https://openspending.org/api/3/cubes/b9d2af843f3a7ca223eea07fb608e62a:adjusted-e
 ```
 
 And this should be added as an `OpenSpending API` format resource to the dataset in the Datastore
+
+{% hint style="info" %}
+It's important that the capitalisation, spelling and spacing of this is correct: `OpenSpending API` 
+{% endhint %}
 
 ![](../../.gitbook/assets/vulekamali-datastore-openspending-api.png)
 
