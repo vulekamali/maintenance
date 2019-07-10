@@ -44,12 +44,37 @@ Add the new government. The government and sphere are used to identify data and 
 
 Departments are related to the government as defined in a given financial year. That helps to distinguish information related to a department's configuration in that year, and show historical information following function shifts.
 
-![](../../.gitbook/assets/vulekamali-admin-department-years.png)
+![](../../.gitbook/assets/screenshot-at-2019-05-16-09-47-44.png)
 
-Departments can be added using the admin form. Since it can take a lot of time to add all the metadata for all the departments, [this can be done in bulk](https://github.com/OpenUpSA/vulekamali-datamanager#loading-departments-in-bulk).
+Departments can be added using the admin form. Since it can take a lot of time to add all the metadata for all the departments, this can be done in bulk by uploading a CSV file from either the admin interface or a [command line](https://github.com/vulekamali/datamanager#loading-departments-in-bulk).
 
 * Departments that represent a budget vote must have _Is vote primary_ checked. Departments that are part of another department's budget vote must not, and must have the vote department's vote number.
 * The department Introduction can be formatted using [Markdown syntax](https://daringfireball.net/projects/markdown/syntax)
 
+#### Adding/editing departments individually
+
 ![](../../.gitbook/assets/vulekamali-admin-department-form.png)
+
+#### Adding/editing departments in bulk
+
+The departments section in the admin interface links to an [import screen](https://datamanager.vulekamali.gov.za/admin/budgetportal/department/import/). CSV files with the following columns can be uploaded:
+
+* `government` - government name
+* `department_name`
+* `vote_number`
+* `is_vote_primary` - TRUE or FALSE \(optional\)
+* `intro` \(optional\)
+* `website_url` \(optional\)
+
+[Markdown syntax](https://daringfireball.net/projects/markdown/syntax#header) must be used for formatting `intro`. e.g. 2 line breaks will result in new paragraphs. Use headings like `## Vote purpose`.
+
+![](../../.gitbook/assets/screenshot-at-2019-05-16-09-31-09.png)
+
+The interface will check your file for any errors and display errors that have been detected. You can reselect a file to upload after you have fixed the errors.  
+
+![](../../.gitbook/assets/screenshot-at-2019-05-16-00-48-15.png)
+
+If your file contains no errors, a preview of the data that will be imported will be shown. You can click on "Confirm Import" to do the import and create/edit the departments.
+
+![](../../.gitbook/assets/screenshot-at-2019-05-16-09-31-27.png)
 
