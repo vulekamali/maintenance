@@ -155,6 +155,13 @@ Example pivot table, with the following parameters:
 
 Same as [Budgeted and Actual National Expenditure,](adding-structured-fiscal-data-to-openspending.md#budgeted-and-actual-national-expenditure) but the Governments in this case are the provincial governments. The data sources are then the EPRE, AEPRE and Provincial Annual Report expenditure.
 
+OpenSpending Metadata
+
+* **Human-readable name:** Budgeted and Actual Provincial Expenditure uploaded 2019-08-12 01:09
+  * with appropriate upload timestamp
+* **Unique identifier:** budgeted-and-actual-provincial-expenditure-uploaded-2019-08-12t0109
+* You can skip the description, city and period fields.
+
 [Datastore](../../services/vulekamali-datastore/) Metadata
 
 * Group: [Budgeted and Actual Provincial Expenditure](https://data.vulekamali.gov.za/group/budgeted-and-actual-provincial-expenditure)
@@ -236,13 +243,6 @@ Adjusted appropriation,Public Service and Administration,Capital,Payments for ca
 Note this dataset is called Estimates of Provincial Expenditure, not Estimates of Provincial Revenue and Expenditure because it only contains expenditure data. While it might throw those who know what the EPRE is, it tries to make sense to users of expenditure data and not leave users wondering where the revenue data is if it was called EPRE.
 {% endhint %}
 
-#### DataStore Metadata
-
-* Group: Estimates of Provincial Expenditure
-* Financial Years: Exactly one: the year being tabled
-* Sphere: provincial
-* Dimensions: as per the fields available
-
 #### OpenSpending Metadata
 
 * **Human-readable name:** Estimates of Provincial Expenditure of South Africa 2019-20 uploaded 2019-06-05 16:15 
@@ -250,6 +250,13 @@ Note this dataset is called Estimates of Provincial Expenditure, not Estimates o
 * **Unique Identifier:** estimates-of-provincial-expenditure-south-africa-2019-20-uploaded-2019-06-05-1615
 * **Description:** This dataset includes expenditure data as published in the Estimates of Provincial Revenue and Expenditure. Departmental expenditure data in previous financial years have been aligned with the budget and programme structures of departments as they are structured in the current Medium Term Expenditure Framework. This means that the structure of historical expenditure data for a department, may not necessarily reflect the same structure of that department when expenditure was incurred during a particular financial year. This may be due to functions shifts which may have occurred within a particular department or a general change in a department’s budget programme structures \(BPS\) as departments are afforded an opportunity before the start of the Budget to change their BPS.This is to ensure a more economical, efficient and effective delivery of public services and performance by the department as a whole.
 * You can skip the City and Period fields
+
+#### DataStore Metadata
+
+* Group: Estimates of Provincial Expenditure
+* Financial Years: Exactly one: the year being tabled
+* Sphere: provincial
+* Dimensions: as per the fields available
 
 #### Dataset columns and value requirements
 
