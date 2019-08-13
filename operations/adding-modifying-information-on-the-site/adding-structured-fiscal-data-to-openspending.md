@@ -6,6 +6,18 @@ To allow automated summaries of the data in vulekamali, the Data Manager has ver
 
 The consequence of not adhering to these requirements is that the summaries and demonstrations on vulekamali will not work, and will either be broken, or warn that data for the relevant demonstration is missing.
 
+{% hint style="info" %}
+**Updated datasets**
+
+It is strongly recommended that updated datasets are uploaded to new unique identifieds, and that the previous version of the dataset is **not replaced or deleted**. Replacing or deleting datasets can break scripted analysis, or produce different results if someone's instructions or script is repeated. This leads to doubt about the reliability of the data.
+{% endhint %}
+
+{% hint style="info" %}
+**Dataset timestamps**
+
+It is strongly recommended that upload timestamps of the form 2019-08-12 01:18 \(and 2019-08-01t0118 for unique identifiers\) are included in the name and unique identified of datasets in OpenSpending. This facilitates better referencing of data in analyses and articles, and helps others know exactly which version of a dataset was used which produced a particular result.
+{% endhint %}
+
 ## General requirements for data uploaded to OpenSpending
 
 * At least one "measure" is needed, e.g. the value column

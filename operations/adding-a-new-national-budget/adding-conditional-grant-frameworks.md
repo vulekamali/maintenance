@@ -14,6 +14,8 @@ DataStore metadata:
   * e.g. _2018-19_
 * **Group**: Frameworks for Conditional Grants to [Municipalities](https://data.vulekamali.gov.za/group/frameworks-for-conditional-grants-to-municipalities)/[Provinces](https://data.vulekamali.gov.za/group/frameworks-for-conditional-grants-to-provinces)
 
+![Adding a framework to a group after creating it and uploading the PDF resource](../../.gitbook/assets/screenshot_2019-08-13_18-29-47.png)
+
 ## Example of splitting out framework pages
 
 On Windows:
