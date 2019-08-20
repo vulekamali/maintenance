@@ -8,6 +8,9 @@ DataStore metadata:
 
 * **Dataset title**: {financial year} {grant name} Framework
   * e.g. _2018-19 Ilima-Letsema Grant Framework_
+* **Dataset name \(URL "slug"\):** {financial-year}-{grant-name}-framework
+  * e.g. _2018-19-ilima-letsema-grant-framework_
+  * This must be unique in the system, so it is important to include the financial year.
 * **Resource title**: {grant name}
   * e.g. _Ilima-Letsema Grant Framework_
 * **Financial year**: {financial year}
