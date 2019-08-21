@@ -225,25 +225,25 @@ Fields:
 
 | column name | Fiscal Data Package type | Description |
 | :--- | :--- | :--- |
-| vote\_number | administrative-classification:generic:level1:code |  |
-| department\_name | administrative-classification:generic:level1:label |  |
-| programme\_number | activity:generic:program:code |  |
-| programme\_name | activity:generic:program:label |  |
-| subprogramme\_number | activity:generic:subprogram:code:part |  |
-| subprogramme\_name | activity:generic:subprogram:label |  |
-| economic\_classification\_1 | economic-classification:generic:level1:code |  |
-| economic\_classification\_2 | economic-classification:generic:level2:code:part |  |
-| economic\_classification\_3 | economic-classification:generic:level3:code:part |  |
-| economic\_classification\_4 | economic-classification:generic:level4:code:part |  |
-| economic\_classification\_5 | economic-classification:generic:level5:code:part |  |
-| government\_function | functional-classification:generic:level1:code |  |
-| financial\_year | date:fiscal-year |  |
-| budget\_phase | phase:id | Valid values are `Audited Outcome`, `Adjusted appropriation`, `Main appropriation`, `Medium Term Estimates`. While the newly-tabled budget is classified under `Medium Term Estimates` in some tables in the ENE documents, we classify it under `Main appropriation` for the purposes of analysis from this dataset.  |
+| VoteNumber | administrative-classification:generic:level1:code |  |
+| Department | administrative-classification:generic:level1:label |  |
+| ProgNumber | activity:generic:program:code |  |
+| Programme | activity:generic:program:label |  |
+| SubprogNumber | activity:generic:subprogram:code:part |  |
+| Subprogramme | activity:generic:subprogram:label |  |
+| EconomicClassification1 | economic-classification:generic:level1:code |  |
+| EconomicClassification2 | economic-classification:generic:level2:code:part |  |
+| EconomicClassification3 | economic-classification:generic:level3:code:part |  |
+| EconomicClassification4 | economic-classification:generic:level4:code:part |  |
+| EconomicClassification5 | economic-classification:generic:level5:code:part |  |
+| FunctionGroup1 | functional-classification:generic:level1:code |  |
+| FinancialYear | date:fiscal-year |  |
+| BudgetPhase | phase:id | Valid values are `Audited Outcome`, `Adjusted appropriation`, `Main appropriation`, `Medium Term Estimates`. While the newly-tabled budget is classified under `Medium Term Estimates` in some tables in the ENE documents, we classify it under `Main appropriation` for the purposes of analysis from this dataset.  |
 
 For example, as CSV
 
 ```text
-budget_phase,department,economic_classification_1,economic_classification_2,economic_classification_3,economic_classification_4,financial_year,programme,programme_number,subprogramme,subprogramme_number,value,vote_number
+BudgetPhase,Department,EconomicClassification1,EconomicClassification2,EconomicClassification3,EconomicClassification4,FinancialYear,Programme,ProgNumber,Subprogramme,SubprogNumber,Value,VoteNumber
 Audited Outcome,Public Service and Administration,Capital,Payments for capital assets,Machinery and equipment,Other machinery and equipment,2011,Administration,1,Ministry,1,311000.0,10
 Audited Outcome,Public Service and Administration,Capital,Payments for capital assets,Machinery and equipment,Other machinery and equipment,2012,Administration,1,Ministry,1,112000.0,10
 Adjusted appropriation,Public Service and Administration,Capital,Payments for capital assets,Machinery and equipment,Other machinery and equipment,2013,Administration,1,Ministry,1,101000.0,10
