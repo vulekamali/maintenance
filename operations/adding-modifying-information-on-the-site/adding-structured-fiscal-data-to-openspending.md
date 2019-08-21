@@ -35,25 +35,22 @@ Data sets can be checked for adherence to the requirements listed in the [Specif
 
 #### Instruction Video
 
-{% embed url="https://www.youtube.com/watch?v=m8HFtlSF4hY&feature=youtu.be" %}
+{% embed url="https://www.youtube.com/watch?v=m8HFtlSF4hY&feature=youtu.be" caption="" %}
 
 #### Step-by-step guide
 
 1. Log in or [sign up](https://github.com/join?source=header-home) for [github.com](https://github.com/)
-
 2. Make sure your data is available on a publicly accessible url in "raw" format, such as s3 or a github [gist](https://gist.github.com/).
-
 3. Go to [https://github.com/vulekamali/data-checks](https://github.com/vulekamali/data-checks)
-
 4. Click on "Create new file"
 
 ![](../../.gitbook/assets/create-new-file-button%20%281%29.png)
 
-5. Type the file name as `datapackages/<financial year>/<dataset type>/datapackage.json`, for example `datapackages/2019-20/epre/datapackage.json`
+1. Type the file name as `datapackages/<financial year>/<dataset type>/datapackage.json`, for example `datapackages/2019-20/epre/datapackage.json`
 
 ![](../../.gitbook/assets/file-name%20%281%29.png)
 
-6. Copy the following text to the new file:
+1. Copy the following text to the new file:
 
 ```text
 {
@@ -74,19 +71,19 @@ Data sets can be checked for adherence to the requirements listed in the [Specif
 }
 ```
 
-7. Update the `name` value and the `path`, `name` and `schema` values inside the `resources` value in your new file.
+1. Update the `name` value and the `path`, `name` and `schema` values inside the `resources` value in your new file.
 
 ![](../../.gitbook/assets/file-values.png)
 
-8. Scroll down to the "Commit new file" heading. Select the "Create a new branch for this commit and start a pull request." option and click on "Propose new file".
+1. Scroll down to the "Commit new file" heading. Select the "Create a new branch for this commit and start a pull request." option and click on "Propose new file".
 
 ![](../../.gitbook/assets/commit-new-file.png)
 
-9. On the next screen, give your pull request a descriptive title such as "Add 2019-20 EPRE data" and click on "Create pull request"
+1. On the next screen, give your pull request a descriptive title such as "Add 2019-20 EPRE data" and click on "Create pull request"
 
 ![](../../.gitbook/assets/pull-request%20%281%29.png)
 
-10. You should now see a section with yellow text that reads: "Some checks haven’t completed yet". Wait until the text turns either red or green.
+1. You should now see a section with yellow text that reads: "Some checks haven’t completed yet". Wait until the text turns either red or green.
 
 ![](../../.gitbook/assets/checks-havent-completed.png)
 
@@ -98,7 +95,7 @@ Data sets can be checked for adherence to the requirements listed in the [Specif
 
   ![](../../.gitbook/assets/failure.png)
 
-11. If your data set did not pass all of the checks, you can click on "details" on the first item under "All checks have failed". On the next screen, scroll down to the bottom of the screen. You should see a list of error messages generated for your data set.
+* If your data set did not pass all of the checks, you can click on "details" on the first item under "All checks have failed". On the next screen, scroll down to the bottom of the screen. You should see a list of error messages generated for your data set.
 
 ![Dataset error messages](../../.gitbook/assets/errors.png)
 
@@ -139,7 +136,7 @@ Fields:
 | EconomicClassification5 | economic-classification:generic:level5:code:part |  |
 | FunctionGroup1 | functional-classification:generic:level1:code |  |
 | FinancialYear | date:fiscal-year |  |
-| BudgetPhase | phase:id | Valid values are `Audit Outcome`, `Adjusted appropriation`, `Main appropriation`, `Final appropriation`. This is, in some documents, equivalent to `Medium Term Estimates`  |
+| BudgetPhase | phase:id | Valid values are `Audit Outcome`, `Adjusted appropriation`, `Main appropriation`, `Final appropriation`. This is, in some documents, equivalent to `Medium Term Estimates` |
 | Value | value | The Rand value of the row |
 | AmountKind | value-kind:code | A type like `Total` or `Adjustments - Roll-overs` |
 | Government | source:geo-source:code | Always `South Africa` for this national dataset. |
@@ -197,7 +194,7 @@ Fields:
 | FunctionGroup1 | functional-classification:generic:level1:code |  |
 | FunctionGroup2 | functional-classification:generic:level2:code |  |
 | FinancialYear | date:fiscal-year |  |
-| BudgetPhase | phase:id | Valid values are `Audit Outcome`, `Adjusted appropriation`, `Main appropriation`, `Final appropriation`. This is, in some documents, equivalent to `Medium Term Estimates`  |
+| BudgetPhase | phase:id | Valid values are `Audit Outcome`, `Adjusted appropriation`, `Main appropriation`, `Final appropriation`. This is, in some documents, equivalent to `Medium Term Estimates` |
 | Value | value | The Rand value of the row |
 | AmountKind | value-kind:code | A type like `Total` or `Adjustments - Roll-overs` |
 | Government | source:geo-source:code | In this dataset, this is the Province name e.g. 'North West' or 'Western Cape' |
@@ -238,7 +235,7 @@ Fields:
 | EconomicClassification5 | economic-classification:generic:level5:code:part |  |
 | FunctionGroup1 | functional-classification:generic:level1:code |  |
 | FinancialYear | date:fiscal-year |  |
-| BudgetPhase | phase:id | Valid values are `Audited Outcome`, `Adjusted appropriation`, `Main appropriation`, `Medium Term Estimates`. While the newly-tabled budget is classified under `Medium Term Estimates` in some tables in the ENE documents, we classify it under `Main appropriation` for the purposes of analysis from this dataset.  |
+| BudgetPhase | phase:id | Valid values are `Audited Outcome`, `Adjusted appropriation`, `Main appropriation`, `Medium Term Estimates`. While the newly-tabled budget is classified under `Medium Term Estimates` in some tables in the ENE documents, we classify it under `Main appropriation` for the purposes of analysis from this dataset. |
 
 For example, as CSV
 
@@ -299,6 +296,8 @@ TBC
 
 ### National Annual Report Expenditure
 
+![A pivot table that can be made using this dataset. Note that the programme names should not be capitalised.](../../.gitbook/assets/screenshot_2019-08-21_14-50-32.png)
+
 #### OpenSpending Metadata
 
 * **Human-readable name:** National Department Annual Report Expenditure of South Africa 2019-20 uploaded 2019-06-05 16:15
@@ -316,28 +315,26 @@ TBC
 
 #### Dataset columns and value requirements
 
-| Column Name | Description |
-| :--- | :--- |
-| VoteNumber | integer |
-| Department | Capitalised and hyphenated correctly - this must be consistent across all datasets on vulekamali otherwise undercounting or errors could occur. |
-| ProgNumber | integer |
-| Programme | Must be capitalised as it should be presented. |
-| SubprogNumber | integer |
-| Subprogramme | Must be capitalised as it should be presented. |
-| EconomicClassification1 |  |
-| EconomicClassification2 |  |
-| EconomicClassification3 |  |
-| EconomicClassification4 |  |
-| EconomicClassification5 |  |
-| FunctionGroup1 |  |
-| FunctionGroup2 |  |
-| FinancialYear | Integer, e.g. `2018` for the year `2018-19` |
-| BudgetPhase |  `Audited Outcome`, `Adjusted appropriation`, `Main appropriation`,  |
+| Column Name | Description |  |
+| :--- | :--- | :--- |
+| VoteNumber | integer |  |
+| Department | Capitalised and hyphenated correctly - this must be consistent across all datasets on vulekamali otherwise undercounting or errors could occur. |  |
+| ProgNumber | integer |  |
+| Programme | Must be capitalised as it should be presented. |  |
+| SubprogNumber | integer |  |
+| Subprogramme | Must be capitalised as it should be presented. |  |
+| EconomicClassification1 |  |  |
+| EconomicClassification2 |  |  |
+| EconomicClassification3 |  |  |
+| EconomicClassification4 |  |  |
+| EconomicClassification5 |  |  |
+| FunctionGroup1 |  |  |
+| FunctionGroup2 |  |  |
+| FinancialYear | Integer, e.g. `2018` for the year `2018-19` |  |
+| BudgetPhase | `Audited Outcome`, `Adjusted appropriation`, `Main appropriation`, |  |
 | AmountKind | value-kind:code | A type like `Total` or `Adjustments - Roll-overs` |
-| Value | Rands, not thousands of rands |
-|  |  |
-
-
+| Value | Rands, not thousands of rands |  |
+|  |  |  |
 
 ### Provincial Annual Report Expenditure
 
@@ -358,29 +355,27 @@ TBC
 
 #### Dataset columns and value requirements
 
-| Column Name | Description |
-| :--- | :--- |
-| Government | Spelled out and capitalised normally, i.e. one of `Eastern Cape`, `Free State`, `Gauteng`, `KwaZulu-Natal`, `Limpopo`, `Mpumalanga`, `Northern Cape`, `North West`, `Western Cape` |
-| VoteNumber | integer |
-| Department | Capitalised and hyphenated correctly - this must be consistent across all datasets on vulekamali otherwise undercounting or errors could occur. |
-| ProgNumber | integer |
-| Programme | Must be capitalised as it should be presented. |
-| SubprogNumber | integer |
-| Subprogramme | Must be capitalised as it should be presented. |
-| EconomicClassification1 |  |
-| EconomicClassification2 |  |
-| EconomicClassification3 |  |
-| EconomicClassification4 |  |
-| EconomicClassification5 |  |
-| FunctionGroup1 |  |
-| FunctionGroup2 |  |
-| FinancialYear | Integer, e.g. `2018` for the year `2018-19` |
-| BudgetPhase |  `Audited Outcome`, `Adjusted appropriation`, `Main appropriation`,  |
+| Column Name | Description |  |
+| :--- | :--- | :--- |
+| Government | Spelled out and capitalised normally, i.e. one of `Eastern Cape`, `Free State`, `Gauteng`, `KwaZulu-Natal`, `Limpopo`, `Mpumalanga`, `Northern Cape`, `North West`, `Western Cape` |  |
+| VoteNumber | integer |  |
+| Department | Capitalised and hyphenated correctly - this must be consistent across all datasets on vulekamali otherwise undercounting or errors could occur. |  |
+| ProgNumber | integer |  |
+| Programme | Must be capitalised as it should be presented. |  |
+| SubprogNumber | integer |  |
+| Subprogramme | Must be capitalised as it should be presented. |  |
+| EconomicClassification1 |  |  |
+| EconomicClassification2 |  |  |
+| EconomicClassification3 |  |  |
+| EconomicClassification4 |  |  |
+| EconomicClassification5 |  |  |
+| FunctionGroup1 |  |  |
+| FunctionGroup2 |  |  |
+| FinancialYear | Integer, e.g. `2018` for the year `2018-19` |  |
+| BudgetPhase | `Audited Outcome`, `Adjusted appropriation`, `Main appropriation`, |  |
 | AmountKind | value-kind:code | A type like `Total` or `Adjustments - Roll-overs` |
-| Value | Rands, not thousands of rands |
-|  |  |
-
-
+| Value | Rands, not thousands of rands |  |
+|  |  |  |
 
 ## Adding a dataset to OpenSpending
 
@@ -403,7 +398,7 @@ The CSV output can then be uploaded to OpenSpending Packager.
 
 ### Uploading data to OpenSpending using OS Packager
 
- Login to the vulekamali account on OS Packager and [follow the upload wizard](https://openspending.org/packager/provide-data).
+Login to the vulekamali account on OS Packager and [follow the upload wizard](https://openspending.org/packager/provide-data).
 
 Assign column types by uploading the data-checks schema file for the dataset, which includes column type mappings.
 
@@ -470,3 +465,4 @@ Copy this link and add it as a CSV type resource of the dataset
 ![](../../.gitbook/assets/vulekamali-datastore-csv.png)
 
 These will then show up in vulekamali as a Dataset and in data summaries and demonstrations.
+
