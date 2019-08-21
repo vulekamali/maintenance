@@ -21,7 +21,7 @@ It is strongly recommended that upload timestamps of the form 2019-08-12 01:18 \
 ## General requirements for data uploaded to OpenSpending
 
 * At least one "measure" is needed, e.g. the value column
-* The value column must be in Rands, not Thousands of Rands 
+* The value column must be in Rands, not Thousands of Rands
 * The combination of the non-measure columns must be unique on each row
 * Financial year must be an integer - for National and Provincial budget data we use the starting year, as is convention. So for 2018-19, we use `2018`.
 * Department names and budget phases must match what is used in the Data Manager precisely. That includes capitalisation and punctuation, including hyphenation and commas. Avoid stray spaces at the beginning and end of values. See dataset specifics below.
@@ -92,11 +92,11 @@ Data sets can be checked for adherence to the requirements listed in the [Specif
 
 * If you see a section with green text reading "All checks have passed", your data set has passed all of the checks **successfully**:
 
-  ![](../../.gitbook/assets/success.png) 
+  ![](../../.gitbook/assets/success.png)
 
 * If you see a section with red text reading "All checks have failed", your data set did not pass all of the checks:
 
-  ![](../../.gitbook/assets/failure.png) 
+  ![](../../.gitbook/assets/failure.png)
 
 11. If your data set did not pass all of the checks, you can click on "details" on the first item under "All checks have failed". On the next screen, scroll down to the bottom of the screen. You should see a list of error messages generated for your data set.
 
@@ -184,8 +184,7 @@ Fields:
 
 | column name | Fiscal Data Package type | Description |
 | :--- | :--- | :--- |
-| VoteNumber | administrative-classification:generic:level1:code |  |
-| Department | administrative-classification:generic:level1:label |  |
+| Department | administrative-classification:generic:level1:code |  |
 | ProgNumber | activity:generic:program:code |  |
 | Programme | activity:generic:program:label |  |
 | SubprogNumber | activity:generic:subprogram:code:part |  |
@@ -196,6 +195,7 @@ Fields:
 | EconomicClassification4 | economic-classification:generic:level4:code:part |  |
 | EconomicClassification5 | economic-classification:generic:level5:code:part |  |
 | FunctionGroup1 | functional-classification:generic:level1:code |  |
+| FunctionGroup2 | functional-classification:generic:level2:code |  |
 | FinancialYear | date:fiscal-year |  |
 | BudgetPhase | phase:id | Valid values are `Audit Outcome`, `Adjusted appropriation`, `Main appropriation`, `Final appropriation`. This is, in some documents, equivalent to `Medium Term Estimates`  |
 | Value | value | The Rand value of the row |
@@ -257,7 +257,7 @@ Note this dataset is called Estimates of Provincial Expenditure, not Estimates o
 
 #### OpenSpending Metadata
 
-* **Human-readable name:** Estimates of Provincial Expenditure of South Africa 2019-20 uploaded 2019-06-05 16:15 
+* **Human-readable name:** Estimates of Provincial Expenditure of South Africa 2019-20 uploaded 2019-06-05 16:15
   * with appropriate financial year and upload timestamp
 * **Unique Identifier:** estimates-of-provincial-expenditure-south-africa-2019-20-uploaded-2019-06-05-1615
 * **Description:** This dataset includes expenditure data as published in the Estimates of Provincial Revenue and Expenditure. Departmental expenditure data in previous financial years have been aligned with the budget and programme structures of departments as they are structured in the current Medium Term Expenditure Framework. This means that the structure of historical expenditure data for a department, may not necessarily reflect the same structure of that department when expenditure was incurred during a particular financial year. This may be due to functions shifts which may have occurred within a particular department or a general change in a department’s budget programme structures \(BPS\) as departments are afforded an opportunity before the start of the Budget to change their BPS.This is to ensure a more economical, efficient and effective delivery of public services and performance by the department as a whole.
@@ -295,7 +295,90 @@ Note this dataset is called Estimates of Provincial Expenditure, not Estimates o
 
 ### Adjusted Estimates of National Expenditure
 
-An additional column `Budget Phase` is added, with budget phase classifications used to model the event in the budget cycle and be consistent with its use in the ENE data.
+TBC
+
+### National Annual Report Expenditure
+
+#### OpenSpending Metadata
+
+* **Human-readable name:** National Department Annual Report Expenditure of South Africa 2019-20 uploaded 2019-06-05 16:15
+  * with appropriate financial year and upload timestamp
+* **Unique Identifier:** national-annual-report-expenditure-south-africa-2019-20-uploaded-2019-06-05-1615
+* You can skip the Description, City and Period fields
+
+#### DataStore Metadata
+
+* Title: National Department Annual Report Expenditure 2019-20
+  * if 2019-20 is the audit year being released
+* Group: Annual Report Expenditure Data
+* Financial Years: Exactly one: the audit year being released
+* Sphere: national
+
+#### Dataset columns and value requirements
+
+| Column Name | Description |
+| :--- | :--- |
+| VoteNumber | integer |
+| Department | Capitalised and hyphenated correctly - this must be consistent across all datasets on vulekamali otherwise undercounting or errors could occur. |
+| ProgNumber | integer |
+| Programme | Must be capitalised as it should be presented. |
+| SubprogNumber | integer |
+| Subprogramme | Must be capitalised as it should be presented. |
+| EconomicClassification1 |  |
+| EconomicClassification2 |  |
+| EconomicClassification3 |  |
+| EconomicClassification4 |  |
+| EconomicClassification5 |  |
+| FunctionGroup1 |  |
+| FunctionGroup2 |  |
+| FinancialYear | Integer, e.g. `2018` for the year `2018-19` |
+| BudgetPhase |  `Audited Outcome`, `Adjusted appropriation`, `Main appropriation`,  |
+| AmountKind | value-kind:code | A type like `Total` or `Adjustments - Roll-overs` |
+| Value | Rands, not thousands of rands |
+|  |  |
+
+
+
+### Provincial Annual Report Expenditure
+
+#### OpenSpending Metadata
+
+* **Human-readable name:** Provincial Annual Report Expenditure of South Africa 2019-20 uploaded 2019-06-05 16:15
+  * with appropriate financial year and upload timestamp
+* **Unique Identifier:** provincial-annual-report-expenditure-south-africa-2019-20-uploaded-2019-06-05-1615
+* You can skip the Description, City and Period fields
+
+#### DataStore Metadata
+
+* Title: Provincial Annual Report Expenditure 2019-20
+  * if 2019-20 is the audit year being released
+* Group: Annual Report Expenditure Data
+* Financial Years: Exactly one: the audit year being released
+* Sphere: provincial
+
+#### Dataset columns and value requirements
+
+| Column Name | Description |
+| :--- | :--- |
+| Government | Spelled out and capitalised normally, i.e. one of `Eastern Cape`, `Free State`, `Gauteng`, `KwaZulu-Natal`, `Limpopo`, `Mpumalanga`, `Northern Cape`, `North West`, `Western Cape` |
+| VoteNumber | integer |
+| Department | Capitalised and hyphenated correctly - this must be consistent across all datasets on vulekamali otherwise undercounting or errors could occur. |
+| ProgNumber | integer |
+| Programme | Must be capitalised as it should be presented. |
+| SubprogNumber | integer |
+| Subprogramme | Must be capitalised as it should be presented. |
+| EconomicClassification1 |  |
+| EconomicClassification2 |  |
+| EconomicClassification3 |  |
+| EconomicClassification4 |  |
+| EconomicClassification5 |  |
+| FunctionGroup1 |  |
+| FunctionGroup2 |  |
+| FinancialYear | Integer, e.g. `2018` for the year `2018-19` |
+| BudgetPhase |  `Audited Outcome`, `Adjusted appropriation`, `Main appropriation`,  |
+| AmountKind | value-kind:code | A type like `Total` or `Adjustments - Roll-overs` |
+| Value | Rands, not thousands of rands |
+|  |  |
 
 
 
@@ -354,7 +437,7 @@ The Dataset ID is the combination of the OpenSpending account ID \(`owner` in th
 
 ![](../../.gitbook/assets/openspending-datapackage-json-file.png)
 
-So for the above example, the dataset ID is 
+So for the above example, the dataset ID is
 
 ```text
 b9d2af843f3a7ca223eea07fb608e62a:adjusted-estimates-of-national-expenditure-2016-17
@@ -369,7 +452,7 @@ https://openspending.org/api/3/cubes/b9d2af843f3a7ca223eea07fb608e62a:adjusted-e
 And this should be added as an `OpenSpending API` format resource to the dataset in the Datastore
 
 {% hint style="info" %}
-It's important that the capitalisation, spelling and spacing of this is correct: `OpenSpending API` 
+It's important that the capitalisation, spelling and spacing of this is correct: `OpenSpending API`
 {% endhint %}
 
 ![](../../.gitbook/assets/vulekamali-datastore-openspending-api.png)
@@ -387,4 +470,3 @@ Copy this link and add it as a CSV type resource of the dataset
 ![](../../.gitbook/assets/vulekamali-datastore-csv.png)
 
 These will then show up in vulekamali as a Dataset and in data summaries and demonstrations.
-
