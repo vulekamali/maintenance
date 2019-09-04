@@ -136,7 +136,7 @@ Fields:
 | EconomicClassification5 | economic-classification:generic:level5:code:part |  |
 | FunctionGroup1 | functional-classification:generic:level1:code |  |
 | FinancialYear | date:fiscal-year |  |
-| BudgetPhase | phase:id | Valid values are `Audit Outcome`, `Adjusted appropriation`, `Main appropriation`, `Final appropriation`. This is, in some documents, equivalent to `Medium Term Estimates` |
+| BudgetPhase | phase:id | Valid values are `Audit Outcome`, `Adjusted appropriation`, `Main appropriation`, `Final Appropriation`. |
 | Value | value | The Rand value of the row |
 | AmountKind | value-kind:code | A type like `Total` or `Adjustments - Roll-overs` |
 | Government | source:geo-source:code | Always `South Africa` for this national dataset. |
@@ -194,7 +194,7 @@ Fields:
 | FunctionGroup1 | functional-classification:generic:level1:code |  |
 | FunctionGroup2 | functional-classification:generic:level2:code |  |
 | FinancialYear | date:fiscal-year |  |
-| BudgetPhase | phase:id | Valid values are `Audit Outcome`, `Adjusted appropriation`, `Main appropriation`, `Final appropriation`. This is, in some documents, equivalent to `Medium Term Estimates` |
+| BudgetPhase | phase:id | Valid values are `Audit Outcome`, `Adjusted appropriation`, `Main appropriation`, `Final Appropriation`. |
 | Value | value | The Rand value of the row |
 | AmountKind | value-kind:code | A type like `Total` or `Adjustments - Roll-overs` |
 | Government | source:geo-source:code | In this dataset, this is the Province name e.g. 'North West' or 'Western Cape' |
