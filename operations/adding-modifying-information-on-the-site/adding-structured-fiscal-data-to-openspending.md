@@ -381,22 +381,11 @@ TBC
 
 Before adding a dataset to OpenSpending, it has to be cleaned and structured correctly and must meet the general and specific requirements above.
 
-### Preparing data to upload to OpenSpending
-
-Any data transformation tools can be used to ensure the data meets the above requirements. We have been using [Datapackage Pipelines](https://github.com/frictionlessdata/datapackage-pipelines) because the declarative nature makes it easy to understand, repeat and reuse, and it's easier to experiment and iterate until the dataset is totally correct than [os-data-importers](https://github.com/openspending/os-data-importers).
-
-[Our Datapackage Pipelines have specifically been used to:](https://github.com/OpenUpSA/treasury-pipelines)
-
-* multiply the _thousands of Rands_ amounts in the source data by 1000 to get amounts in _Rands_
-* ensure department names in the data match that used by the Data Manager for automated summaries
-* Split Budget Phase and Amount Kind classifications bundled together in the FY\_Descript column of the source data for the AENE and Annual Report Expenditure data.
-* Group and sum rows of duplicate classification
-
-The easiest way to add another datapackage pipeline is to copy an existing `pipeline-spec.yaml` file to a similar directory structure for the new financial year and replace references to the old year with the new year.
-
-The CSV output can then be uploaded to OpenSpending Packager.
+Any data transformation tools can be used to ensure the data meets the above requirements. We have been using [Datapackage Pipelines](https://github.com/frictionlessdata/datapackage-pipelines) 
 
 ### Uploading data to OpenSpending using OS Packager
+
+{% embed url="https://youtu.be/mahZfYxxCH8" %}
 
 Login to the vulekamali account on OS Packager and [follow the upload wizard](https://openspending.org/packager/provide-data).
 
