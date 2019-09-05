@@ -385,7 +385,7 @@ Any data transformation tools can be used to ensure the data meets the above req
 
 ### Uploading data to OpenSpending using OS Packager
 
-{% embed url="https://youtu.be/mahZfYxxCH8" %}
+{% embed url="https://www.youtube.com/watch?v=mahZfYxxCH8&feature=youtu.be" %}
 
 Login to the vulekamali account on OS Packager and [follow the upload wizard](https://openspending.org/packager/provide-data).
 
