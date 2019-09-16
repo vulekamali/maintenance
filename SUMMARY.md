@@ -15,6 +15,7 @@
 * [Adding a new provincial budget](operations/adding-a-new-provincial-budget/README.md)
   * [Temporary full EPREs](operations/adding-a-new-provincial-budget/temporary-full-epres.md)
 * [Adding/modifying information on the site](operations/adding-modifying-information-on-the-site/README.md)
+  * [Add external resource overview](operations/adding-modifying-information-on-the-site/add.md)
   * [Bulk-uploading department-specific documents](operations/adding-modifying-information-on-the-site/bulk-uploading-department-specific-documents.md)
   * [Adding structured fiscal data](operations/adding-modifying-information-on-the-site/adding-structured-fiscal-data-to-openspending.md)
 
