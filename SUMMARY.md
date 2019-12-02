@@ -31,6 +31,7 @@
 ## Design
 
 * [Data principles](design/site-principles.md)
+* [Style/brand guide](design/style-brand-guide.md)
 
 ## Development
 
