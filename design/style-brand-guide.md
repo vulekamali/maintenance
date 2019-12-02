@@ -10,7 +10,7 @@ description: >-
 
 National Treasury and Imali Yethu's logos should be presented together along with the text _"Vulekamali is a project by the South African National Treasury and IMALI YETHU"_, e.g. in footers:
 
-![](../.gitbook/assets/screenshot_2019-12-02_10-28-50.png)
+![Example from a footer](../.gitbook/assets/screenshot_2019-12-02_10-28-50.png)
 
 ## Soliciting input/feedback/comment
 
