@@ -18,7 +18,6 @@ The following is required to add a new national budget to vulekamali
 4. The [Division of Revenue Bill must be added to the Datastore](adding-a-new-division-of-revenue-bill.md)
 5. The Conditional Grant frameworks must be added to the Datastore
 6. The[ new CPI Inflation dataset must be added to the Datastore](adding-cpi-inflation-data.md)
-7. Make the following [changes to the static site hosted on Github](changes-to-static-site-hosted-on-github.md)
 
 When the allocations and frameworks for conditional grants to municipalities and provinces are gazetted,
 

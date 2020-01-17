@@ -10,7 +10,6 @@
   * [Adding a new Division of Revenue bill](operations/adding-a-new-national-budget/adding-a-new-division-of-revenue-bill.md)
   * [Adding CPI Inflation data](operations/adding-a-new-national-budget/adding-cpi-inflation-data.md)
   * [Adding/updating Infrastructure Projects](operations/adding-a-new-national-budget/adding-updating-infrastructure-projects.md)
-  * [Changes to vulekamali static site](operations/adding-a-new-national-budget/changes-to-static-site-hosted-on-github.md)
   * [Adding Conditional Grant frameworks](operations/adding-a-new-national-budget/adding-conditional-grant-frameworks.md)
 * [Adding a new provincial budget](operations/adding-a-new-provincial-budget/README.md)
   * [Temporary full EPREs](operations/adding-a-new-provincial-budget/temporary-full-epres.md)
