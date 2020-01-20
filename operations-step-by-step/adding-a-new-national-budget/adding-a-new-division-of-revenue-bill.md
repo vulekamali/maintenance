@@ -32,7 +32,7 @@ Each DOR should be in the "Division of Revenue Bills" group.
 
 ## Adding to vulekamali
 
-After the dataset has been uploaded to the DataStore, the vulekamali [site data will be rebuilt](../adding-modifying-information-on-the-site/#delay-in-updates-reflecting-on-vulekamali-gov-za) and it should show up at [https://vulekamali.gov.za/datasets/division-of-revenue-bills](https://vulekamali.gov.za/datasets/division-of-revenue-bills) when the build completes.
+After the dataset has been uploaded to the DataStore, the vulekamali [site data will be rebuilt](../../operations-actions/adding-modifying-information-on-the-site/#delay-in-updates-reflecting-on-vulekamali-gov-za) and it should show up at [https://vulekamali.gov.za/datasets/division-of-revenue-bills](https://vulekamali.gov.za/datasets/division-of-revenue-bills) when the build completes.
 
 **Note:** Rebuilds are triggered when datasets are uploaded or changed, so this means that if you upload the dataset and add it to a group afterwards, a second rebuild will be triggered and you'll have to wait for the second rebuild to finish before the DOR will show up on vulekamali.
 
