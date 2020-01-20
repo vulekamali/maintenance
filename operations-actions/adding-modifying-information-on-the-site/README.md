@@ -1,4 +1,4 @@
-# Adding/modifying information on the site
+# Adding/modifying data and government structure information
 
 ## Dataset names and descriptions
 
@@ -8,11 +8,7 @@ If you want to upload lots of new documents, please have a look at the [Bulk-upl
 
 ### Delay in updates reflecting on vulekamali.gov.za
 
-Changes to public datasets in the DataStore, e.g. their title, description or resources, result in automatic rebuilds of the data presented in the [vulekamali.gov.za static site](../../services/vulekamali.gov.za.md). **This takes about 25 minutes** to complete and for the changes to reflect on vulekamali.gov.za.
-
-Progress of data updates can be monitored by finding builds titled `Rebuild with new/modified dataset` on the [build list](https://travis-ci.org/vulekamali/static-budget-portal/builds).
-
-Note: Since each change triggers a rebuild, two builds might be triggered shortly after one another if multiple changes are saved to datasets. This is because the first change triggers a build, and subsequent changes trigger another build in case the first build has already progressed past the part of the site that was modified shortly after the first change. In that case, the changes will be reflected after the second build succeeds.
+Changes to public datasets in the DataStore, e.g. their title, description or resources may not reflect immediately due to caching. Some pages are cached to make them load faster for most users, but that means that they can take some time to reflect changes.
 
 ## Data summaries and charts on department pages
 

@@ -8,7 +8,7 @@ This manual is structured as follows:
 
 Intended audience: Website/data administrators
 
-Regular, repeated actions are documented step-by-step in the top level pages, like [Bulk-uploading department-specific documents](operations-actions/adding-modifying-information-on-the-site/bulk-uploading-department-specific-documents.md).
+Regular, repeated actions are documented step-by-step in the top level pages, like [Bulk-uploading department-specific documents](operations/adding-modifying-information-on-the-site/bulk-uploading-department-specific-documents.md).
 
 ### Service overview
 
@@ -25,4 +25,3 @@ For developers, instructions and information regarding developing and staging/de
 ### Development and hosting details
 
 For specific instructions on how to install or configure a service web app, please see the relevant README on the project's Github repository. An example of this can be seen on the [Data Manager github repository](https://github.com/OpenUpSA/vulekamali-datamanager).
-
