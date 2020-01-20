@@ -1,4 +1,4 @@
-# Adding/modifying data and government structure information
+# Adding/modifying data and data descriptions
 
 ## Dataset names and descriptions
 
