@@ -27,7 +27,7 @@ It is strongly recommended that upload timestamps of the form 2019-08-12 01:18 \
 * Department names and budget phases must match what is used in the Data Manager precisely. That includes capitalisation and punctuation, including hyphenation and commas. Avoid stray spaces at the beginning and end of values. See dataset specifics below.
 * Text and numeric values must be consistent. Occasional inconsistencies like stray spaces at the start or end of a value result in that category being treated as a different category, just like it would in a pivot table.
 
-After adding the dataset to the [Datastore](../../services/vulekamali-ckan/), [add it to the right group and add the right metadata](adding-structured-fiscal-data-to-openspending.md#specific-dataset-requirements) so that the [Data Manager](../../services/vulekamali-data-manager/) can find each dataset to prepare the summaries for each financial year using the correct dataset.
+After adding the dataset to the [Datastore](../../services/vulekamali-datastore/), [add it to the right group and add the right metadata](adding-structured-fiscal-data-to-openspending.md#specific-dataset-requirements) so that the [Data Manager](../../services/vulekamali-data-manager/) can find each dataset to prepare the summaries for each financial year using the correct dataset.
 
 ## Automated data checks
 
@@ -113,7 +113,7 @@ Each year, when each of the above datasets are released, the new year's data is 
 
 Instead of adding a new dataset to the Datastore each year, just update the existing dataset to the new links in OpenSpending.
 
-[Datastore](../../services/vulekamali-ckan/) Metadata
+[Datastore](../../services/vulekamali-datastore/) Metadata
 
 * Group: [Budgeted and Actual National Expenditure](https://data.vulekamali.gov.za/group/budgeted-and-actual-national-expenditure)
 * Sphere: national
@@ -171,7 +171,7 @@ OpenSpending Metadata
 * **Unique identifier:** budgeted-and-actual-provincial-expenditure-uploaded-2019-08-12t0109
 * You can skip the description, city and period fields.
 
-[Datastore](../../services/vulekamali-ckan/) Metadata
+[Datastore](../../services/vulekamali-datastore/) Metadata
 
 * Group: [Budgeted and Actual Provincial Expenditure](https://data.vulekamali.gov.za/group/budgeted-and-actual-provincial-expenditure)
 * Sphere: provincial
@@ -211,7 +211,7 @@ Main appropriation,Public Service and Administration,Current payments,Goods a
 
 ### Estimates of National Expenditure
 
-[Datastore](../../services/vulekamali-ckan/) Metadata
+[Datastore](../../services/vulekamali-datastore/) Metadata
 
 * Group: [Estimates of National Expenditure](https://data.vulekamali.gov.za/group/estimates-of-national-expenditure)
 * Financial Years: Exactly one: the year being tabled

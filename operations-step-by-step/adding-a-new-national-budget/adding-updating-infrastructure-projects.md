@@ -6,15 +6,15 @@ description: >-
 
 # Adding/updating Infrastructure Projects
 
-## DataStore Structure
+## Dataset metadata
 
-The  `National Departmental Infrastructure Projects 2019-20` dataset should be in a group with the slug `infrastructure-projects`  on the DataStore.
+The  `National Departmental Infrastructure Projects 2019-20` dataset should be in a group with the slug `infrastructure-projects`  in CKAN.
 
 The dataset should have a single `CSV` resource with the Infrastructure Projects data
 
 ## Dataset Structures
 
-### Structure required for dataset uploaded to the DataStore
+### Structure required for dataset uploaded to [CKAN](../../services/vulekamali-ckan/) and accessed in its [Datastore](../../services/vulekamali-ckan/ckan-datastore.md)
 
 The structure of the processed dataset \(after it's been through our pipeline\) and when uploaded to CKAN, should look like this:
 
