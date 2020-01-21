@@ -25,10 +25,10 @@
 ## Services
 
 * [vulekamali.gov.za](services/vulekamali.gov.za.md)
-* [vulekamali CKAN](services/vulekamali-datastore/README.md)
+* [vulekamali CKAN](services/vulekamali-ckan/README.md)
   * [CKAN Datastore](services/vulekamali-ckan/ckan-datastore.md)
-  * [Adding a non-treasury contributor](services/vulekamali-datastore/adding-a-non-treasury-contributor.md)
-  * [Adding CKAN Admin users](services/vulekamali-datastore/adding-datastore-admin-users.md)
+  * [Adding a non-treasury contributor](services/vulekamali-ckan/adding-a-non-treasury-contributor.md)
+  * [Adding CKAN Admin users](services/vulekamali-ckan/adding-datastore-admin-users.md)
 * [vulekamali Data Manager](services/vulekamali-data-manager/README.md)
   * [Adding Data Manager Admin users](services/vulekamali-data-manager/adding-data-manager-admin-users.md)
 
@@ -40,5 +40,4 @@
 ## Development
 
 * [Development process](development/development-process.md)
-* [Verifying changes before deployment](development/verifying-changes.md)
 

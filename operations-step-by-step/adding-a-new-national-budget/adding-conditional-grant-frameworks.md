@@ -2,9 +2,9 @@
 
 Conditional Grant frameworks are added to vulekamali once they are gazetted, and not from the Division of Revenue Bill on budget day.
 
-Each framework must be added as an individual Dataset in the DataStore, with one resource, which is the framework as a PDF file. That means the framework pages must be split out from the gazette PDF. [See below](adding-conditional-grant-frameworks.md#example-of-splitting-out-framework-pages) for an example of how to do that.
+Each framework must be added as an individual Dataset in the CKAN, with one resource, which is the framework as a PDF file. That means the framework pages must be split out from the gazette PDF. [See below](adding-conditional-grant-frameworks.md#example-of-splitting-out-framework-pages) for an example of how to do that.
 
-DataStore metadata:
+CKAN metadata:
 
 * **Dataset title**: {financial year} {grant name} Framework
   * e.g. _2018-19 Ilima-Letsema Grant Framework_
