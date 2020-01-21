@@ -1,12 +1,18 @@
 # vulekamali CKAN
 
-## Functions
+## Usage on vulekamali
 
 The [CKAN ](https://data.vulekamali.gov.za/)is used to manage the data displayed on Vulekamali, for example \(but not limited to\):
 
 ### [Datasets](https://data.vulekamali.gov.za/dataset)
 
-Datasets contain structured data
+Datasets contain Resources and metadata.
+
+Metadata is just data about data, e.g. the description of what's contained in the dataset, and also classifying information like a specific financial year, sphere, department, or government that the dataset relates to.
+
+Resources can be files \(structured data, semi-structured data, documents\), or links \(URLs\) to these or just to other websites.
+
+Examples of structured data on vulekamali:
 
 * Adjusted Estimates of Expenditure data
 * Annual Report data
