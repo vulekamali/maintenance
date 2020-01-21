@@ -1,6 +1,6 @@
 # Adding structured fiscal data
 
-At key budget events like the tabling of the Main Appropriation and Adjustments Appropriation, and release of Annual Report Expenditure data, we upload structured data OpenSpending and make it accessible via the Datastore and vulekamali. This data is intended to support further analysis by the public, and is used for summaries and demonstration of the capability of the data on vulekamali.
+At key budget events like the tabling of the Main Appropriation and Adjustments Appropriation, and release of Annual Report Expenditure data, we upload structured data OpenSpending and make it accessible via CKAN and vulekamali. This data is intended to support further analysis by the public, and is used for summaries and demonstration of the capability of the data on vulekamali.
 
 To allow automated summaries of the data in vulekamali, the Data Manager has very specific expectations of the structure and values in the data, and how the [Fiscal Data Package](http://frictionlessdata.io/specs/fiscal-data-package/) types used when uploading the data to [OpenSpending](http://openspending.org/).
 
@@ -27,7 +27,7 @@ It is strongly recommended that upload timestamps of the form 2019-08-12 01:18 \
 * Department names and budget phases must match what is used in the Data Manager precisely. That includes capitalisation and punctuation, including hyphenation and commas. Avoid stray spaces at the beginning and end of values. See dataset specifics below.
 * Text and numeric values must be consistent. Occasional inconsistencies like stray spaces at the start or end of a value result in that category being treated as a different category, just like it would in a pivot table.
 
-After adding the dataset to the [Datastore](../../services/vulekamali-datastore/), [add it to the right group and add the right metadata](adding-structured-fiscal-data-to-openspending.md#specific-dataset-requirements) so that the [Data Manager](../../services/vulekamali-data-manager/) can find each dataset to prepare the summaries for each financial year using the correct dataset.
+After adding the dataset to CKAN, [add it to the right group and add the right metadata](adding-structured-fiscal-data-to-openspending.md#specific-dataset-requirements) so that the [Data Manager](../../services/vulekamali-data-manager/) can find each dataset to prepare the summaries for each financial year using the correct dataset.
 
 ## Automated data checks
 
@@ -113,7 +113,7 @@ Each year, when each of the above datasets are released, the new year's data is 
 
 Instead of adding a new dataset to the Datastore each year, just update the existing dataset to the new links in OpenSpending.
 
-[Datastore](../../services/vulekamali-datastore/) Metadata
+[Datastore](../../services/vulekamali-ckan/) Metadata
 
 * Group: [Budgeted and Actual National Expenditure](https://data.vulekamali.gov.za/group/budgeted-and-actual-national-expenditure)
 * Sphere: national
@@ -171,7 +171,7 @@ OpenSpending Metadata
 * **Unique identifier:** budgeted-and-actual-provincial-expenditure-uploaded-2019-08-12t0109
 * You can skip the description, city and period fields.
 
-[Datastore](../../services/vulekamali-datastore/) Metadata
+[Datastore](../../services/vulekamali-ckan/) Metadata
 
 * Group: [Budgeted and Actual Provincial Expenditure](https://data.vulekamali.gov.za/group/budgeted-and-actual-provincial-expenditure)
 * Sphere: provincial
@@ -211,7 +211,7 @@ Main appropriation,Public Service and Administration,Current payments,Goods a
 
 ### Estimates of National Expenditure
 
-[Datastore](../../services/vulekamali-datastore/) Metadata
+[Datastore](../../services/vulekamali-ckan/) Metadata
 
 * Group: [Estimates of National Expenditure](https://data.vulekamali.gov.za/group/estimates-of-national-expenditure)
 * Financial Years: Exactly one: the year being tabled
@@ -305,7 +305,7 @@ TBC
 * **Unique Identifier:** national-annual-report-expenditure-south-africa-2019-20-uploaded-2019-06-05-1615
 * You can skip the Description, City and Period fields
 
-#### DataStore Metadata
+#### CKAN Metadata
 
 * Title: National Department Annual Report Expenditure 2019-20
   * if 2019-20 is the audit year being released
@@ -345,7 +345,7 @@ TBC
 * **Unique Identifier:** provincial-annual-report-expenditure-south-africa-2019-20-uploaded-2019-06-05-1615
 * You can skip the Description, City and Period fields
 
-#### DataStore Metadata
+#### CKAN Metadata
 
 * Title: Provincial Annual Report Expenditure 2019-20
   * if 2019-20 is the audit year being released
@@ -399,9 +399,9 @@ Enter the dataset metadata as per the [specifications for the dataset](adding-st
 
 Keep the upload tab open to be able to monitor progress if possible. This takes 20 minutes to an hour.
 
-When the dataset is successfully loaded, it's ready to be added to the Datastore:
+When the dataset is successfully loaded, it's ready to be added to CKAN:
 
-## Adding OpenSpending datasets to the Datastore
+## Adding OpenSpending datasets to CKAN
 
 Create a dataset with the following resources, and metadata as per the [specification for the dataset](adding-structured-fiscal-data-to-openspending.md#specific-dataset-requirements).
 
@@ -433,7 +433,7 @@ and thus the Model URL is
 https://openspending.org/api/3/cubes/b9d2af843f3a7ca223eea07fb608e62a:adjusted-estimates-of-national-expenditure-2016-17/model/
 ```
 
-And this should be added as an `OpenSpending API` format resource to the dataset in the Datastore
+And this should be added as an `OpenSpending API` format resource to the dataset in CKAN
 
 {% hint style="info" %}
 It's important that the capitalisation, spelling and spacing of this is correct: `OpenSpending API`
