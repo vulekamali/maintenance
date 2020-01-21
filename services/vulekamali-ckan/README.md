@@ -1,8 +1,8 @@
-# vulekamali Datastore
+# vulekamali CKAN
 
 ## Functions
 
-The [DataStore ](https://data.vulekamali.gov.za/)is used to manage the data displayed on Vulekamali, for example \(but not limited to\):
+The [CKAN ](https://data.vulekamali.gov.za/)is used to manage the data displayed on Vulekamali, for example \(but not limited to\):
 
 ### [Datasets](https://data.vulekamali.gov.za/dataset)
 
@@ -29,7 +29,7 @@ Groups allow us to categorise datasets
 * Include data for each financial year available.
 * If you've deleted a dataset or resource - be sure to purge it afterwards, otherwise it won't actually be deleted and you'll get a message like "That URL is already in use" when trying to recreate it.
 
-## [Github Repository \(code\)](https://github.com/OpenUpSA/treasury-ckan)
+## Code and configuration
 
-The github repository contains the code for the Datastore application.
+The [github repository](https://github.com/vulekamali/treasury-ckan) contains the code for the vulekamali CKAN installation.
 

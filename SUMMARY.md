@@ -25,9 +25,9 @@
 ## Services
 
 * [vulekamali.gov.za](services/vulekamali.gov.za.md)
-* [vulekamali Datastore](services/vulekamali-datastore/README.md)
-  * [Adding a non-treasury contributor](services/vulekamali-datastore/adding-a-non-treasury-contributor.md)
-  * [Adding Datastore Admin users](services/vulekamali-datastore/adding-datastore-admin-users.md)
+* [vulekamali CKAN](services/vulekamali-ckan/README.md)
+  * [Adding a non-treasury contributor](services/vulekamali-ckan/adding-a-non-treasury-contributor.md)
+  * [Adding Datastore Admin users](services/vulekamali-ckan/adding-datastore-admin-users.md)
 * [vulekamali Data Manager](services/vulekamali-data-manager/README.md)
   * [Adding Data Manager Admin users](services/vulekamali-data-manager/adding-data-manager-admin-users.md)
 

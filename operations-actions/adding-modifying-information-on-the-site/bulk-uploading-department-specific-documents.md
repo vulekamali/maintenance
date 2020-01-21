@@ -88,7 +88,7 @@ The easiest way to check that all documents were uploaded successfully is to upl
 
 After the first set of tasks were submitted, and the Communications department spelling mistake was fixed and resubmitted, all documents are now uploaded to the right departments.
 
-Completed uploads can also be seen in the [Datastore](../../services/vulekamali-datastore/)
+Completed uploads can also be seen in the [Datastore](../../services/vulekamali-ckan/)
 
 ![Recently-modified datasets in the Datastore](../../.gitbook/assets/vulekamali-bulk-upload-datastore.png)
 
@@ -142,7 +142,7 @@ Metadata spreadsheet requirements
 | Column | Details |
 | :--- | :--- |
 | government | Must be the government name with standard capitalisation, e.g. South Africa or KwaZulu-Natal |
-| group\_id | The ID of the group in the [Datastore ](../../services/vulekamali-datastore/)that this document should be part of. Specific document set conventions in this section should indicate which group to use. Find the group\_id in the URL of the group, e.g. for [Adjusted Budget Vote Documents](https://data.vulekamali.gov.za/group/adjusted-budget-vote-documents) use `adjusted-budget-vote-documents` |
+| group\_id | The ID of the group in the [Datastore ](../../services/vulekamali-ckan/)that this document should be part of. Specific document set conventions in this section should indicate which group to use. Find the group\_id in the URL of the group, e.g. for [Adjusted Budget Vote Documents](https://data.vulekamali.gov.za/group/adjusted-budget-vote-documents) use `adjusted-budget-vote-documents` |
 | department\_name | Use the department name as in the DataManager. Capitalisation, spelling and hyphenation must match exactly. |
 | dataset\_name | Must be unique in the entire system. See the convention for the specific set of documents in this section. We try to make this human-readable but ultimately it is intended to be a computer-readable ID. The Bulk Upload interface will help turn a name like "ENE 2018-19 - Vote 1 - The Presidency" into its slug "ene-2018-19-vote-1-the-presidency" |
 | dataset\_title | This is the human-readable title of the dataset. We tend to include the document type abbreviation and financial year in the title to distinguish between the same dataset in different years in search results. |

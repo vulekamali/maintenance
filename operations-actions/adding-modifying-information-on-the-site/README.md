@@ -2,7 +2,7 @@
 
 ## Dataset names and descriptions
 
-Dataset names and descriptions, and resources that are part of a dataset, are maintained in the [DataStore](../../services/vulekamali-datastore/).
+Dataset names and descriptions, and resources that are part of a dataset, are maintained in the [DataStore](../../services/vulekamali-ckan/).
 
 If you want to upload lots of new documents, please have a look at the [Bulk-uploading](bulk-uploading-department-specific-documents.md) feature.
 
@@ -14,7 +14,7 @@ Changes to public datasets in the DataStore, e.g. their title, description or re
 
 Data summaries and charts are based on
 
-* One or more datasets in the [Datastore](../../services/vulekamali-datastore/)
+* One or more datasets in the [Datastore](../../services/vulekamali-ckan/)
 * The[ Data Manager](../../services/vulekamali-data-manager/) making the summary or chart data available in [Page Data](../../services/vulekamali.gov.za.md#page-data) for vulekamali.gov.za
   * querying the relevant Data API\(s\) for the right data for that page
   * perhaps transforming the data to be easy to use in vulekamali.gov.za
