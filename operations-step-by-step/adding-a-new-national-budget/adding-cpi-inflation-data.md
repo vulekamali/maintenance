@@ -16,7 +16,7 @@ Ensure it's structured like the 2018-19 example:
 2. Add a CSV version of the file as a resource titled `CPI numbers from Budget Review 2018-19`, again with the correct financial year
 3. Add it to the group `CPI Inflation`
 
-Check that it's successfully been imported to the Datastore to be available via the datastore API.
+[Check that it's successfully been imported to the Datastore](../../services/vulekamali-ckan/ckan-datastore.md#checking-that-a-resource-has-been-imported-successfully) to be available via the datastore API.
 
 
 
