@@ -111,9 +111,9 @@ This dataset consists of all of the following datasets, for each financial year 
 
 Each year, when each of the above datasets are released, the new year's data is added to this dataset. Only the rows for where `Financial Year` is equal to the ENE, AENE or AR dataset's year is included in this combined dataset \(e.g. for `ENE 2015-16` adds rows where `Financial Year` is equal to `2015` and `Budget Phase` is equal to `Main Appropriation`. AENE 2019-20 adds rows where `FinancialYear` is `2019` and `Budget Phase` is `Adjusted appropriation`\).
 
-Instead of adding a new dataset to the Datastore each year, just update the existing dataset to the new links in OpenSpending.
+Instead of adding a new dataset to CKAN each year, just update the existing dataset to the new links in OpenSpending.
 
-[Datastore](../../services/vulekamali-ckan/) Metadata
+CKAN Metadata
 
 * Group: [Budgeted and Actual National Expenditure](https://data.vulekamali.gov.za/group/budgeted-and-actual-national-expenditure)
 * Sphere: national
@@ -171,7 +171,7 @@ OpenSpending Metadata
 * **Unique identifier:** budgeted-and-actual-provincial-expenditure-uploaded-2019-08-12t0109
 * You can skip the description, city and period fields.
 
-[Datastore](../../services/vulekamali-ckan/) Metadata
+CKAN Metadata
 
 * Group: [Budgeted and Actual Provincial Expenditure](https://data.vulekamali.gov.za/group/budgeted-and-actual-provincial-expenditure)
 * Sphere: provincial
@@ -211,7 +211,7 @@ Main appropriation,Public Service and Administration,Current payments,Goods a
 
 ### Estimates of National Expenditure
 
-[Datastore](../../services/vulekamali-ckan/) Metadata
+CKAN Metadata
 
 * Group: [Estimates of National Expenditure](https://data.vulekamali.gov.za/group/estimates-of-national-expenditure)
 * Financial Years: Exactly one: the year being tabled
@@ -260,7 +260,7 @@ Note this dataset is called Estimates of Provincial Expenditure, not Estimates o
 * **Description:** This dataset includes expenditure data as published in the Estimates of Provincial Revenue and Expenditure. Departmental expenditure data in previous financial years have been aligned with the budget and programme structures of departments as they are structured in the current Medium Term Expenditure Framework. This means that the structure of historical expenditure data for a department, may not necessarily reflect the same structure of that department when expenditure was incurred during a particular financial year. This may be due to functions shifts which may have occurred within a particular department or a general change in a department’s budget programme structures \(BPS\) as departments are afforded an opportunity before the start of the Budget to change their BPS.This is to ensure a more economical, efficient and effective delivery of public services and performance by the department as a whole.
 * You can skip the City and Period fields
 
-#### DataStore Metadata
+#### CKAN Metadata
 
 * Group: Estimates of Provincial Expenditure
 * Financial Years: Exactly one: the year being tabled
