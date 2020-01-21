@@ -54,7 +54,7 @@ The Bulk Upload interface will check your metadata and show a preview of the cha
 
 ## Preview and start bulk upload
 
-After uploading your metadata file, the Bulk Upload interface will check the metadata against the departments in the Data Manager and the datasets in CKAN and show what actions it will take.
+After uploading your metadata file, the Bulk Upload interface will check the metadata against the departments in the Data Manager and the datasets in the Datastore and show what actions it will take.
 
 If you click submit while the Bulk Upload interface shows a preview, it will queue any pending \(blue\) actions.
 
@@ -88,9 +88,13 @@ The easiest way to check that all documents were uploaded successfully is to upl
 
 After the first set of tasks were submitted, and the Communications department spelling mistake was fixed and resubmitted, all documents are now uploaded to the right departments.
 
-Completed uploads can also be seen in the CKAN
+Completed uploads can also be seen in the [Datastore](../../services/vulekamali-datastore/)
 
-![Recently-modified datasets in the CKAN](../../.gitbook/assets/vulekamali-bulk-upload-datastore.png)
+![Recently-modified datasets in the Datastore](../../.gitbook/assets/vulekamali-bulk-upload-datastore.png)
+
+After datasets are modified in the Datastore, \(manually or using the Bulk Upload interface in the Data Manager\), the vulekamali site has to be updated to show the new data or documents and their metadata. The progress of this can be seen in Travis-CI which is used to automate this update. Changes are usually available on vulekamali.gov.za about 30 minutes after they're made in the Datastore.
+
+![](../../.gitbook/assets/vulekamali-bulk-upload-travis.png)
 
 ### Task details
 
@@ -114,13 +118,13 @@ Tasks should only fail if an unexpected error occurred - the bulk upload interfa
 
 ## Correcting mistakes
 
-You can correct mistakes by finding the relevant dataset in CKAN, and modifying the dataset in-place.
+You can correct mistakes by finding the relevant dataset in the Datastore, and modifying the dataset in-place.
 
 {% hint style="info" %}
-Note that you can delete a dataset in CKAN, but it will just be hidden from the public with state "deleted". Bulk Upload interface won't be able to replace it until it's been [purged](https://data.vulekamali.gov.za/ckan-admin/trash).
+Note that you can delete a dataset in the Datastore, but it will just be hidden from the public with state "deleted". Bulk Upload interface won't be able to replace it until it's been [purged](https://data.vulekamali.gov.za/ckan-admin/trash).
 {% endhint %}
 
-![Datasets in the CKAN created by the Bulk Upload interface](../../.gitbook/assets/vulekamali-bulk-upload-datastore.png)
+![Datasets in the Datastore created by the Bulk Upload interface](../../.gitbook/assets/vulekamali-bulk-upload-datastore.png)
 
 ## Requirements and specific sets of documents
 
@@ -138,13 +142,13 @@ Metadata spreadsheet requirements
 | Column | Details |
 | :--- | :--- |
 | government | Must be the government name with standard capitalisation, e.g. South Africa or KwaZulu-Natal |
-| group\_id | The ID of the group in the CKAN[ ](../../services/vulekamali-ckan/)that this document should be part of. Specific document set conventions in this section should indicate which group to use. Find the group\_id in the URL of the group, e.g. for [Adjusted Budget Vote Documents](https://data.vulekamali.gov.za/group/adjusted-budget-vote-documents) use `adjusted-budget-vote-documents` |
+| group\_id | The ID of the group in the [Datastore ](../../services/vulekamali-datastore/)that this document should be part of. Specific document set conventions in this section should indicate which group to use. Find the group\_id in the URL of the group, e.g. for [Adjusted Budget Vote Documents](https://data.vulekamali.gov.za/group/adjusted-budget-vote-documents) use `adjusted-budget-vote-documents` |
 | department\_name | Use the department name as in the DataManager. Capitalisation, spelling and hyphenation must match exactly. |
 | dataset\_name | Must be unique in the entire system. See the convention for the specific set of documents in this section. We try to make this human-readable but ultimately it is intended to be a computer-readable ID. The Bulk Upload interface will help turn a name like "ENE 2018-19 - Vote 1 - The Presidency" into its slug "ene-2018-19-vote-1-the-presidency" |
 | dataset\_title | This is the human-readable title of the dataset. We tend to include the document type abbreviation and financial year in the title to distinguish between the same dataset in different years in search results. |
 | resource\_name | This can often be the same as the dataset title, then the format can be used to distinguish between the PDF view of this information, versus the Excel Spreadsheet tables in the PDF. |
 | resource\_format | Should be the capitalised extension of the file, e.g. PDF or XLS or XLSX |
-| resource\_url | The URL where the document should be found to fetch and upload to the CKAN. |
+| resource\_url | The URL where the document should be found to fetch and upload to the Datastore. |
 
 ### Conventions for specific sets of documents
 

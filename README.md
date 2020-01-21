@@ -14,7 +14,7 @@ Regular, repeated actions are documented step-by-step in the top level pages, li
 
 Intended audience: All administrators and developers
 
-Services are documented under the 'Services' category, outlining what each service provides. e.g. the main website, and the datastore where datasets are organised.
+Services are documented under the 'Services' category, outlining what each service provides. e.g. the main website, and CKAN where datasets are organised.
 
 ### Design overview
 
