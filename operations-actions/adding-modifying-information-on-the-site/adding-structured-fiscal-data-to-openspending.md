@@ -40,7 +40,7 @@ Data sets can be checked for adherence to the requirements listed in the [Specif
 #### Step-by-step guide
 
 1. Log in or [sign up](https://github.com/join?source=header-home) for [github.com](https://github.com/)
-2. Make sure your data is available on a publicly accessible url in "raw" format, such as s3 or a github [gist](https://gist.github.com/).
+2. Make sure your data is available on a publicly accessible url in "raw" format, e.g. uploaded to [https://s3.console.aws.amazon.com/s3/buckets/manual-uploads.vulekamali.gov.za/?region=eu-west-1&tab=overview](https://s3.console.aws.amazon.com/s3/buckets/manual-uploads.vulekamali.gov.za/?region=eu-west-1&tab=overview)
 3. Go to [https://github.com/vulekamali/data-checks](https://github.com/vulekamali/data-checks)
 4. Click on "Create new file"
 
