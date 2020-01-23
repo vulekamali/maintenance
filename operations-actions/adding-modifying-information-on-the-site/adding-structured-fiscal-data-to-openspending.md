@@ -447,7 +447,7 @@ https://openspending.org/api/3/cubes/b9d2af843f3a7ca223eea07fb608e62a:adjusted-e
 
 **OpenSpending metadata:**
 
-* Resource name: Same as dataset
+* Resource name: Same as dataset title
 * Format: `OpenSpending API` 
 
 {% hint style="info" %}
