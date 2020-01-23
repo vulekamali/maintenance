@@ -1,5 +1,7 @@
 # vulekamali CKAN
 
+Vulekamali uses an installation of [CKAN](https://ckan.org/) to organise data with groups, formats and other metadata, provide a data discovery API.
+
 ## Usage on vulekamali
 
 **Production**: [https://data.vulekamali.gov.za/](https://data.vulekamali.gov.za/)

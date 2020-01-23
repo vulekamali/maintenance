@@ -4,17 +4,11 @@
 
 ### Production
 
-[vulekamali.gov.za/admin](https://vulekamali.gov.za/admin)
-
 The production instance of Data Manager must always be running the master branch, unless critical for debugging an urgent issue. Where possible, do such debugging using the Staging instance instead.
 
 ```text
 dokku dokku@treasury1.openup.org.za:budgetportal
 ```
-
-### Sandbox
-
-[sandbox.vulekamali.gov.za/admin](https://sandbox.vulekamali.gov.za/admin)
 
 ### Staging
 
