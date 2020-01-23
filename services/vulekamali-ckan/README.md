@@ -2,7 +2,11 @@
 
 ## Usage on vulekamali
 
-The [CKAN ](https://data.vulekamali.gov.za/)is used to manage the data displayed on Vulekamali, for example \(but not limited to\):
+**Production**: [https://data.vulekamali.gov.za/](https://data.vulekamali.gov.za/)
+
+**Sandbox**: [https://sandbox-data.vulekamali.gov.za/](https://sandbox-data.vulekamali.gov.za/)
+
+vulekamali CKAN is used to manage the data displayed on Vulekamali, for example \(but not limited to\):
 
 ### [Datasets](https://data.vulekamali.gov.za/dataset)
 

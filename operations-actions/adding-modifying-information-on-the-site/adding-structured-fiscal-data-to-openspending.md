@@ -211,18 +211,8 @@ Main appropriation,Public Service and Administration,Current payments,Goods a
 
 ### Estimates of National Expenditure
 
-#### OpenSpending Metadata
+CKAN Metadata
 
-* **Human-readable name:** Estimates of National Expenditure of South Africa 2019-20 uploaded 2019-06-05 16:15
-  * with appropriate financial year and upload timestamp
-* **Unique Identifier:** estimates-of-national-expenditure-south-africa-2019-20-uploaded-2019-06-05-1615
-* **Description:** This dataset includes expenditure data as published in the Estimates of National Expenditure. Departmental expenditure data in previous financial years have been aligned with the budget and programme structures of departments as they are structured in the current Medium Term Expenditure Framework. This means that the structure of historical expenditure data for a department, may not necessarily reflect the same structure of that department when expenditure was incurred during a particular financial year. This may be due to functions shifts which may have occurred within a particular department or a general change in a department’s budget programme structures \(BPS\) as departments are afforded an opportunity before the start of the Budget to change their BPS.This is to ensure a more economical, efficient and effective delivery of public services and performance by the department as a whole.
-* You can skip the City and Period fields
-
-**CKAN Metadata**
-
-* Dataset Name: Estimates of National Expenditure 2019-20
-  * or whatver the correct tabled financial year is
 * Group: [Estimates of National Expenditure](https://data.vulekamali.gov.za/group/estimates-of-national-expenditure)
 * Financial Years: Exactly one: the year being tabled
 * Sphere: national
@@ -419,8 +409,6 @@ Create a dataset with the following resources, and metadata as per the [specific
 
 Add the OpenSpending API Model URL as a resource of the dataset.
 
-
-
 The model URL can be constructed by entering the dataset ID in OpenSpending in the following template:
 
 ```text
@@ -445,10 +433,7 @@ and thus the Model URL is
 https://openspending.org/api/3/cubes/b9d2af843f3a7ca223eea07fb608e62a:adjusted-estimates-of-national-expenditure-2016-17/model/
 ```
 
-**OpenSpending metadata:**
-
-* Resource name: Same as dataset title
-* Format: `OpenSpending API` 
+And this should be added as an `OpenSpending API` format resource to the dataset in CKAN
 
 {% hint style="info" %}
 It's important that the capitalisation, spelling and spacing of this is correct: `OpenSpending API`
