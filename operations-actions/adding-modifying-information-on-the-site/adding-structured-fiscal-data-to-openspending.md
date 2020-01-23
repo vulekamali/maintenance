@@ -419,6 +419,8 @@ Create a dataset with the following resources, and metadata as per the [specific
 
 Add the OpenSpending API Model URL as a resource of the dataset.
 
+
+
 The model URL can be constructed by entering the dataset ID in OpenSpending in the following template:
 
 ```text
@@ -443,7 +445,10 @@ and thus the Model URL is
 https://openspending.org/api/3/cubes/b9d2af843f3a7ca223eea07fb608e62a:adjusted-estimates-of-national-expenditure-2016-17/model/
 ```
 
-And this should be added as an `OpenSpending API` format resource to the dataset in CKAN
+**OpenSpending metadata:**
+
+* Resource name: Same as dataset
+* Format: `OpenSpending API` 
 
 {% hint style="info" %}
 It's important that the capitalisation, spelling and spacing of this is correct: `OpenSpending API`
