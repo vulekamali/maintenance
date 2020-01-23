@@ -221,6 +221,8 @@ Main appropriation,Public Service and Administration,Current payments,Goods a
 
 **CKAN Metadata**
 
+* Dataset Name: Estimates of National Expenditure 2019-20
+  * or whatver the correct tabled financial year is
 * Group: [Estimates of National Expenditure](https://data.vulekamali.gov.za/group/estimates-of-national-expenditure)
 * Financial Years: Exactly one: the year being tabled
 * Sphere: national

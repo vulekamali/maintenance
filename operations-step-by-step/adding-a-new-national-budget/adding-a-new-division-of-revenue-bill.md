@@ -24,7 +24,6 @@ Each year's Division of Revenue bill should be a separate dataset with:
 
 * One PDF resource \(Division of Revenue bill\)
 * One XLS resource \(Annexes\)
-  * \(in 2019-20 there were two excel files - Annexes and Schedules - we uploaded both.\)
 * Financial Year set to the correct year
 
 Use the naming convention from previous years.
