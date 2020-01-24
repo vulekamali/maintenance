@@ -93,7 +93,7 @@ Data sets can be checked for adherence to the requirements listed in the [Specif
 When adding a datapackage, verify that it's being checked. If you placed it in the wrong directory, it will not be checked and you might falsely think that your dataset was checked and passed the checks.
 {% endhint %}
 
-To verify that your package is being checked, click on Details for te checks and look for `Checking ...your package path` in the checks log. If you don't see your packing being checked, double-check that the path to your datapackage is correct so that it can be picked up for checking automatically.
+To verify that your package is being checked, click on _Details_ for the checks and look for `Checking ...your package path` in the checks log. If you don't see your packing being checked, double-check that the path to your datapackage is correct so that it can be picked up for checking automatically. _**If you don't see your datapackage path being checked in the log, your package is not being checked.**_
 
 The following shows a successful check for the 2018-19 ENE package:
 
