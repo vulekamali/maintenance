@@ -20,7 +20,7 @@ It is strongly recommended that upload timestamps of the form 2019-08-12 01:18 \
 
 ## General requirements for data uploaded to OpenSpending
 
-* At least one "measure" is needed, e.g. the value column
+* At least one "measure" is needed, e.g. the value column - named `Value`
 * The value column must be in Rands, not Thousands of Rands
 * The combination of the non-measure columns must be unique on each row
 * Financial year must be an integer - for National and Provincial budget data we use the starting year, as is convention. So for 2018-19, we use `2018`.
