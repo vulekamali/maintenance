@@ -26,6 +26,7 @@ It is strongly recommended that upload timestamps of the form 2019-08-12 01:18 \
 * Financial year must be an integer - for National and Provincial budget data we use the starting year, as is convention. So for 2018-19, we use `2018`.
 * Department names and budget phases must match what is used in the Data Manager precisely. That includes capitalisation and punctuation, including hyphenation and commas. Avoid stray spaces at the beginning and end of values. See dataset specifics below.
 * Text and numeric values must be consistent. Occasional inconsistencies like stray spaces at the start or end of a value result in that category being treated as a different category, just like it would in a pivot table.
+* [CSV files must be saved with UTF-8 encoding](https://www.ibm.com/support/knowledgecenter/SSWU4L/Data/imc_Data/Data_q_a_watson_assistant/A_Simple_Way_to_UTF-8_Encode_your_CSV_fi191.html)
 
 After adding the dataset to CKAN, [add it to the right group and add the right metadata](adding-structured-fiscal-data-to-openspending.md#specific-dataset-requirements) so that the [Data Manager](../../services/vulekamali-data-manager/) can find each dataset to prepare the summaries for each financial year using the correct dataset.
 
