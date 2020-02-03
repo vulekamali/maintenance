@@ -17,6 +17,7 @@
 ## Operations: actions
 
 * [Adding/modifying data and data descriptions](operations-actions/adding-modifying-information-on-the-site/README.md)
+  * [Uploading provincial infrastructure project data](operations-actions/adding-modifying-information-on-the-site/uploading-provincial-infrastructure-project-data.md)
   * [Updating simple pages](operations-actions/adding-modifying-information-on-the-site/updating-simple-pages.md)
   * [Add external resource overview](operations-actions/adding-modifying-information-on-the-site/add.md)
   * [Bulk-uploading department-specific documents](operations-actions/adding-modifying-information-on-the-site/bulk-uploading-department-specific-documents.md)
