@@ -1,5 +1,17 @@
 # Uploading provincial infrastructure project data
 
+Provincial infrastructure projects are represented by a unique ID used by vulekamali, and the ID of the project in the Infrastructure Reporting Model \(IRM\) database. These are referred to as **Provincial Infrastructure Projects**.
+
+We keep snapshots of each project at different times in its life in the IRM database to reflect updates over time. These are called **Project Snapshots**.
+
+We upload snapshots of the IRM database each quarter. These are called **IRM Snapshots**.
+
+## Adding an IRM snapshot
+
+![](../../.gitbook/assets/add-snapshot-2018-q4.png)
+
+## Troubleshooting/FAQ
+
 ### BadZipfile: File is not a zip file
 
 Make sure you uploaded a `.xlsx` file. xlsx files are really zip files with Excel data in them.
