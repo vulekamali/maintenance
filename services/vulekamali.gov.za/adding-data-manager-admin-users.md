@@ -1,4 +1,4 @@
-# Adding Data Manager Admin users
+# Adding Admin users
 
 Data Manager admins can make other users admins.
 

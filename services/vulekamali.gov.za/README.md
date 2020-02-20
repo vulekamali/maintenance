@@ -1,4 +1,4 @@
-# vulekamali Data Manager
+# vulekamali.gov.za \(Main site\)
 
 ## Environments
 
@@ -10,6 +10,7 @@ The production instance of Data Manager must always be running the master branch
 
 ```text
 dokku dokku@treasury1.openup.org.za:budgetportal
+dokku2 dokku@treasury3.openup.org.za:budgetportal
 ```
 
 ### Sandbox
@@ -28,9 +29,9 @@ _**Staging normally uses the Production database, so be careful what data change
 
 ## Procedure to deploy to staging
 
-It is important to commit your changes to staging prior to committing to deployment.
+To try a change out online before deploying to production, it can be deployed to staging.
 
-In order to commit to staging, you must push your local branch to the `dokku@treasury1.openup.org.za:budgetportal-staging`repository under the `master` branch.
+In order to deploy to staging, you must push your local branch to the `dokku@treasury1.openup.org.za:budgetportal-staging`repository under the `master` branch.
 
 **Server permissions**
 

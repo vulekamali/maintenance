@@ -2,19 +2,21 @@
 
 * [Home](README.md)
 
-## Operations: Step by step
+## 1. Operations: Step by step <a id="operations-step-by-step"></a>
 
-* [Adding a new national budget](operations-step-by-step/adding-a-new-national-budget/README.md)
+* [February: Adding a new national budget](operations-step-by-step/adding-a-new-national-budget/README.md)
   * [Update the homepage state](operations-step-by-step/adding-a-new-national-budget/update-the-homepage-state.md)
   * [Adding the new financial year, sphere, government, and departments](operations-step-by-step/adding-a-new-national-budget/adding-new-year-sphere-government-departments.md)
   * [Adding a new Division of Revenue bill](operations-step-by-step/adding-a-new-national-budget/adding-a-new-division-of-revenue-bill.md)
   * [Adding CPI Inflation data](operations-step-by-step/adding-a-new-national-budget/adding-cpi-inflation-data.md)
   * [Adding/updating Infrastructure Projects](operations-step-by-step/adding-a-new-national-budget/adding-updating-infrastructure-projects.md)
   * [Adding Conditional Grant frameworks](operations-step-by-step/adding-a-new-national-budget/adding-conditional-grant-frameworks.md)
-* [Adding a new provincial budget](operations-step-by-step/adding-a-new-provincial-budget/README.md)
+* [April: Adding a new provincial budget](operations-step-by-step/adding-a-new-provincial-budget/README.md)
   * [Temporary full EPREs](operations-step-by-step/adding-a-new-provincial-budget/temporary-full-epres.md)
+* [October: Adding a national adjustment budget/MTBPS](operations-step-by-step/october-adding-a-national-adjustment-budget-mtbps.md)
+* [November: Adding provincial adjustment budgets](operations-step-by-step/november-adding-provincial-adjustment-budgets.md)
 
-## Operations: actions
+## 2. Operations: actions <a id="operations-actions"></a>
 
 * [Adding/modifying data and data descriptions](operations-actions/adding-modifying-information-on-the-site/README.md)
   * [Uploading provincial infrastructure project data](operations-actions/adding-modifying-information-on-the-site/uploading-provincial-infrastructure-project-data.md)
@@ -23,22 +25,23 @@
   * [Bulk-uploading department-specific documents](operations-actions/adding-modifying-information-on-the-site/bulk-uploading-department-specific-documents.md)
   * [Adding structured fiscal data](operations-actions/adding-modifying-information-on-the-site/adding-structured-fiscal-data-to-openspending.md)
 
-## Services
+## 3. Services <a id="services"></a>
 
-* [vulekamali.gov.za](services/vulekamali.gov.za.md)
-* [vulekamali CKAN](services/vulekamali-ckan/README.md)
+* [vulekamali.gov.za \(Main site\)](services/vulekamali.gov.za/README.md)
+  * [Adding Admin users](services/vulekamali.gov.za/adding-data-manager-admin-users.md)
+* [data.vulekamali.gov.za \(CKAN\)](services/vulekamali-ckan/README.md)
   * [CKAN Datastore](services/vulekamali-ckan/ckan-datastore.md)
   * [Adding a non-treasury contributor](services/vulekamali-ckan/adding-a-non-treasury-contributor.md)
   * [Adding CKAN Admin users](services/vulekamali-ckan/adding-datastore-admin-users.md)
-* [vulekamali Data Manager](services/vulekamali-data-manager/README.md)
-  * [Adding Data Manager Admin users](services/vulekamali-data-manager/adding-data-manager-admin-users.md)
+* [procurement.vulekamali.gov.za](services/procurement.vulekamali.gov.za.md)
+* [create.vulekamali.gov.za](services/create.vulekamali.gov.za.md)
 
-## Design
+## 4. Design <a id="design"></a>
 
 * [Data principles](design/site-principles.md)
 * [Style/brand guide](design/style-brand-guide.md)
 
-## Development
+## 5. Development <a id="development"></a>
 
 * [Development process](development/development-process.md)
 
