@@ -20,7 +20,7 @@
 
 * [Adding/modifying data and data descriptions](operations-actions/adding-modifying-information-on-the-site/README.md)
   * [Uploading provincial infrastructure project data](operations-actions/adding-modifying-information-on-the-site/uploading-provincial-infrastructure-project-data.md)
-  * [Updating simple pages](operations-actions/adding-modifying-information-on-the-site/updating-simple-pages.md)
+  * [Updating content pages](operations-actions/adding-modifying-information-on-the-site/updating-simple-pages.md)
   * [Add external resource overview](operations-actions/adding-modifying-information-on-the-site/add.md)
   * [Bulk-uploading department-specific documents](operations-actions/adding-modifying-information-on-the-site/bulk-uploading-department-specific-documents.md)
   * [Adding structured fiscal data](operations-actions/adding-modifying-information-on-the-site/adding-structured-fiscal-data-to-openspending.md)
@@ -35,6 +35,7 @@
   * [Adding CKAN Admin users](services/vulekamali-ckan/adding-datastore-admin-users.md)
 * [procurement.vulekamali.gov.za](services/procurement.vulekamali.gov.za.md)
 * [create.vulekamali.gov.za](services/create.vulekamali.gov.za.md)
+* [openspending.org](services/openspending.org.md)
 
 ## 4. Design <a id="design"></a>
 

@@ -6,3 +6,9 @@ description: >-
 
 # Update the homepage state
 
+Before the budget speech
+
+When the budget speech starts
+
+Once the structured data is loaded and the new financial year's data is presented in charts
+
