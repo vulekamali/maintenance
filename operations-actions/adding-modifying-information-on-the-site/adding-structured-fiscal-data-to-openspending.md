@@ -435,7 +435,7 @@ TBC
 | BudgetGroup |  |  |
 | EconomicClassification2 |  |  |
 | EconomicClassification3 |  |  |
-| FinancialYear |  |  |
+| FinancialYear |  | As an integer - e.g. 2019-20 is `2019` |
 | Value | value-kind:code | Rands, not Thousands of Rands |
 
 ## Adding a dataset to OpenSpending

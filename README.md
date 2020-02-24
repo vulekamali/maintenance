@@ -32,21 +32,3 @@ For developers, instructions and information regarding developing and staging/de
 Intended audience: Software developers, system administrators  
 For specific instructions on how to install or configure a service web app, please see the relevant README on the project's Github repository. An example of this can be seen on the [Data Manager github repository](https://github.com/OpenUpSA/vulekamali-datamanager).
 
-## Roles
-
-
-
-* **Portal Lead** - Andisile Best
-* **Budget event coordinator** - Mpho Leeu
-  * At budget events, take overall responsibility for ensuring the various people involved with that event are aware that it’s coming, what’s expected of them, and when.
-* **Content Manager** - Bakang
-  * Update copy provided by Portal Lead and Treasury Communications
-  * Support Metadata Editor
-* **Metadata Editor** - Thabo Maleba
-  * Set up government structure each financial year
-  * Add datasets to CKAN
-  * Add datasets to OpenSpending
-  * Support ETL Developers
-* **ETL Developer** - Joshua Makgato, Mpho Leeu
-  * Transforms structured data to the shape required by vulekamali and its services
-
