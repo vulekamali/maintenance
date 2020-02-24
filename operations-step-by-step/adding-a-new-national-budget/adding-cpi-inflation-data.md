@@ -18,7 +18,7 @@ Ensure it's structured like the 2018-19 example:
 
 [Check that it's successfully been imported to the Datastore](../../services/vulekamali-ckan/ckan-datastore.md#checking-that-a-resource-has-been-imported-successfully) to be available via the datastore API.
 
-{% file src="../../.gitbook/assets/cpi-2019.xlsx" caption="Example of CPI data provided by Jeffery" %}
+{% file src="../../.gitbook/assets/cpi-2019.xlsx" caption="Example of CPI data provided by Public Finance Statistics" %}
 
 
 

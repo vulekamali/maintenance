@@ -71,7 +71,7 @@ The departments section in the admin interface links to an [import screen](https
 * `intro` \(optional\)
 * `website_url` \(optional\)
 
-{% file src="../../.gitbook/assets/dept-and-programme-purposes.xlsx" caption="Example department and programme purposes source data" %}
+{% file src="../../.gitbook/assets/dept-and-programme-purposes.xlsx" caption="Example department purposes source data" %}
 
 {% file src="../../.gitbook/assets/departments-national-2019-20.csv" caption="Example department metadata ready for bulk upload" %}
 

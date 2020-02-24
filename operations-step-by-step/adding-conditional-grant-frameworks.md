@@ -1,6 +1,8 @@
-# Adding Conditional Grant frameworks
+# March: Division of Revenue Act is gazetted
 
-Conditional Grant frameworks are added to vulekamali once they are gazetted, and not from the Division of Revenue Bill on budget day.
+## Upload per-Conditional Grant Framework documents
+
+Conditional Grant frameworks are added to vulekamali once they are gazetted with the Division of Revenue Act.
 
 Each framework must be added as an individual Dataset in the CKAN, with one resource, which is the framework as a PDF file. That means the framework pages must be split out from the gazette PDF. [See below](adding-conditional-grant-frameworks.md#example-of-splitting-out-framework-pages) for an example of how to do that.
 
@@ -17,7 +19,7 @@ CKAN metadata:
   * e.g. _2018-19_
 * **Group**: Frameworks for Conditional Grants to [Municipalities](https://data.vulekamali.gov.za/group/frameworks-for-conditional-grants-to-municipalities)/[Provinces](https://data.vulekamali.gov.za/group/frameworks-for-conditional-grants-to-provinces)
 
-![Adding a framework to a group after creating it and uploading the PDF resource](../../.gitbook/assets/screenshot_2019-08-13_18-29-47.png)
+![Adding a framework to a group after creating it and uploading the PDF resource](../.gitbook/assets/screenshot_2019-08-13_18-29-47.png)
 
 ## Example of splitting out framework pages
 

@@ -31,7 +31,7 @@ The following is required to add a new national budget to vulekamali
 
 When the allocations and frameworks for conditional grants to municipalities and provinces are gazetted,
 
-1. [Add the Conditional Grant Frameworks](adding-conditional-grant-frameworks.md)
+1. [Add the Conditional Grant Frameworks](../adding-conditional-grant-frameworks.md)
 
 ## Dataset checklist
 

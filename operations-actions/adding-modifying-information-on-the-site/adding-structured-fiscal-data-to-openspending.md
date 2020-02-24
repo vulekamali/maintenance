@@ -266,7 +266,7 @@ Fields:
 
 #### Examples
 
-{% file src="../../.gitbook/assets/nat-ene-2019-20.xlsx" caption="ENE Structured Data in format provided by Jeffery" %}
+{% file src="../../.gitbook/assets/nat-ene-2019-20.xlsx" caption="ENE Structured Data in format provided by Public Finance Statistics" %}
 
 CSV example as uploaded to OpenSpending:
 
