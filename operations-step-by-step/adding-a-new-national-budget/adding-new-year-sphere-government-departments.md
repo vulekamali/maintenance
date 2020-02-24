@@ -18,15 +18,20 @@ These items are added using the [Data Manager admin interface](https://datamanag
 
 The "Slug" of a financial year is the hyphenated form, e.g. 2019-20
 
+Leave `published` unticked for now - we will mark it as ticked when everything is ready for the site to show the new financial year.
+
 ![Adding a new financial year](../../.gitbook/assets/vulekamali-admin-new-year-form.png)
 
-### Add a new Sphere
+### Add the Spheres
 
 Spheres are repeated each financial year to help structure the data
 
 ![](../../.gitbook/assets/vulekamali-admin-spheres.png)
 
-In this case, add the National sphere. Select the the new financial year that the sphere is related to.
+In this case, add the National and Provincial spheres. We don't add the Local/Municipal sphere to vulekamali at the moment.
+
+* Select the the new financial year that the sphere is related to.
+* Capitalise the sphere name.
 
 ![](../../.gitbook/assets/vulekamali-admin-new-sphere-form.png)
 
@@ -66,7 +71,9 @@ The departments section in the admin interface links to an [import screen](https
 * `intro` \(optional\)
 * `website_url` \(optional\)
 
-{% file src="../../.gitbook/assets/departments-national-2019-20.csv" caption="Example department metadata" %}
+{% file src="../../.gitbook/assets/dept-and-programme-purposes.xlsx" caption="Example department and programme purposes source data" %}
+
+{% file src="../../.gitbook/assets/departments-national-2019-20.csv" caption="Example department metadata ready for bulk upload" %}
 
 [Markdown syntax](https://daringfireball.net/projects/markdown/syntax#header) must be used for formatting `intro`. e.g. 2 line breaks will result in new paragraphs. Use headings like `## Vote purpose`.
 

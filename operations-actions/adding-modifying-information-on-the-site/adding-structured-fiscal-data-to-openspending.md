@@ -21,7 +21,7 @@ It is strongly recommended that upload timestamps of the form 2019-08-12 01:18 \
 ## General requirements for data uploaded to OpenSpending
 
 * At least one "measure" is needed, e.g. the value column - named `Value`
-* The value column must be in Rands, not Thousands of Rands
+* The value column must be in Rands, **not** Thousands of Rands
 * The combination of the non-measure columns must be unique on each row
 * Financial year must be an integer - for National and Provincial budget data we use the starting year, as is convention. So for 2018-19, we use `2018`.
 * Department names and budget phases must match what is used in the Data Manager precisely. That includes capitalisation and punctuation, including hyphenation and commas. Avoid stray spaces at the beginning and end of values. See dataset specifics below.
@@ -264,7 +264,11 @@ Fields:
 | FinancialYear | date:fiscal-year |  |
 | BudgetPhase | phase:id | Valid values are `Audited Outcome`, `Adjusted appropriation`, `Main appropriation`, `Medium Term Estimates`. While the newly-tabled budget is classified under `Medium Term Estimates` in some tables in the ENE documents, we classify it under `Main appropriation` for the purposes of analysis from this dataset. |
 
-For example, as CSV
+#### Examples
+
+{% file src="../../.gitbook/assets/nat-ene-2019-20.xlsx" caption="ENE Structured Data in format provided by Jeffery" %}
+
+CSV example as uploaded to OpenSpending:
 
 ```text
 BudgetPhase,Department,EconomicClassification1,EconomicClassification2,EconomicClassification3,EconomicClassification4,FinancialYear,Programme,ProgNumber,Subprogramme,SubprogNumber,Value,VoteNumber
@@ -403,6 +407,36 @@ TBC
 | AmountKind | value-kind:code | A type like `Total` or `Adjustments - Roll-overs` |
 | Value | Rands, not thousands of rands |  |
 |  |  |  |
+
+### Consolidated budget
+
+
+
+#### OpenSpending Metadata
+
+* **Human-readable name:** Consolidated Expenditure Budget of South Africa 2019-20 uploaded 2019-06-05 16:15
+  * with appropriate financial year and upload timestamp
+* **Unique Identifier:** consolidated-expenditure-south-africa-2019-20-uploaded-2019-06-05-1615
+* You can skip the Description, City and Period fields
+
+#### CKAN Metadata
+
+* Title: Consolidated Expenditure 2019-20
+  * if 2019-20 is the year being tabled
+* Group: Consolidated Expenditure
+* Financial Years: Exactly one: the financial year being tabled
+* Sphere: national and provincial
+
+#### Dataset columns and value requirements
+
+| Column Name | OpenSpending type | Description |
+| :--- | :--- | :--- |
+| FunctionGroup |  |  |
+| BudgetGroup |  |  |
+| EconomicClassification2 |  |  |
+| EconomicClassification3 |  |  |
+| FinancialYear |  |  |
+| Value | value-kind:code | Rands, not Thousands of Rands |
 
 ## Adding a dataset to OpenSpending
 

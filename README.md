@@ -1,3 +1,7 @@
+---
+description: Standard Operating Procedures and maintenance manual for vulekamali.gov.za
+---
+
 # Home
 
 ## Manual Structure

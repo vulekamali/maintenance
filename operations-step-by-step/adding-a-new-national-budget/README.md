@@ -39,8 +39,9 @@ These are all the datasets needed to upload a new national budget to vulekamali 
 
 | Dataset \(link is example structured for vulekamali\) | Source \(link is source format\) |
 | :--- | :--- |
-| [Department metadata \(name, purpose, etc\)](adding-new-year-sphere-government-departments.md#adding-editing-departments-in-bulk) | Jeffery Smith, Public Finance Statistics |
-| [URLs and metadata for ENE Vote ePublication PDFs and XLSX file per budget vote](../../operations-actions/adding-modifying-information-on-the-site/bulk-uploading-department-specific-documents.md#metadata-spreadsheet-template) | Scraped from www.treasury.gov.za |
-| [ENE structured fiscal dataset](http://datastore.openspending.org/b9d2af843f3a7ca223eea07fb608e62a/estimates-of-national-expenditure-2019-20-uploaded-2019-02-20t1910/final/data/ene-2019-20.csv) | Jeffery Smith, Public Finance Statistics |
-| [CPI Inflation structured dataset](https://vulekamali.gov.za/datasets/cpi-inflation) | Jeffery Smith, Public Finance Statistics |
+| [Department metadata \(name, purpose, etc\)](adding-new-year-sphere-government-departments.md#adding-editing-departments-in-bulk) | [Public Finance Statistics](adding-new-year-sphere-government-departments.md#adding-editing-departments-in-bulk) |
+| [URLs and metadata for ENE Vote ePublication PDFs and XLSX file per budget vote](../../operations-actions/adding-modifying-information-on-the-site/bulk-uploading-department-specific-documents.md#metadata-spreadsheet-template) | [Scraped from Financial year budget page on www.treasury.gov.za &gt; Estimates of National Expenditure &gt; ePublications](http://www.treasury.gov.za/documents/national%20budget/2019/booklets.aspx) |
+| [ENE structured fiscal dataset](http://datastore.openspending.org/b9d2af843f3a7ca223eea07fb608e62a/estimates-of-national-expenditure-2019-20-uploaded-2019-02-20t1910/final/data/ene-2019-20.csv) | [Public Finance Statistics](../../operations-actions/adding-modifying-information-on-the-site/adding-structured-fiscal-data-to-openspending.md#examples) |
+| [CPI Inflation structured dataset](https://vulekamali.gov.za/datasets/cpi-inflation) | [Public Finance Statistics](adding-cpi-inflation-data.md) |
+| [Consolidated expenditure budget structured dataset](https://data.vulekamali.gov.za/dataset/d190dad6-45fc-499c-a808-459b3cfe909b/resource/be6eff6c-35c6-4a9b-a81e-d7f2c9c5de68/download/consolidated-2019-20.csv) | [Financial year budget page on www.treasury.gov.za &gt; Budget Data and Time Series in Excel Format &gt; Consolidated accoutn of government in excel format](http://www.treasury.gov.za/documents/national%20budget/2019/review/Budget%202019%20-%20Consolidated%20account%20Pivot.xlsx) |
 
