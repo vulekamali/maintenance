@@ -13,7 +13,8 @@
 * [March: Division of Revenue Act is gazetted](operations-step-by-step/adding-conditional-grant-frameworks.md)
 * [April: Adding a new provincial budget](operations-step-by-step/adding-a-new-provincial-budget/README.md)
   * [Temporary full EPREs](operations-step-by-step/adding-a-new-provincial-budget/temporary-full-epres.md)
-* [October: Adding a national adjustment budget/MTBPS](operations-step-by-step/october-adding-a-national-adjustment-budget-mtbps.md)
+* [October: Adding a national adjustment budget/MTBPS](operations-step-by-step/october-adding-a-national-adjustment-budget-mtbps/README.md)
+  * [Update the homepage state](operations-step-by-step/october-adding-a-national-adjustment-budget-mtbps/update-the-homepage-state.md)
 * [November: Adding provincial adjustment budgets](operations-step-by-step/november-adding-provincial-adjustment-budgets.md)
 
 ## 2. Operations: actions <a id="operations-actions"></a>
