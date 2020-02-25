@@ -9,7 +9,7 @@
   * [Adding the new financial year, sphere, government, and departments](operations-step-by-step/adding-a-new-national-budget/adding-new-year-sphere-government-departments.md)
   * [Adding a new Division of Revenue bill](operations-step-by-step/adding-a-new-national-budget/adding-a-new-division-of-revenue-bill.md)
   * [Adding CPI Inflation data](operations-step-by-step/adding-a-new-national-budget/adding-cpi-inflation-data.md)
-  * [Adding/updating Infrastructure Projects](operations-step-by-step/adding-a-new-national-budget/adding-updating-infrastructure-projects.md)
+  * [Adding/updating National Infrastructure Projects](operations-step-by-step/adding-a-new-national-budget/adding-updating-infrastructure-projects.md)
 * [March: Division of Revenue Act is gazetted](operations-step-by-step/adding-conditional-grant-frameworks.md)
 * [April: Adding a new provincial budget](operations-step-by-step/adding-a-new-provincial-budget/README.md)
   * [Temporary full EPREs](operations-step-by-step/adding-a-new-provincial-budget/temporary-full-epres.md)
