@@ -39,9 +39,9 @@ Each sphere has at least one government that the departments are part of
 
 ![](../../.gitbook/assets/vulekamali-admin-governments.png)
 
-### Add a new Government
+### Add the new Governments
 
-Add the new government. The government and sphere are used to identify data and documents specific to national government, as opposed to consolidated national and provincial finances together.
+Add the new national government with name `South Africa`. Add each provincial government with the province name, e.g. `Kwa-Zulu Natal`. Pay attention to spelling, capitalisationan and hyphens. The government and sphere are used to identify data and documents specific to national government, as opposed to consolidated national and provincial finances together.
 
 ![](../../.gitbook/assets/vulekamali-admin-government-form.png)
 

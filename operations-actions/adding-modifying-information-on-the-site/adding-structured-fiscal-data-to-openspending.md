@@ -431,10 +431,10 @@ TBC
 
 | Column Name | OpenSpending type | Description |
 | :--- | :--- | :--- |
-| FunctionGroup |  |  |
-| BudgetGroup |  |  |
-| EconomicClassification2 |  |  |
-| EconomicClassification3 |  |  |
+| FunctionGroup |  | Functional classification level 1 |
+| BudgetGroup |  | Unknown String |
+| EconomicClassification2 |  | Economic Classification level 1 |
+| EconomicClassification3 |  | Economic Classification level 2 |
 | FinancialYear |  | As an integer - e.g. 2019-20 is `2019` |
 | Value | value-kind:code | Rands, not Thousands of Rands |
 
