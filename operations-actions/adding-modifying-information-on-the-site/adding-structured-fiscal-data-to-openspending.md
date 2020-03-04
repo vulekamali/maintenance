@@ -130,11 +130,23 @@ Each year, when each of the above datasets are released, the new year's data is 
 
 Instead of adding a new dataset to CKAN each year, just update the existing dataset to the new links in OpenSpending.
 
-CKAN Metadata
+#### CKAN Metadata
 
 * Group: [Budgeted and Actual National Expenditure](https://data.vulekamali.gov.za/group/budgeted-and-actual-national-expenditure)
 * Sphere: national
 * Dimensions: as per the fields available
+
+#### CKAN Resources
+
+In this order:
+
+* Excel file of the data, ideally with the following pivot table in the default worksheet:
+  * Filters: AmountKind=Total, Government=South Africa
+  * Rows: Department
+  * Columns: FinancialYear, BudgetPhase
+  * Measures: Amount
+* CSV file of the data - we usually use the CSV hosted by OpenSpending
+* OpenSpending dataset model URL
 
 Fields:
 
@@ -188,11 +200,23 @@ OpenSpending Metadata
 * **Unique identifier:** budgeted-and-actual-provincial-expenditure-uploaded-2019-08-12t0109
 * You can skip the description, city and period fields.
 
-CKAN Metadata
+#### CKAN Metadata
 
 * Group: [Budgeted and Actual Provincial Expenditure](https://data.vulekamali.gov.za/group/budgeted-and-actual-provincial-expenditure)
 * Sphere: provincial
 * Dimensions: as per the fields available
+
+#### CKAN Resources
+
+In this order:
+
+* Excel file of the data, ideally with the following pivot table in the default worksheet:
+  * Filters: AmountKind=Total
+  * Rows: Government, Department
+  * Columns: FinancialYear, BudgetPhase
+  * Measures: Amount
+* CSV file of the data - we usually use the CSV hosted by OpenSpending
+* OpenSpending dataset model URL
 
 Fields:
 
@@ -244,6 +268,17 @@ Main appropriation,Public Service and Administration,Current payments,Goods a
 * Financial Years: Exactly one: the year being tabled
 * Sphere: national
 * Dimensions: as per the fields available
+
+#### CKAN Resources
+
+In this order:
+
+* Excel file of the data, ideally with the following pivot table in the default worksheet:
+  * Rows: Department
+  * Columns: FinancialYear, BudgetPhase
+  * Measures: Amount
+* CSV file of the data - we usually use the CSV hosted by OpenSpending
+* OpenSpending dataset model URL
 
 Fields:
 
@@ -297,6 +332,17 @@ Note this dataset is called Estimates of Provincial Expenditure, not Estimates o
 * Financial Years: Exactly one: the year being tabled
 * Sphere: provincial
 * Dimensions: as per the fields available
+
+#### CKAN Resources
+
+In this order:
+
+* Excel file of the data, ideally with the following pivot table in the default worksheet:
+  * Rows: Government, Department
+  * Columns: FinancialYear, BudgetPhase
+  * Measures: Amount
+* CSV file of the data - we usually use the CSV hosted by OpenSpending
+* OpenSpending dataset model URL
 
 #### Dataset columns and value requirements
 
