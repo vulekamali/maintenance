@@ -1,10 +1,16 @@
 ---
 description: >-
-  This page describes the process of uploading and updating the data related to
-  Infrastructure Projects.
+  This page describes the process of uploading and updating Public Privrate
+  Partnership and major (featured) Infrastructure Projects.
 ---
 
-# Adding/updating National Infrastructure Projects
+# Adding/updating PPP and major National Infrastructure Projects
+
+Since February 2019, a small number \(about 25\) projects administered by national departments were featured on vulekamali.
+
+In 2020, 50 projects were uploaded - updating some of the existing projects, and adding some new ones.
+
+In 2020, Public Private Partnership \(PPP\) projects were added.
 
 ## Updating National Infrastructure Projects displayed on vulekamali
 
