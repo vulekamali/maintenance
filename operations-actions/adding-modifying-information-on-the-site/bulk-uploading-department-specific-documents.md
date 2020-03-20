@@ -13,7 +13,7 @@ The bulk upload retrieves each file from the internet via the URLs that should b
 Visit the [Bulk Upload interface](https://datamanager.vulekamali.gov.za/admin/bulk_upload) directly or from the menu on the [Data Manager Admin homepage](https://datamanager.vulekamali.gov.za/admin).
 
 {% hint style="info" %}
-You need to be a [Data Manager Admin](../../services/vulekamali.gov.za/adding-data-manager-admin-users.md) to use the Bulk Upload interface.
+You need to be a [Data Manager Admin](../adding-data-manager-admin-users.md) to use the Bulk Upload interface.
 {% endhint %}
 
 ### Metadata spreadsheet template

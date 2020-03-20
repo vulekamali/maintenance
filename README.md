@@ -25,7 +25,7 @@ Services are documented under the 'Services' category, outlining what each servi
 
 Intended audience: software developers, visual designers, product developers
 
-For developers, instructions and information regarding developing and staging/deploying software for each service is also included on each service page, like [Data Manager](services/vulekamali.gov.za/)
+For developers, instructions and information regarding developing and staging/deploying software for each service is also included on each service page, like [Data Manager](services/vulekamali.gov.za.md)
 
 ### 5. Development and hosting details
 
@@ -49,4 +49,6 @@ For specific instructions on how to install or configure a service web app, plea
   * Support ETL Developers
 * **ETL Developer** - Joshua Makgato, Mpho Leeu
   * Transforms structured data to the shape required by vulekamali and its services
+* **National Infrastructure Projects custodian** - Natalie van Reenen, Infrastructure Finance
+* **Provincial Infrastructure Projects custodian** - Languta Sibiya
 
