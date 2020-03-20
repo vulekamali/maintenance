@@ -72,3 +72,13 @@ Copy the HTML code to paste into vulekamali
 
 ![](../.gitbook/assets/powerbi-embed4.png)
 
+Find the HTML embed code in the Procurement Spend Analysis page editor in the vulekamali Content Management System.
+
+Replace the old embed code with the new one.
+
+Replace `width="800" height="600"` with `width="100%" style="height: 75vh"`
+
+Save the page, and check that it is showing the updated data.
+
+![](../.gitbook/assets/screenshot_2020-03-20_18-26-22.png)
+
