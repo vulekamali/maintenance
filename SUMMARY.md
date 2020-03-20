@@ -17,8 +17,8 @@
   * [Update the homepage state](operations-data-events/october-adding-a-national-adjustment-budget-mtbps/update-the-homepage-state.md)
 * [November: Adding provincial adjustment budgets](operations-data-events/november-adding-provincial-adjustment-budgets.md)
 * [Quarterly Infrastructure Project updates](operations-data-events/quarterly-infrastructure-project-updates.md)
-* [Annual procurement data updates](operations-data-events/annual-procurement-data-updates.md)
 * [Quarterly in-year spending data updates](operations-data-events/quarterly-in-year-spending-data-updates.md)
+* [Annual procurement data updates](operations-data-events/annual-procurement-data-updates.md)
 
 ## 2. Operations: actions <a id="operations-actions"></a>
 
