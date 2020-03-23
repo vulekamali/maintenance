@@ -1,12 +1,30 @@
 # Updating procurement spend analysis data
 
-## Export the data from the [OCPO Data Warehouse](../services/ocpo-data-warehouse.md)
+## Export the data from the [OCPO Data Warehouse](https://github.com/vulekamali/maintenance/tree/da64355744caa0823b4135c9f0dc6f71eab19e6a/operations-actions/services/ocpo-data-warehouse.md)
+
+Ensure the destination file `OCPO-supplier-spend-data-no-supplier-id.xlsx`does not exist in the destination folder `c:\Vulekamali Export`.
+
+![](../../.gitbook/assets/ocpo_dw-export-1-ensure-file-doesnt-exist.png)
+
+Open the `SQL Server Execute Package Utility`
+
+![](../../.gitbook/assets/ocpo_dw-export-2-open-execute-package-utility.png)
+
+Select the SQL Server Integration Services \(SSIS\) package in the export folder called `Vulekamali Supplier Demographic Spend analysis Export.dtsx`
+
+![](../../.gitbook/assets/ocpo_dw-export-3-select-export-ssis-package.png)
+
+Execute the package and check that no errors occurred in the Progress log.
+
+![](../../.gitbook/assets/ocpo_dw-export-4-execution-completed.png)
+
+Find the output file `OCPO-supplier-spend-data-no-supplier-id.xlsx` in the destination folder.
+
+![](../../.gitbook/assets/ocpo_dw-export-5-output-file.png)
 
 ## Update the Excel data file
 
 When you open the exported Excel file, the TotalTransAmount will be interpreted as Text by Excel. We need to change it to interpret it as numbers.
-
-
 
 Select the TotalTransAmount column
 
@@ -29,8 +47,6 @@ Use the default format General, and click the Advanced button to the right
 ![](../../.gitbook/assets/text-to-columns-form3.png)
 
 Ensure the Decimal separator is `.` not comma to match the separator in the data.
-
-
 
 ![](../../.gitbook/assets/text-to-columns-form-decimal-separator.png)
 
@@ -81,3 +97,4 @@ Replace `width="800" height="600"` with `width="100%" style="height: 75vh"`
 Save the page, and check that it is showing the updated data.
 
 ![](../../.gitbook/assets/screenshot_2020-03-20_18-26-22.png)
+
