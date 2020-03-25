@@ -49,8 +49,5 @@
 
 * [Data principles](design/site-principles.md)
 * [Style/brand guide](design/style-brand-guide.md)
-
-## 5. Development <a id="development"></a>
-
-* [Development process](development/development-process.md)
+* [Special properties and assumptions](design/special-properties-and-assumptions.md)
 
