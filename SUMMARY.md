@@ -19,10 +19,12 @@
 * [Quarterly Infrastructure Project updates](operations-data-events/quarterly-infrastructure-project-updates.md)
 * [Quarterly in-year spending data updates](operations-data-events/quarterly-in-year-spending-data-updates.md)
 * [Annual procurement data updates](operations-data-events/annual-procurement-data-updates.md)
+* [Phase 4 draft features](operations-data-events/phase-4-draft-features.md)
 
 ## 2. Operations: actions <a id="operations-actions"></a>
 
 * [Adding/modifying data and data descriptions](operations-actions/adding-modifying-information-on-the-site/README.md)
+  * [Adding a new dataset category](operations-actions/adding-modifying-information-on-the-site/adding-a-new-dataset-category.md)
   * [Uploading \(IRM\) infrastructure project data](operations-actions/adding-modifying-information-on-the-site/uploading-provincial-infrastructure-project-data.md)
   * [Updating content pages](operations-actions/adding-modifying-information-on-the-site/updating-simple-pages.md)
   * [Add external resource overview](operations-actions/adding-modifying-information-on-the-site/add.md)
