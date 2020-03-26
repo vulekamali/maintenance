@@ -4,6 +4,8 @@ description: Standard Operating Procedures and maintenance manual for vulekamali
 
 # Home
 
+{% embed url="https://www.youtube.com/watch?v=sLrTe-uWSXE" %}
+
 ## Manual Structure
 
 This manual is structured as follows. The numbers in these sections refer to the section numbers in the main menu.

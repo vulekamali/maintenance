@@ -12,7 +12,7 @@
 
 ## Responsible roles
 
-* National Infrastructure Projects Custodian
+* National and Provincial Infrastructure Projects Custodian
 
 ## Data requirements
 
