@@ -52,6 +52,7 @@
 ## 4. Design <a id="design"></a>
 
 * [Data principles](design/site-principles.md)
+* [Data Formats](design/data-formats.md)
 * [Style/brand guide](design/style-brand-guide.md)
 * [Special properties and assumptions](design/special-properties-and-assumptions.md)
 
