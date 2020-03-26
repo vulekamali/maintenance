@@ -15,7 +15,15 @@ See previous versions for the selection of departments provided individually.
 
 Name the dataset according to the sphere and latest financial year and quarter included - e.g. `National in-year spending 2019-20 Quarter 2`
 
+## Uploading the data
+
 We keep historical versions so that reference links don't break. Storage space is not an issue on this platform.
+
+Create the dataset in CKAN and add to the In-year spending group.
+
+Upload each file as a resource, named as per previous datasets.
+
+Set the Sphere and Financial year to match the dataset name.
 
 
 
