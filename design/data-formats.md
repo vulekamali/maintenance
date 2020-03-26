@@ -1,6 +1,6 @@
 # Data Formats
 
-## CSV \(Comma-separated variables\)
+## CSV \(Comma-separated values\)
 
 A CSV is a plain text file \(you could open it in Notepad\) with some common conventions for storing tabular data.
 
@@ -21,9 +21,11 @@ We follow the following conventions, as expected by common tools:
   * `12345` is a number
   *      `12345` is text
   * `"12345"` is the text `12345`
-* Use `\"` to escape a doule-quote in a field that contains a quote. 
-  * e.g. `"This has a comma, and a quote \" and is just one field"`
-* Use `\n` or `\r\n` to denote new lines inside a field
+* Use `""` to denote a doule-quote in a field that contains a quote. 
+  * e.g. `"This has a comma, and a quote "" and is just one field"`
+* Multiline values must be quoted
+
+See also [https://en.wikipedia.org/wiki/Comma-separated\_values\#RFC\_4180\_standard](https://en.wikipedia.org/wiki/Comma-separated_values#RFC_4180_standard)
 
 
 
