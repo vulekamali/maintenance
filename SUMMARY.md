@@ -34,6 +34,7 @@
 * [Adding a non-treasury contributor](operations-actions/adding-a-non-treasury-contributor.md)
 * [Adding Admin users](operations-actions/adding-data-manager-admin-users.md)
 * [Adding CKAN Admin users](operations-actions/adding-datastore-admin-users.md)
+* [Troubleshooting](operations-actions/troubleshooting.md)
 
 ## 3. Services <a id="services"></a>
 
