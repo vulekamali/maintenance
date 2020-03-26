@@ -51,4 +51,9 @@ For specific instructions on how to install or configure a service web app, plea
   * Transforms structured data to the shape required by vulekamali and its services
 * **National Infrastructure Projects custodian** - Natalie van Reenen, Infrastructure Finance
 * **Provincial Infrastructure Projects custodian** - Languta Sibiya
+* **Hosters** - [OpenUp.org.za](http://openup.org.za)
+  * Keeping the sites running and available, monitoring them for issues
+  * Technical support for administrators
+* **Developers**
+  * Implementing new features and fixing critical bugs
 

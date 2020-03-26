@@ -18,7 +18,7 @@ The more specific features like department-specific charts and charts that handl
 2. Go over each step and make sure it was carried out correctly
 3. Compare to previous years or versions of the same thing
 
-If you still can't solve it, contact the hosters - they will receive technical details of the error when it happens, and might be able to help understand what went wrong.
+If you still can't solve it, contact the [hosters](../#roles) - they will receive technical details of the error when it happens, and might be able to help understand what went wrong.
 
 1. Send an email with a screenshot of the error
 2. Make sure to include the Address Bar of your browser in the screenshot so they can see where you encountered the error. \(See the example below\)
@@ -31,5 +31,5 @@ If you still can't solve it, contact the hosters - they will receive technical d
 
 If the same problem comes up frequently, developers can build in a feature to make it easier for operators/administrators to identify and resolve the problem themselves.
 
-Send a request to the developers with the details above - they can then estimate the effort involved in making self-service of that issue easier for administrators, and help the Project Lead prioritise the work.
+Send a request to the [developers](../#roles) with the details above - they can then estimate the effort involved in making self-service of that issue easier for administrators, and help the Project Lead prioritise the work.
 
