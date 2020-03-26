@@ -31,3 +31,5 @@ If you still can't solve it, contact the hosters - they will receive technical d
 
 If the same problem comes up frequently, developers can build in a feature to make it easier for operators/administrators to identify and resolve the problem themselves.
 
+Send a request to the developers with the details above - they can then estimate the effort involved in making self-service of that issue easier for administrators, and help the Project Lead prioritise the work.
+
