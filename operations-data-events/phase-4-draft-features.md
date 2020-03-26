@@ -15,15 +15,17 @@ description: >-
 
 1. Validate the vulekamali supplier demographics spend analysis dataset
 2. Upload the dataset to a [new category](../operations-actions/adding-modifying-information-on-the-site/adding-a-new-dataset-category.md)
-3. Update the link to the new dataset category in the [Supplier Demographics Spend Analysis](https://vulekamali.gov.za/cms/pages/14/edit/) page
-4. Publish the [Supplier Demographics Spend Analysis page](https://vulekamali.gov.za/cms/pages/14/edit/) once you have finalised it
-5. Delete this section
+3. [Link the new category to the Procurement Guide subsite](../operations-actions/adding-modifying-information-on-the-site/linking-a-dataset-category-to-a-guide.md)
+4. Update the link to the new dataset category in the [Supplier Demographics Spend Analysis](https://vulekamali.gov.za/cms/pages/14/edit/) page
+5. Publish the [Supplier Demographics Spend Analysis page](https://vulekamali.gov.za/cms/pages/14/edit/) once you have finalised it
+6. Delete this section
 
 ## Performance data
 
 1. Create a new [Data Category](../operations-actions/adding-modifying-information-on-the-site/adding-a-new-dataset-category.md)
-2. Upload the EQPRS exports there
-3. Delete this section
+2. [Link the new category to the Quarterly Performance Reporting section on the Performance Guide subsite](../operations-actions/adding-modifying-information-on-the-site/linking-a-dataset-category-to-a-guide.md)
+3. Upload the EQPRS exports there
+4. Delete this section
 
 ## Delete this page
 
