@@ -15,5 +15,8 @@ When the Division of Revenue Act is gazetted, the individual grant frameworks sh
 
 ## Data requirements
 
- Gazetted conditional grant frameworks - Budget Office
+* Gazetted conditional grant frameworks - Budget Office \(Steve Kenyon or Zethu Ncube\)
+  * They provide the DoRA PDF which then needs to be split into per-grant PDFs.
+
+
 
