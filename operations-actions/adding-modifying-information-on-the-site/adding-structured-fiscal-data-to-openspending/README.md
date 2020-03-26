@@ -28,7 +28,7 @@ It is strongly recommended that upload timestamps of the form 2019-08-12 01:18 \
 * Text and numeric values must be consistent. Occasional inconsistencies like stray spaces at the start or end of a value result in that category being treated as a different category, just like it would in a pivot table.
 * [CSV files must be saved with UTF-8 encoding](https://www.ibm.com/support/knowledgecenter/SSWU4L/Data/imc_Data/Data_q_a_watson_assistant/A_Simple_Way_to_UTF-8_Encode_your_CSV_fi191.html)
 
-After adding the dataset to CKAN, [add it to the right group and add the right metadata](adding-structured-fiscal-data-to-openspending.md#specific-dataset-requirements) so that the [Data Manager](../../services/vulekamali.gov.za.md) can find each dataset to prepare the summaries for each financial year using the correct dataset.
+After adding the dataset to CKAN, [add it to the right group and add the right metadata](./#specific-dataset-requirements) so that the [Data Manager](../../../services/vulekamali.gov.za.md) can find each dataset to prepare the summaries for each financial year using the correct dataset.
 
 ## Automated data checks
 
@@ -45,11 +45,11 @@ Data sets can be checked for adherence to the requirements listed in the [Specif
 3. Go to [https://github.com/vulekamali/data-checks](https://github.com/vulekamali/data-checks)
 4. Click on "Create new file"
 
-![](../../.gitbook/assets/create-new-file-button%20%281%29.png)
+![](../../../.gitbook/assets/create-new-file-button%20%281%29.png)
 
 1. Type the file name as `datapackages/<financial year>/<dataset type>/datapackage.json`, for example `datapackages/2019-20/epre/datapackage.json`
 
-![](../../.gitbook/assets/file-name%20%281%29.png)
+![](../../../.gitbook/assets/file-name%20%281%29.png)
 
 1. Copy the following text to the new file:
 
@@ -74,19 +74,19 @@ Data sets can be checked for adherence to the requirements listed in the [Specif
 
 1. Update the `name` value and the `path`, `name` and `schema` values inside the `resources` value in your new file.
 
-![](../../.gitbook/assets/file-values.png)
+![](../../../.gitbook/assets/file-values.png)
 
 1. Scroll down to the "Commit new file" heading. Select the "Create a new branch for this commit and start a pull request." option and click on "Propose new file".
 
-![](../../.gitbook/assets/commit-new-file.png)
+![](../../../.gitbook/assets/commit-new-file.png)
 
 1. On the next screen, give your pull request a descriptive title such as "Add 2019-20 EPRE data" and click on "Create pull request"
 
-![](../../.gitbook/assets/pull-request%20%281%29.png)
+![](../../../.gitbook/assets/pull-request%20%281%29.png)
 
 1. You should now see a section with yellow text that reads: "Some checks haven’t completed yet". Wait until the text turns either red or green.
 
-![](../../.gitbook/assets/checks-havent-completed.png)
+![](../../../.gitbook/assets/checks-havent-completed.png)
 
 {% hint style="warning" %}
 **Verify that your new datapackage is being checked**
@@ -98,23 +98,23 @@ To verify that your package is being checked, click on _Details_ for the checks 
 
 The following shows a successful check for the 2018-19 ENE package:
 
-![](../../.gitbook/assets/data-checks-successful.png)
+![](../../../.gitbook/assets/data-checks-successful.png)
 
 The following shows an error for the 2019-20 ENE package:
 
-![](../../.gitbook/assets/data-checks-error.png)
+![](../../../.gitbook/assets/data-checks-error.png)
 
 * If you see a section with green text reading "All checks have passed", your data set has passed all of the checks **successfully**:
 
-  ![](../../.gitbook/assets/success.png)
+  ![](../../../.gitbook/assets/success.png)
 
 * If you see a section with red text reading "All checks have failed", your data set did not pass all of the checks:
 
-  ![](../../.gitbook/assets/failure.png)
+  ![](../../../.gitbook/assets/failure.png)
 
 * If your data set did not pass all of the checks, you can click on "details" on the first item under "All checks have failed". On the next screen, scroll down to the bottom of the screen. You should see a list of error messages generated for your data set.
 
-![Dataset error messages](../../.gitbook/assets/errors.png)
+![Dataset error messages](../../../.gitbook/assets/errors.png)
 
 ## Specific dataset requirements
 
@@ -187,11 +187,11 @@ Example pivot table, with the following parameters:
 * **Rows:** Amount Kind
 * **Values:** Amount
 
-![](../../.gitbook/assets/avsbnatpivottablescreenshotdocs.PNG)
+![](../../../.gitbook/assets/avsbnatpivottablescreenshotdocs.PNG)
 
 ### Budgeted and Actual Provincial Expenditure
 
-Same as [Budgeted and Actual National Expenditure,](adding-structured-fiscal-data-to-openspending.md#budgeted-and-actual-national-expenditure) but the Governments in this case are the provincial governments. The data sources are then the EPRE, AEPRE and Provincial Annual Report expenditure.
+Same as [Budgeted and Actual National Expenditure,](./#budgeted-and-actual-national-expenditure) but the Governments in this case are the provincial governments. The data sources are then the EPRE, AEPRE and Provincial Annual Report expenditure.
 
 OpenSpending Metadata
 
@@ -301,7 +301,7 @@ Fields:
 
 #### Examples
 
-{% file src="../../.gitbook/assets/nat-ene-2019-20.xlsx" caption="ENE Structured Data in format provided by Public Finance Statistics" %}
+{% file src="../../../.gitbook/assets/nat-ene-2019-20.xlsx" caption="ENE Structured Data in format provided by Public Finance Statistics" %}
 
 CSV example as uploaded to OpenSpending:
 
@@ -373,7 +373,7 @@ TBC
 
 ### National Annual Report Expenditure
 
-![A pivot table that can be made using this dataset. Note that the programme names should not be capitalised.](../../.gitbook/assets/screenshot_2019-08-21_14-50-32.png)
+![A pivot table that can be made using this dataset. Note that the programme names should not be capitalised.](../../../.gitbook/assets/screenshot_2019-08-21_14-50-32.png)
 
 #### OpenSpending Metadata
 
@@ -498,11 +498,11 @@ Login to the vulekamali account on OS Packager and [follow the upload wizard](ht
 
 Assign column types by uploading the data-checks schema file for the dataset, which includes column type mappings.
 
-![Upload a schema file to assign types to your columns](../../.gitbook/assets/os-packager-column-types.png)
+![Upload a schema file to assign types to your columns](../../../.gitbook/assets/os-packager-column-types.png)
 
-Enter the dataset metadata as per the [specifications for the dataset](adding-structured-fiscal-data-to-openspending.md#specific-dataset-requirements).
+Enter the dataset metadata as per the [specifications for the dataset](./#specific-dataset-requirements).
 
-![](../../.gitbook/assets/os-packager-metadata.png)
+![](../../../.gitbook/assets/os-packager-metadata.png)
 
 Keep the upload tab open to be able to monitor progress if possible. This takes 20 minutes to an hour.
 
@@ -510,7 +510,7 @@ When the dataset is successfully loaded, it's ready to be added to CKAN:
 
 ## Adding OpenSpending datasets to CKAN
 
-Create a dataset with the following resources, and metadata as per the [specification for the dataset](adding-structured-fiscal-data-to-openspending.md#specific-dataset-requirements).
+Create a dataset with the following resources, and metadata as per the [specification for the dataset](./#specific-dataset-requirements).
 
 ### Resource: OpenSpending API for programmatic access
 
@@ -526,9 +526,9 @@ https://openspending.org/api/3/cubes/...Dataset ID.../model/
 
 The Dataset ID is the combination of the OpenSpending account ID \(`owner` in the Fiscal Data Package JSON file\), and the Fiscal Data Package `name`, with a colon in between. The Fiscal Data Package JSON file can be found at the bottom of the OpenSpending Viewer for the dataset \(_Download Data Package\)_:
 
-![Click on Download Data Package to find the OpenSpending account owner id and data package name](../../.gitbook/assets/openspending-datapackage-json.png)
+![Click on Download Data Package to find the OpenSpending account owner id and data package name](../../../.gitbook/assets/openspending-datapackage-json.png)
 
-![](../../.gitbook/assets/openspending-datapackage-json-file.png)
+![](../../../.gitbook/assets/openspending-datapackage-json-file.png)
 
 So for the above example, the dataset ID is
 
@@ -551,7 +551,7 @@ https://openspending.org/api/3/cubes/b9d2af843f3a7ca223eea07fb608e62a:adjusted-e
 It's important that the capitalisation, spelling and spacing of this is correct: `OpenSpending API`
 {% endhint %}
 
-![](../../.gitbook/assets/vulekamali-datastore-openspending-api.png)
+![](../../../.gitbook/assets/vulekamali-datastore-openspending-api.png)
 
 ### CSV file for manual and programmatic analysis
 
@@ -559,11 +559,11 @@ Add the CSV link to download the full dataset as Comma Separated Variable data w
 
 Find the link at the bottom of the dataset viewer page in OpenSpending - in this case _aene-2016-17_
 
-![The full dataset as CSV under View Raw Source Data](../../.gitbook/assets/vulekamali-datastore-openspending-csv.png)
+![The full dataset as CSV under View Raw Source Data](../../../.gitbook/assets/vulekamali-datastore-openspending-csv.png)
 
 Copy this link and add it as a CSV type resource of the dataset
 
-![](../../.gitbook/assets/vulekamali-datastore-csv.png)
+![](../../../.gitbook/assets/vulekamali-datastore-csv.png)
 
 These will then show up in vulekamali as a Dataset and in data summaries and demonstrations.
 
