@@ -102,5 +102,11 @@ Preview the changes
 
 ![Draft preview](../../.gitbook/assets/screenshot_2020-03-23_14-17-25.png)
 
+Publish the changes when you are ready.
 
+## Upload the Excel dataset to vulekamali
+
+Upload the excel file to a new dataset in CKAN and add it to the procurement spend analysis data group.
+
+This file is useful for people who want to do more in-depth analysis than the online PowerBI dashboad allows.
 
