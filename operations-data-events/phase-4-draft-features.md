@@ -8,7 +8,7 @@ description: >-
 
 ## Spatial planning and facilities
 
-1. Publish the [Spatial Planning guide](https://vulekamali.gov.za/cms/pages/13/edit/) once you have finalised it.
+1. [Publish](../operations-actions/content-management-system-cms.md) the [Spatial Planning guide](https://vulekamali.gov.za/cms/pages/13/edit/) once you have finalised it.
 2. Delete this section
 
 ## Procurement data
@@ -17,7 +17,7 @@ description: >-
 2. Upload the dataset to a [new category](../operations-actions/adding-modifying-information-on-the-site/adding-a-new-dataset-category.md)
 3. [Link the new category to the Procurement Guide subsite](../operations-actions/adding-modifying-information-on-the-site/linking-a-dataset-category-to-a-guide.md)
 4. Update the link to the new dataset category in the [Supplier Demographics Spend Analysis](https://vulekamali.gov.za/cms/pages/14/edit/) page
-5. Publish the [Supplier Demographics Spend Analysis page](https://vulekamali.gov.za/cms/pages/14/edit/) once you have finalised it
+5. [Publish](../operations-actions/content-management-system-cms.md) the [Supplier Demographics Spend Analysis page](https://vulekamali.gov.za/cms/pages/14/edit/) once you have finalised it
 6. Delete this section
 
 ## Performance data
