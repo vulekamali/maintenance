@@ -27,6 +27,15 @@ description: >-
 3. Upload the EQPRS exports there
 4. Delete this section
 
+## New menu items
+
+We recommend the following [arrangement of the main menu ](../operations-actions/adding-modifying-information-on-the-site/editing-the-menu-items.md)to provide easy access to the new features
+
+* Add Supplier Demographics to the Revenue and Spending menu
+* Add Spatial planning as a Main menu item.
+
+![](../.gitbook/assets/screenshot_2020-03-27_17-30-54.png)
+
 ## Delete this page
 
 1. When all the new features have been published, delete this page.

@@ -34,6 +34,7 @@
     * [In-year spending data](operations-actions/adding-modifying-information-on-the-site/adding-structured-fiscal-data-to-openspending/in-year-spending-data.md)
   * [Uploading Conditional Grant Framework documents](operations-actions/adding-modifying-information-on-the-site/adding-conditional-grant-frameworks.md)
   * [Updating procurement spend analysis data](operations-actions/adding-modifying-information-on-the-site/updating-procurement-spend-analysis-data.md)
+  * [Editing the menu items](operations-actions/adding-modifying-information-on-the-site/editing-the-menu-items.md)
 * [Adding a non-treasury contributor](operations-actions/adding-a-non-treasury-contributor.md)
 * [Adding Admin users](operations-actions/adding-data-manager-admin-users.md)
 * [Adding CKAN Admin users](operations-actions/adding-datastore-admin-users.md)
