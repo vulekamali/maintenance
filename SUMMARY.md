@@ -53,6 +53,7 @@
 
 ## 4. Design <a id="design"></a>
 
+* [Architecture](design/architecture.md)
 * [Data principles](design/site-principles.md)
 * [Data Formats](design/data-formats.md)
 * [Style/brand guide](design/style-brand-guide.md)
