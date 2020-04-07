@@ -6,11 +6,6 @@ description: >-
 
 # Phase 4 draft features
 
-## Spatial planning and facilities
-
-1. [Publish](../operations-actions/content-management-system-cms.md) the [Spatial Planning guide](https://vulekamali.gov.za/cms/pages/13/edit/) once you have finalised it.
-2. Delete this section
-
 ## Procurement data
 
 1. Validate the vulekamali supplier demographics spend analysis dataset
