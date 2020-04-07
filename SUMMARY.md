@@ -18,7 +18,7 @@
 * [Quarterly in-year spending data updates](operations-data-events/quarterly-in-year-spending-data-updates.md)
 * [Annual procurement data updates](operations-data-events/annual-procurement-data-updates.md)
 * [Annual PPP Infrastructure Project updates](operations-data-events/annual-ppp-infrastructure-project-updates.md)
-* [Phase 4 draft features](operations-data-events/phase-4-draft-features.md)
+* [Stage 4 draft features](operations-data-events/phase-4-draft-features.md)
 
 ## 2. Operations: actions <a id="operations-actions"></a>
 
