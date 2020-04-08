@@ -11,6 +11,5 @@ Before adding an organisation, National Treasury has to authorise the organisati
 3. Update their contact details on the edit page for the organisation
 4. Add any approved members with the appropriate roles
 5. Ensure that any datasets they have already added are now owned by the organisation and marked Public.
-6. The status of the dataset changes can be tracked on [Travis-CI, ](https://travis-ci.org/OpenUpSA/static-budget-portal/builds)[the website build platform](https://travis-ci.org/OpenUpSA/static-budget-portal/builds). Note that multiple subsequent dataset modifications can trigger a subsequent build needed to include all the updates.
-7. E-mail them to let them know.
+6. E-mail them to let them know.
 
