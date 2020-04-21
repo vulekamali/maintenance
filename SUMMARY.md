@@ -58,5 +58,9 @@
 * [Data Formats](design/data-formats.md)
 * [Style/brand guide](design/style-brand-guide.md)
 * [Special properties and assumptions](design/special-properties-and-assumptions.md)
-* [Communications](communications.md)
+
+## Communications <a id="communications-1"></a>
+
+* [Communications](communications-1/communications.md)
+* [Support desk](communications-1/support-desk.md)
 
