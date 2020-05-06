@@ -2,59 +2,7 @@
 
 ## Uploading as a contributor
 
-### Create a contributor account
-
-Visit the Contributed Data index in the Data and Analysis section.
-
-Click on Log in and submit your data. You can create an account on the next page.
-
-![](../.gitbook/assets/screenshot_2020-04-30_17-39-50.png)
-
-Click on Create account
-
-![](../.gitbook/assets/screenshot_2020-04-30_17-41-20.png)
-
-Complete signing up, check your email inbox for the confirmation email.
-
-![](../.gitbook/assets/screenshot_2020-04-30_17-44-15.png)
-
- Click the confirmation link to confirm that that is your email address.
-
-![](../.gitbook/assets/screenshot_2020-04-30_17-45-26.png)
-
-The confirmation link will take you to the Create Dataset page. Follow the instructions to create and upload your first dataset.
-
-![](../.gitbook/assets/screenshot_2020-04-30_17-47-41.png)
-
-After creating your first dataset, you will be prompted to join your organisation at the top of the dataset page
-
-![](../.gitbook/assets/screenshot_2020-04-30_17-50-19.png)
-
-If your organisation is already on vulekamali, visit their page and request to join, otherwise request to add your organisation.
-
-![](../.gitbook/assets/screenshot_2020-04-30_17-55-46.png)
-
-National Treasury will receive your request and respond. You can also follow up on your request at [info@vulekamali.gov.za](mailto:info@vulekamali.gov.za)
-
-In the meantime, you can continue uploading and documenting your datasets. You will not be able to make them public until you are part of an organisation.
-
-Once they have added you to your organisation, you will be able to make your datasets public.
-
-Visit the list of your datasets by clicking on your username at the top right.
-
-![](../.gitbook/assets/screenshot_2020-04-30_17-33-28.png)
-
-Edit the dataset by clicking Manage at the top right.
-
-Add it to your organisation
-
-![](../.gitbook/assets/screenshot_2020-04-30_18-03-51.png)
-
-
-
-![](../.gitbook/assets/screenshot_2020-04-30_18-05-14.png)
-
-Your dataset should show up in search results and on the contributed dataset within a few minutes.
+See the [guide](https://vulekamali.gov.za/learning-resources/guides/contributed-data-analysis/).
 
 ## Operations for administrators
 
