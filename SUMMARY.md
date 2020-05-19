@@ -11,6 +11,7 @@
   * [Adding/updating PPP and major National Infrastructure Projects](operations-data-events/adding-a-new-national-budget/adding-updating-infrastructure-projects.md)
 * [March: Division of Revenue Act is gazetted](operations-data-events/march-division-of-revenue-act-is-gazetted.md)
 * [April: Adding a new provincial budget](operations-data-events/adding-a-new-provincial-budget.md)
+* [Audited actuals available](operations-data-events/audited-actuals-available.md)
 * [October: Adding a national adjustment budget/MTBPS](operations-data-events/october-adding-a-national-adjustment-budget-mtbps/README.md)
   * [Update the homepage state](operations-data-events/october-adding-a-national-adjustment-budget-mtbps/update-the-homepage-state.md)
 * [November: Adding provincial adjustment budgets](operations-data-events/november-adding-provincial-adjustment-budgets.md)
