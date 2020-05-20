@@ -124,7 +124,7 @@ This dataset consists of all of the following datasets, for each financial year 
 
 * Estimates of National Expenditure \(only for rows where `Budget Phase` is equal to `Main appropriation`
 * Adjusted Estimates of National Expenditure \(only for rows where `Budget Phase` is equal to `Adjusted appropriation`\)
-* Annual Report \(only for rows where `Budget Phase` is equal to `Audit Outcome` or `Final Appropriation`\)
+* Audit Outcomes dataset \(only for rows where `Budget Phase` is equal to `Audit Outcome` or `Final Appropriation`\)
 
 Each year, when each of the above datasets are released, the new year's data is added to this dataset. Only the rows for where `Financial Year` is equal to the ENE, AENE or AR dataset's year is included in this combined dataset \(e.g. for `ENE 2015-16` adds rows where `Financial Year` is equal to `2015` and `Budget Phase` is equal to `Main Appropriation`. AENE 2019-20 adds rows where `FinancialYear` is `2019` and `Budget Phase` is `Adjusted appropriation`\).
 
@@ -191,9 +191,9 @@ Example pivot table, with the following parameters:
 
 ### Budgeted and Actual Provincial Expenditure
 
-Same as [Budgeted and Actual National Expenditure,](./#budgeted-and-actual-national-expenditure) but the Governments in this case are the provincial governments. The data sources are then the EPRE, AEPRE and Provincial Annual Report expenditure.
+Same as [Budgeted and Actual National Expenditure,](./#budgeted-and-actual-national-expenditure) but the Governments in this case are the provincial governments. The data sources are then the EPRE, AEPRE and Provincial Expenditure Audit Outcomes datasets.
 
-OpenSpending Metadata
+#### OpenSpending Metadata
 
 * **Human-readable name:** Budgeted and Actual Provincial Expenditure uploaded 2019-08-12 01:09
   * with appropriate upload timestamp
@@ -371,22 +371,22 @@ In this order:
 
 TBC
 
-### National Annual Report Expenditure
+### National Expenditure Audit Outcomes data
 
 ![A pivot table that can be made using this dataset. Note that the programme names should not be capitalised.](../../../.gitbook/assets/screenshot_2019-08-21_14-50-32.png)
 
 #### OpenSpending Metadata
 
-* **Human-readable name:** National Department Annual Report Expenditure of South Africa 2019-20 uploaded 2019-06-05 16:15
+* **Human-readable name:** National Department Expenditure Audit Outcomes of South Africa 2019-20 uploaded 2019-06-05 16:15
   * with appropriate financial year and upload timestamp
-* **Unique Identifier:** national-annual-report-expenditure-south-africa-2019-20-uploaded-2019-06-05-1615
+* **Unique Identifier:** national-expenditure-audit-outcomes-south-africa-2019-20-uploaded-2019-06-05-1615
 * You can skip the Description, City and Period fields
 
 #### CKAN Metadata
 
-* Title: National Department Annual Report Expenditure 2019-20
+* Title: National Department Expenditure Audit Outcomes 2019-20
   * if 2019-20 is the audit year being released
-* Group: Annual Report Expenditure Data
+* Group: Expenditure Audit Outcomes Data
 * Financial Years: Exactly one: the audit year being released
 * Sphere: national
 
@@ -413,20 +413,20 @@ TBC
 | Value | Rands, not thousands of rands |  |
 |  |  |  |
 
-### Provincial Annual Report Expenditure
+### Provincial Expenditure Audit Outcomes
 
 #### OpenSpending Metadata
 
-* **Human-readable name:** Provincial Annual Report Expenditure of South Africa 2019-20 uploaded 2019-06-05 16:15
+* **Human-readable name:** Provincial Expenditure Audit Outcomes of South Africa 2019-20 uploaded 2019-06-05 16:15
   * with appropriate financial year and upload timestamp
-* **Unique Identifier:** provincial-annual-report-expenditure-south-africa-2019-20-uploaded-2019-06-05-1615
+* **Unique Identifier:** provincial-expenditure-audit-outcomes-south-africa-2019-20-uploaded-2019-06-05-1615
 * You can skip the Description, City and Period fields
 
 #### CKAN Metadata
 
-* Title: Provincial Annual Report Expenditure 2019-20
+* Title: Provincial Expenditure Audit Outcomes 2019-20
   * if 2019-20 is the audit year being released
-* Group: Annual Report Expenditure Data
+* Group: Expenditure Audit Outcomes Data
 * Financial Years: Exactly one: the audit year being released
 * Sphere: provincial
 

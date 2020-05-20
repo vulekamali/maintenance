@@ -21,7 +21,7 @@ Resources can be files \(structured data, semi-structured data, documents\), or 
 Examples of structured data on vulekamali:
 
 * Adjusted Estimates of Expenditure data
-* Annual Report data
+* Audit Outcomes data
 * Estimates of Provincial Expenditure data
 
 ### [Groups ](https://data.vulekamali.gov.za/group)\(Vulekamali categories\)
