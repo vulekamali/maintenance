@@ -54,7 +54,9 @@
 
 ## 4. Design <a id="design"></a>
 
-* [Architecture](design/architecture.md)
+* [Architecture](design/architecture/README.md)
+  * [0000 Architecture Decision Document template](design/architecture/0000-architecture-decision-document-template.md)
+  * [0001 Use CKAN to organise data](design/architecture/0001-use-ckan-to-organise-data.md)
 * [Data principles](design/site-principles.md)
 * [Data Formats](design/data-formats.md)
 * [Style/brand guide](design/style-brand-guide.md)
