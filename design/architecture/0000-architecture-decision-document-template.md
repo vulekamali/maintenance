@@ -1,4 +1,4 @@
-# 0000 Architecture Decision Document template
+# 0000 Architecture Decision Record template
 
 **Status:** \[proposed \| rejected \| accepted \| deprecated \| superceded by ...\]
 
