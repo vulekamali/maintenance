@@ -5,7 +5,7 @@ description: >-
   develop.
 ---
 
-# Public finance assumptions and implementation decisions
+# Classifying public finance data and documents in CKAN
 
 ## Data classification
 

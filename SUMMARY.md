@@ -59,7 +59,7 @@
   * [0001 Use CKAN to organise data](design/architecture/0001-use-ckan-to-organise-data.md)
 * [Data Formats](design/data-formats.md)
 * [Style/brand guide](design/style-brand-guide.md)
-* [Public finance assumptions and implementation decisions](design/special-properties-and-assumptions.md)
+* [Classifying public finance data and documents in CKAN](design/classifying-public-finance-data-documents-ckan.md)
 
 ## Communications <a id="communications-1"></a>
 
