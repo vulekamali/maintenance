@@ -57,10 +57,9 @@
 * [Architecture](design/architecture/README.md)
   * [0000 Architecture Decision Record template](design/architecture/0000-architecture-decision-document-template.md)
   * [0001 Use CKAN to organise data](design/architecture/0001-use-ckan-to-organise-data.md)
-* [Data principles](design/site-principles.md)
 * [Data Formats](design/data-formats.md)
 * [Style/brand guide](design/style-brand-guide.md)
-* [Special properties and assumptions](design/special-properties-and-assumptions.md)
+* [Public finance assumptions and implementation decisions](design/special-properties-and-assumptions.md)
 
 ## Communications <a id="communications-1"></a>
 
