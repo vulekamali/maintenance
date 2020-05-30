@@ -6,7 +6,7 @@
 
 **Date:** 2017
 
-**Technical Story:** We need a way to store, document and classify dozens to hundreds of files of structured data \(e.g. CSV, XLSX\) and information \(PDF\), and select a specific set of these programmatically and manually/interactively. 
+**Technical Story:** We need a way to store, document and classify dozens to hundreds of files of structured data \(e.g. CSV, XLSX, APIs\), unstructured data and narrative \(PDF\), and select a specific set of these programmatically and manually/interactively in particular contexts. 
 
 ### Context and Problem Statement
 
@@ -18,7 +18,7 @@ These datasets and documents should be easy to discover and understood. This req
 
 ### Decision Drivers
 
-* Compatibility with data discovery and analysis existing tooling would help uptake
+* Compatibility with existing data discovery and analysis tooling would help uptake
 * Vendor lock-in would be a concern, since the point is to open access to these resources. Getting locked in to a maintenance contract could risk sustainability.
 
 ### Considered Options
@@ -29,7 +29,7 @@ These datasets and documents should be easy to discover and understood. This req
 
 ### Decision Outcome
 
-**Chosen option:** CKAN because it offers many proven patterns and tools for organising, documenting and providing access to the range of data and documents the project needs to release. Being open source it is also the most sustainable option to invest in.
+**Chosen option:** CKAN, because it offers many proven patterns and tools for organising, documenting and providing access to the range of data and documents the project needs to release. Being open source it is also the most sustainable option to invest in.
 
 ### Pros and Cons of the options
 
