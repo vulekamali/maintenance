@@ -23,6 +23,8 @@ CKAN provides the following classification mechanisms:
 
 If you're adding something to vulekamali that has never been added before, there's a good chance you want a new group for it. Especially if this sort of thing will be added periodically, and if there is one of these for the national/each provincial government or each sphere.
 
+Avoid using groups to distinguish between things that the other facilities below can do - especially sphere, province, government, or financial year. Just put the different datasets in one group, then use the other classification facilities to be able to query for specific sets.
+
 ### Organizations
 
 **We use** organizations to indicate the owner OR custodian of a dataset. National Treasury might not be the owner of departmental data, but when National Treasury uploads data that it has collected and curates, it is selected as the organization. Think about who should answer questions about a dataset. A provincial treasury can't answer questions about the provincial sphere-wide EPRE dataset or the definition of the column names in it, despite being responsible for their budget rows in it. It is curated by National Treasury so National Treasury should be the first port of call, and then redirect questions as needed.
@@ -88,6 +90,35 @@ The groups `budget-vote-documents` and `adjusted-budget-vote-documents` are cons
 Datasets where the owner is not National Treasury that are not in a group are assumed to be "Contributed Datasets". If you forget to add a dataset to a group, it will show up in the Contributed Dataset list on vulekamali.
 
 This is because non-treasury contributors do not have permission to add their datasets to any group. They may only add datasets to one of the organisations they are a member of - only then can their datasets be made public. So the system assumes non-treasury datasets that are not in groups are contributed datasets.
+
+### Resources
+
+Resources are the list of files and URLs to online datasets and APIs on a dataset.
+
+Use different resources on the same dataset for different formats or views of the same dataset. E.g. you could have a resource for each
+
+* file format, e.g. CSV, XLSX, XLSB
+* Different views, e.g. the full dataset, a couple of interesting slices of the data, some charts generated from the dataset, a document explaining how to use a dataset, and a report providing your analysis from the dataset.
+
+There's no dedicated field for programmatic distinction of a resource, e.g. to let a programmatic agent get the full raw file, or a specific API endpoint, so **we usually use a combination of the Format and Title fields, and document that those should be filled very precisely.**
+
+We prefer using distinct datasets for datasets published at different times, e.g. different financial years or quarters, rather than adding resources to one dataset. We therefore include the period or point in time in the dataset title.
+
+#### Title
+
+If two different resources are the exact same data, but one is CSV and one is XLS, it's best to give them the same title.
+
+If one resources is the full dataset and another is just a slice or view of the data, indicate that using the resource title.
+
+#### Description
+
+You can use this to explain briefly how you made a distinct slice or view of a dataset, or important things to expect from a specific format version
+
+#### Format
+
+This is generally set automatically from the file extension. Pay attention that it was detected correctly.
+
+For APIs, it can be useful to specify a format that can be used for programmatic lookup. For OpenSpending APIs, the format MUST be `OpenSpending API`, capitalised exactly that way.
 
 ## Assumptions about public finance
 
