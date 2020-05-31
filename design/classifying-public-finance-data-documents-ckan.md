@@ -13,6 +13,18 @@ How we classify data and why. How we map public finance concepts to CKAN classif
 
 CKAN provides the following classification mechanisms:
 
+### Title
+
+We try to give titles that can stand on their own to identify a dataset. The title to use for standard documents is documented specifically.
+
+E.g. for the full \(all votes\) Estimates of National Expenditure we include the financial year in the title, i.e. `Estimates of National Expenditure 2019-20`. Two ENE datasets coming up in search results are then easy to distinguish. For Estimates of Provincial Expenditure for a specific department, we include the department name and financial year, i.e.  `North West EPRE 2019-20 - Vote 06 - Economy and Entreprise Development`
+
+* If it's specific to national government, include the term National.
+* If it's specific to a provincial government, include the province name, e.g. Eastern Cape
+* If it's for the whole provincial sphere, include the term Provincial
+* If it's specific to a department, include the department name.
+* If it's specific to a financial year, include the financial year.
+
 ### Groups
 
 * Groups can in theory be nested, but in practise the UI and search API don't do anything with that fact out of the box. A plugin could be built to do something useful with nested groups. See ckanext-hierarchy for how this is done with organizations.
