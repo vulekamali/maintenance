@@ -2,8 +2,8 @@
 
 ## Steps
 
-1. [Format the data](../operations-actions/adding-modifying-information-on-the-site/adding-structured-fiscal-data-to-openspending/in-year-spending-data.md)
-2. [Upload the data](../operations-actions/adding-modifying-information-on-the-site/adding-structured-fiscal-data-to-openspending/in-year-spending-data.md#uploading-the-data)
+1. [Format the data](../operations-actions/adding-modifying-information-on-the-site/adding-structured-fiscal-data-to-openspending/in-year-spending-data.md) \(ETL Developer\)
+2. [Upload the data](../operations-actions/adding-modifying-information-on-the-site/adding-structured-fiscal-data-to-openspending/in-year-spending-data.md#uploading-the-data) \(Metadata Editor\)
 
 ## Responsible roles
 

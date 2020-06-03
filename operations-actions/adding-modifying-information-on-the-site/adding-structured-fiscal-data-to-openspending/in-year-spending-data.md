@@ -2,14 +2,53 @@
 
 The in-year spending data is quarterly updates of monthly spend actuals. [See the dataset guide](https://vulekamali.gov.za/learning-resources/guides/-year-spending-data/) for details of fields and what's expected.
 
-We upload the data in various forms to help users with different data tools access the data:
+We upload the data in various forms to help users with different data tools access the data. The top priority is to get the data released - **the following shows the formats in priority order** - it is better to publish just some formats, rather than delaying publication.:
 
-| Format | Use case |
-| :--- | :--- |
-| Excel PowerPivot | Excel power users - this format is quite small and efficient, but is only usable in Microsoft Excel and is quite a power-user feature. |
-| Excel with all data raw in a worksheet | This is the most flexible format - it's compressed so it isn't a massive download, and many tools can open data in Excel form \(including some that can't access PowerPivot data\) |
-| Per-department files | Some users are interested in specific departments - department-specific slices of the data allow them to work a bit more efficiently without needing to download and open the entire dataset |
-| CSV | This is useful for many data tools that don't support Excel, but do support massive tabular data - e.g. databases and OpenSpending.org |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Format</th>
+      <th style="text-align:left">Use case</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Excel with all data raw in a worksheet</td>
+      <td style="text-align:left">
+        <p>This is the most flexible format - it&apos;s compressed so it isn&apos;t
+          a massive download, and many tools can open data in Excel form (including
+          some that can&apos;t access PowerPivot data).</p>
+        <p></p>
+        <p>Save as XLSB for the smallest file size that is still usable by non-Excel
+          tools.</p>
+        <p></p>
+        <p>If example pivot tables based on that data worksheet, that is very helpful
+          to users, but don&apos;t delay publication for this.</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Per-department files</td>
+      <td style="text-align:left">Some users are interested in specific departments - department-specific
+        slices of the data allow them to work a bit more efficiently without needing
+        to download and open the entire dataset. See previous versions of the dataset
+        on vulekamali for the selection of datasets.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Excel PowerPivot</td>
+      <td style="text-align:left">Excel power users - this format is quite small and efficient, but is only
+        usable in Microsoft Excel and is quite a power-user feature.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">CSV</td>
+      <td style="text-align:left">
+        <p>This is useful for many data tools that don&apos;t support Excel, but
+          do support massive tabular data - e.g. databases and OpenSpending.org</p>
+        <p></p>
+        <p>Compress this in a Zip file to reduce file size.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 See previous versions for the selection of departments provided individually.
 
