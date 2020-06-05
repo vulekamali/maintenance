@@ -15,7 +15,7 @@ The following is required to add a new national budget to vulekamali
 ### Standard budget documents
 
 1. The [Division of Revenue Bill must be added to ](../../operations-actions/adding-modifying-information-on-the-site/adding-a-new-division-of-revenue-bill.md)CKAN
-2. The links to standard budget documents must be added, e.g. Budget Review, People's Guide, Budget Highlights...
+2. [Upload the key budget documents](../../operations-actions/adding-modifying-information-on-the-site/uploading-key-budget-documents.md#original-budget)
 
 ### Structured data for updated charts and department pages
 
