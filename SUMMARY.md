@@ -24,6 +24,7 @@
 ## 2. Operations: actions <a id="operations-actions"></a>
 
 * [Adding/modifying data and data descriptions](operations-actions/adding-modifying-information-on-the-site/README.md)
+  * [Uploading key budget documents](operations-actions/adding-modifying-information-on-the-site/uploading-key-budget-documents.md)
   * [Adding a new dataset category](operations-actions/adding-modifying-information-on-the-site/adding-a-new-dataset-category.md)
   * [Linking a dataset category to a guide](operations-actions/adding-modifying-information-on-the-site/linking-a-dataset-category-to-a-guide.md)
   * [Uploading \(IRM\) infrastructure project data](operations-actions/adding-modifying-information-on-the-site/uploading-provincial-infrastructure-project-data.md)
