@@ -8,7 +8,7 @@ The key budget documents are shown on the [departments list page](https://vuleka
 
 ![](../../.gitbook/assets/screenshot_2020-06-05_18-26-41.png)
 
-We upload the documents to datasets in CKAN because it allows the consistent documents to be categorised consistently, making it easy to find them alongside relevant data, and if someone is looking for all instances of the same document.
+We upload the documents to datasets in CKAN because it allows the regular documents to be categorised consistently, making it easy to find them alongside relevant data, and if someone is looking for all instances of the same document. It is then also possible to provide some guidance for how to use specific kinds of documents.
 
 In the examples below, 
 
