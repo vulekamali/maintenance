@@ -14,7 +14,8 @@ The following is required to add a new national budget to vulekamali
 
 ### Immediately upload key budget documents
 
-1. [Upload the key budget documents](../../operations-actions/adding-modifying-information-on-the-site/uploading-key-budget-documents.md#original-budget)
+1. [Upload the Division of Revenue bill resources](../../operations-actions/adding-modifying-information-on-the-site/adding-a-new-division-of-revenue-bill.md)
+2. [Upload the key budget documents](../../operations-actions/adding-modifying-information-on-the-site/uploading-key-budget-documents.md#original-budget)
 
 ### Structured data for updated charts and department pages
 

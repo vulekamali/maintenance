@@ -13,7 +13,7 @@ We upload the documents to datasets in CKAN because it allows the consistent doc
 In the examples below, 
 
 * if the financial year is 2020-21, treat `<financial year>` as `2020-21`
-* for a provncial document, if the province is Limpopo, treat `<province>` as `Limpopo`
+* for a provincial document, if the province is Limpopo, treat `<province>` as `Limpopo`
 * etc
 
 For each document, if the dataset title is the same, then the document should be uploaded as a different resource on the same dataset.
@@ -103,11 +103,12 @@ The key national budget documents are those on the year's budget page on treasur
       <td style="text-align:left">Appropriation Bills</td>
     </tr>
     <tr>
-      <td style="text-align:left">Division of Revenue bill</td>
-      <td style="text-align:left">Division of Revenue Bill</td>
-      <td style="text-align:left">Division of Revenue Bill</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">Division of Revenue Bills</td>
+      <td style="text-align:left">Division of Revenue bill (see <a href="adding-a-new-division-of-revenue-bill.md">full details</a>)</td>
+      <td
+      style="text-align:left">Division of Revenue Bill</td>
+        <td style="text-align:left">Division of Revenue Bill</td>
+        <td style="text-align:left"></td>
+        <td style="text-align:left">Division of Revenue Bills</td>
     </tr>
     <tr>
       <td style="text-align:left">Tax pocket guide</td>
@@ -120,7 +121,8 @@ The key national budget documents are those on the year's budget page on treasur
     <tr>
       <td style="text-align:left"><em>Any additional documents listed as key documents, which don&apos;t occur each year.</em>
       </td>
-      <td style="text-align:left">See classification guide</td>
+      <td style="text-align:left"><a href="../../design/classifying-public-finance-data-documents-ckan.md">See classification guide</a>
+      </td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
       <td style="text-align:left">Occasional Budget Documents</td>
@@ -129,6 +131,19 @@ The key national budget documents are those on the year's budget page on treasur
 </table>
 
 ### Adjusted Budget
+
+|  | Dataset title | Resource title | Type | Group |
+| :--- | :--- | :--- | :--- | :--- |
+| Medium Term Budget Policy Statement | Medium Term Budget Policy Statement &lt;financial year&gt; | Medium Term Budget Policy Statement |  | Medium Term Budget Policy Statement |
+| MTBPS speech document | MTBPS Speech &lt;financial year&gt; | MTBPS Speech |  | Medium Term Budget Policy Statement Speeches |
+| MTBPS Speech webcast | MTBPS Speech &lt;financial year&gt; | MTBPS Speech | Webcast | Medium Term Budget Policy Statement Speeches |
+| Adjusted Estimates of National Expenditure |  |  |  |  |
+| Division of Revenue Amendment Act |  |  |  |  |
+| Division of Revenue Amendment Bill |  |  |  |  |
+| Adjustments Appropriation Bill |  |  |  |  |
+| Rates and Monetary Amounts and Amendment of Revenue Laws Bill |  |  |  |  |
+| Tax Administration Laws Amendment Bill |  |  |  |  |
+| Taxation Laws Amendment Bill |  |  |  |  |
 
 ## Provincial
 
