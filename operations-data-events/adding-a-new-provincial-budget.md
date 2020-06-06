@@ -2,6 +2,12 @@
 
 ## Steps
 
+### When the budgets are tabled
+
+[Upload the key budget documents for each provincial government](../operations-actions/adding-modifying-information-on-the-site/uploading-key-budget-documents.md#original-budget-1)
+
+### When the structured fiscal data has been verified by IGR
+
 1. [Create the provincial departments for the new financial year using the bulk-upload process](adding-a-new-national-budget/adding-new-year-sphere-government-departments.md#add-new-departments)
 2. [Upload the Estimates of Provincial Revenue structured fiscal data](../operations-actions/adding-modifying-information-on-the-site/adding-structured-fiscal-data-to-openspending/#estimates-of-provincial-expenditure)
 3. [Upload the Budget vs Actual Provincial Expenditure structured fiscal data](../operations-actions/adding-modifying-information-on-the-site/adding-structured-fiscal-data-to-openspending/#budgeted-and-actual-provincial-expenditure)
