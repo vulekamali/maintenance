@@ -146,16 +146,16 @@ The documents for each province are under directories for that document type
 
 ### Original Budget
 
-| Document | Dataset title | Resource title | Group |  |
-| :--- | :--- | :--- | :--- | :--- |
-| Budget Speech | &lt;province&gt; Budget Speech &lt;financial year&gt; | Budget Speech | Budget Speeches |  |
-| Appropriation Bill | &lt;province&gt; Appropriation Bill &lt;financial year&gt; | Appropriation Bill |  |  |
-| Appropriation Act | &lt;province Appropriation Bill &lt;financial year&gt; | Appropriation Act |  |  |
-| Estimates of Provincial Revenue and Expenditure | &lt;province&gt; Estimates of Provincial Revenue and Expenditure &lt;financial year&gt; | Estimates of Provincial Revenue and Expenditure |  |  |
-| Guide to the budget | &lt;province&gt; &lt;their title&gt; &lt;financial year&gt; _e.g. Gauteng Socio-Economic Review and Outlook 2016-17 or Limpopo People's Guide to the Budget 2019-20_ | &lt;their title&gt; |  |  |
-| Provincial allocations to schools and municipalities _\(_ [_in terms of Section 30\(2\) of the 2015 Division of Revenue Act_](http://www.treasury.gov.za/documents/provincial%20budget/2016/6.%20Prov%20Allocation%20ito%20S30%282%29%20of%20DoRA/Default.aspx)_\)_ | &lt;province&gt; Provincial allocations in terms of Section 30\(2\) of the &lt;year&gt; Division of Revenue Act | Provincial allocations in terms of Section 30\(2\) of the 2015 Division of Revenue Act |  |  |
-| Estimates of Provincial Revenue and Expenditure standardised tables in Excel format | &lt;province&gt; Estimates of Provincial Revenue and Expenditure &lt;financial year&gt;  |  |  |  |
-| _Any additional documents listed as key documents, which don't occur each year._ | See classification guide |  |  | Occasional Budget Documents |
+| Document | Dataset title | Resource title | Group |
+| :--- | :--- | :--- | :--- |
+| Budget Speech | &lt;province&gt; Budget Speech &lt;financial year&gt; | Budget Speech | Budget Speeches |
+| Appropriation Bill | &lt;province&gt; Appropriation Bill &lt;financial year&gt; | Appropriation Bill | Appropriation Bills |
+| Appropriation Act | &lt;province Appropriation Bill &lt;financial year&gt; | Appropriation Act | Appropriation Bills |
+| Estimates of Provincial Revenue and Expenditure | &lt;province&gt; Estimates of Provincial Revenue and Expenditure &lt;financial year&gt; | Estimates of Provincial Revenue and Expenditure | Estimates of Provincial Revenue and Expenditure |
+| Guide to the budget | &lt;province&gt; &lt;their title&gt; &lt;financial year&gt; _e.g. Gauteng Socio-Economic Review and Outlook 2016-17 or Limpopo People's Guide to the Budget 2019-20_ | &lt;their title&gt; | People's Guides |
+| Provincial allocations to schools and municipalities _\(_ [_in terms of Section 30\(2\) of the 2015 Division of Revenue Act_](http://www.treasury.gov.za/documents/provincial%20budget/2016/6.%20Prov%20Allocation%20ito%20S30%282%29%20of%20DoRA/Default.aspx)_\)_ | &lt;province&gt; Provincial allocations in terms of Section 30\(2\) of the &lt;year&gt; Division of Revenue Act | Provincial allocations in terms of Section 30\(2\) of the 2015 Division of Revenue Act | Provincial allocations |
+| Estimates of Provincial Revenue and Expenditure standardised tables in Excel format | &lt;province&gt; Estimates of Provincial Revenue and Expenditure &lt;financial year&gt;  | Standardised tables | Estimates of Provincial Revenue and Expenditure |
+| _Any additional documents listed as key documents, which don't occur each year._ | See classification guide |  | Occasional Budget Documents |
 
 ### Adjusted Budget
 
