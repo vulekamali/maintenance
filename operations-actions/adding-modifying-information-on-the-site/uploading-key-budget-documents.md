@@ -130,15 +130,15 @@ The key national budget documents are those on the year's budget page on treasur
 | Medium Term Budget Policy Statement | Medium Term Budget Policy Statement &lt;financial year&gt; | Medium Term Budget Policy Statement |  | Medium Term Budget Policy Statement |
 | MTBPS speech document | MTBPS Speech &lt;financial year&gt; | MTBPS Speech |  | Medium Term Budget Policy Statement Speeches |
 | MTBPS Speech webcast | MTBPS Speech &lt;financial year&gt; | MTBPS Speech | Webcast | Medium Term Budget Policy Statement Speeches |
-| Adjusted Estimates of National Expenditure |  |  |  |  |
-| Division of Revenue Amendment Act |  |  |  |  |
-| Division of Revenue Amendment Bill |  |  |  |  |
+| Adjusted Estimates of National Expenditure | Adjusted Estimates of National Expenditure &lt;financial year&gt; |  |  |  |
+| Division of Revenue Amendment Act | Division of Revenue Amendment Act &lt;financial year&gt; |  |  |  |
+| Division of Revenue Amendment Bill | Division of Revenue Amendment Bill &lt;financial year&gt; |  |  |  |
 | Adjustments Appropriation Bill |  |  |  |  |
 | Rates and Monetary Amounts and Amendment of Revenue Laws Bill |  |  |  |  |
 | Tax Administration Laws Amendment Bill |  |  |  |  |
 | Taxation Laws Amendment Bill |  |  |  |  |
 
-## Provincial
+## Provincial budget documents
 
 The documents for each province are under directories for that document type
 
@@ -146,21 +146,21 @@ The documents for each province are under directories for that document type
 
 ### Original Budget
 
-
-
-| Document | Dataset title | Resource title | Type | Group |
+| Document | Dataset title | Resource title | Group |  |
 | :--- | :--- | :--- | :--- | :--- |
-| Budget Speech | &lt;province&gt; Budget Speech &lt;financial year&gt; | Budget Speech |  | Budget Speeches |
+| Budget Speech | &lt;province&gt; Budget Speech &lt;financial year&gt; | Budget Speech | Budget Speeches |  |
 | Appropriation Bill |  |  |  |  |
 | Appropriation Act |  |  |  |  |
 | Estimates of Provincial Revenue and Expenditure |  |  |  |  |
 | Guide to the budget | &lt;province&gt; &lt;their title&gt; &lt;financial year&gt; _e.g. Gauteng Socio-Economic Review and Outlook 2016-17 or Limpopo People's Guide to the Budget 2019-20_ |  |  |  |
 | Provincial allocations to schools and municipalities _\(_ [_in terms of Section 30\(2\) of the 2015 Division of Revenue Act_](http://www.treasury.gov.za/documents/provincial%20budget/2016/6.%20Prov%20Allocation%20ito%20S30%282%29%20of%20DoRA/Default.aspx)_\)_ |  |  |  |  |
 | Estimates of Provincial Revenue and Expenditure standardised tables in Excel format |  |  |  |  |
+| _Any additional documents listed as key documents, which don't occur each year._ | See classification guide |  |  | Occasional Budget Documents |
 
 ### Adjusted Budget
 
-| Document | Dataset title | Resource title | Type | Group |
-| :--- | :--- | :--- | :--- | :--- |
-| Adjusted Estimates of Provincial Revenue and Expenditure |  |  |  |  |
+| Document | Dataset title | Resource title | Group |
+| :--- | :--- | :--- | :--- |
+| Adjusted Estimates of Provincial Revenue and Expenditure |  |  |  |
+| Adjusted Estimates of Provincial Revenue and Expenditure standardised tables in Excel format |  |  |  |
 
