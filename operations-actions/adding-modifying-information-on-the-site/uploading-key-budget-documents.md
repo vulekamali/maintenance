@@ -127,15 +127,15 @@ The key national budget documents are those on the year's budget page on treasur
 
 |  | Dataset title | Resource title | Type | Group |
 | :--- | :--- | :--- | :--- | :--- |
-| Medium Term Budget Policy Statement | Medium Term Budget Policy Statement &lt;financial year&gt; | Medium Term Budget Policy Statement |  | Medium Term Budget Policy Statement |
+| Medium Term Budget Policy Statement | Medium Term Budget Policy Statement &lt;financial year&gt; | Medium Term Budget Policy Statement |  | Medium Term Budget Policy Statements |
 | MTBPS speech document | MTBPS Speech &lt;financial year&gt; | MTBPS Speech |  | Medium Term Budget Policy Statement Speeches |
 | MTBPS Speech webcast | MTBPS Speech &lt;financial year&gt; | MTBPS Speech | Webcast | Medium Term Budget Policy Statement Speeches |
 | Adjusted Estimates of National Expenditure | Adjusted Estimates of National Expenditure &lt;financial year&gt; | Adjusted Estimates of National Expenditure |  | Adjusted Estimates of National Expenditure |
 | Division of Revenue Amendment Act | Division of Revenue Amendment Bill &lt;financial year&gt; | Division of Revenue Amendment Act |  | Division of Revenue Amendment Bills |
 | Division of Revenue Amendment Bill | Division of Revenue Amendment Bill &lt;financial year&gt; | Division of Revenue Amendment Bill |  | Division of Revenue Amendment Bills |
 | Adjustments Appropriation Bill | National Adjustments Appropriation Bill &lt;financial year&gt; | Adjustments Appropriation Bill |  | Adjustments Appropriation Bill |
-| Rates and Monetary Amounts and Amendment of Revenue Laws Bill | Rates and Monetary Amounts and Amendment of Revenue Laws Bill &lt;financial year&gt; | Rates and Monetary Amounts and Amendment of Revenue Laws Bill |  | Rates and Monetary Amounts and Amendment of Revenue Laws Bill |
-| Tax Administration Laws Amendment Bill | Tax Administration Laws Amendment Bill &lt;financial year&gt; | Tax Administration Laws Amendment Bill |  | Tax Administration Laws Amendment Bill |
+| Rates and Monetary Amounts and Amendment of Revenue Laws Bill | Rates and Monetary Amounts and Amendment of Revenue Laws Bill &lt;financial year&gt; | Rates and Monetary Amounts and Amendment of Revenue Laws Bill |  | Rates and Monetary Amounts and Amendment of Revenue Laws Bills |
+| Tax Administration Laws Amendment Bill | Tax Administration Laws Amendment Bill &lt;financial year&gt; | Tax Administration Laws Amendment Bill |  | Tax Administration Laws Amendment Bills |
 | Taxation Laws Amendment Bill | Taxation Laws Amendment Bill &lt;financial year&gt; | Tax Administration Laws Amendment Bill |  | Taxation Laws Amendment Bill |
 
 ## Provincial budget documents
@@ -151,16 +151,18 @@ The documents for each province are under directories for that document type
 | Budget Speech | &lt;province&gt; Budget Speech &lt;financial year&gt; | Budget Speech | Budget Speeches |
 | Appropriation Bill | &lt;province&gt; Appropriation Bill &lt;financial year&gt; | Appropriation Bill | Appropriation Bills |
 | Appropriation Act | &lt;province Appropriation Bill &lt;financial year&gt; | Appropriation Act | Appropriation Bills |
-| Estimates of Provincial Revenue and Expenditure | &lt;province&gt; Estimates of Provincial Revenue and Expenditure &lt;financial year&gt; | Estimates of Provincial Revenue and Expenditure | Estimates of Provincial Revenue and Expenditure |
+| Estimates of Provincial Revenue and Expenditure | &lt;province&gt; Estimates of Provincial Revenue and Expenditure &lt;financial year&gt; | Estimates of Provincial Revenue and Expenditure | Estimates of Provincial Revenue and Expenditure _\(note this is different from the Estimates of Provincial Expenditure group, which is for structured data of all provinces in one file\)_ |
+| Budget Overview of Provincial Expenditure | &lt;province&gt; Budget Overview &lt;financial year&gt; | Budget Overview | Budget Reviews |
 | Guide to the budget | &lt;province&gt; &lt;their title&gt; &lt;financial year&gt; _e.g. Gauteng Socio-Economic Review and Outlook 2016-17 or Limpopo People's Guide to the Budget 2019-20_ | &lt;their title&gt; | People's Guides |
 | Provincial allocations to schools and municipalities _\(_ [_in terms of Section 30\(2\) of the 2015 Division of Revenue Act_](http://www.treasury.gov.za/documents/provincial%20budget/2016/6.%20Prov%20Allocation%20ito%20S30%282%29%20of%20DoRA/Default.aspx)_\)_ | &lt;province&gt; Provincial allocations in terms of Section 30\(2\) of the &lt;year&gt; Division of Revenue Act | Provincial allocations in terms of Section 30\(2\) of the 2015 Division of Revenue Act | Provincial allocations |
-| Estimates of Provincial Revenue and Expenditure standardised tables in Excel format | &lt;province&gt; Estimates of Provincial Revenue and Expenditure &lt;financial year&gt;  | Standardised tables | Estimates of Provincial Revenue and Expenditure |
+| Estimates of Provincial Revenue and Expenditure standardised tables in Excel format | &lt;province&gt; Estimates of Provincial Revenue and Expenditure &lt;financial year&gt;  | Estimates of Provincial Revenue and Expenditure standardised tables | Estimates of Provincial Revenue and Expenditure |
 | _Any additional documents listed as key documents, which don't occur each year._ | See classification guide |  | Occasional Budget Documents |
 
 ### Adjusted Budget
 
 | Document | Dataset title | Resource title | Group |
 | :--- | :--- | :--- | :--- |
-| Adjusted Estimates of Provincial Revenue and Expenditure |  |  |  |
-| Adjusted Estimates of Provincial Revenue and Expenditure standardised tables in Excel format |  |  |  |
+| Adjusted Estimates of Provincial Revenue and Expenditure | &lt;province&gt; Adjusted Estimates of Provincial Revenue and Expenditure &lt;financial year&gt; | Adjusted Estimates of Provincial Revenue and Expenditure | Adjusted Estimates of Provincial Revenue and Expenditure |
+| Adjusted Estimates of Provincial Revenue and Expenditure standardised tables in Excel format | &lt;province&gt; Adjusted Estimates of Provincial Revenue and Expenditure &lt;financial year&gt; | Adjusted Estimates of Provincial Revenue and Expenditure standardised tables | Adjusted Estimates of Provincial Revenue and Expenditure |
+| Adjustment Appropriation Bill | &lt;province&gt; Adjustment Appropriation Bill &lt;financial year&gt; | Adjustment Appropriation Bill | Adjustment Appropriation Bills |
 
