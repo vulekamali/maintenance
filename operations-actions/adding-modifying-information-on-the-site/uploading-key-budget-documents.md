@@ -73,7 +73,11 @@ The key national budget documents are those on the year's budget page on treasur
     <tr>
       <td style="text-align:left">People&apos;s guides</td>
       <td style="text-align:left">National Budget People&apos;s Guide</td>
-      <td style="text-align:left">People&apos;s Guide - &lt;language&gt;</td>
+      <td style="text-align:left">
+        <p>People&apos;s Guide - &lt;language&gt;</p>
+        <p><em>One resource per language</em>
+        </p>
+      </td>
       <td style="text-align:left"></td>
       <td style="text-align:left">People&apos;s Guides</td>
     </tr>
