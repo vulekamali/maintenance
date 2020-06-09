@@ -40,3 +40,7 @@ Agents can be managed by clicking on Agents in the General Settings menu. Access
 
 ![](../.gitbook/assets/screenshot_2020-04-21_10-35-15.png)
 
+Make sure that agents receive email notifications of new support tickets:
+
+![](../.gitbook/assets/screenshot_2020-06-09_17-37-17.png)
+
