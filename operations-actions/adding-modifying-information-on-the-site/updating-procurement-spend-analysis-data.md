@@ -68,6 +68,10 @@ Update the data source to the location of the Excel file
 
 Refresh the data from the new Excel file
 
+Ensure that the data is filtered on all pages such that SupplierType is not one of Government Entity or State Owned Entity:
+
+![Filter supplier data](../../.gitbook/assets/screenshot_2020-07-13_18-18-59.png)
+
 Publish the file to the info@vulekamali.gov.za PowerBI workspace by logging in as that user in Power BI Desktop, and clicking Publish.
 
 ![Power BI Desktop publish to web](../../.gitbook/assets/screenshot_2020-03-20_18-32-31.png)
