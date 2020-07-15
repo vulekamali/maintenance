@@ -6,6 +6,14 @@ description: >-
 
 # Style/brand guide
 
+## Colours
+
+Primary colour: `#79b443`
+
+Secondary colour: `#ed9e31`
+
+Tertiary colour: `#ad3c64`
+
 ## Logos
 
 National Treasury and Imali Yethu's logos should be presented together along with the text _"Vulekamali is a project by the South African National Treasury and IMALI YETHU"_, e.g. in footers:
