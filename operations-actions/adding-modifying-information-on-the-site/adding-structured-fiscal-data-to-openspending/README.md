@@ -369,7 +369,53 @@ In this order:
 
 ### Adjusted Estimates of National Expenditure
 
-TBC
+#### CKAN Metadata <a id="ckan-metadata"></a>
+
+* Group:
+* Sphere:
+* Dimensions
+
+#### CKAN Resources <a id="ckan-resources"></a>
+
+In this order:
+
+* Excel file of the data
+* CSV file of the data - we usually use the CSV URL hosted by OpenSpending
+* Openspending dataset model URL
+
+#### Fields
+
+| Column name | Fiscal Data Package field type | Description |
+| :--- | :--- | :--- |
+| Department |  |  |
+| ProgNumber |  |  |
+| Programme |  |  |
+| SubprogNumber |  |  |
+| Subprogramme |  |  |
+| EconomicClassification1 |  |  |
+| EconomicClassification2 |  |  |
+| EconomicClassification3 |  |  |
+| EconomicClassification4 |  |  |
+| EconomicClassification5 |  |  |
+| FinancialYear |  |  |
+| BudgetPhase |  |  |
+| AmountKind |  |  |
+| Value |  |  |
+
+#### Examples
+
+{% file src="../../../.gitbook/assets/aene-2019-20.csv" %}
+
+{% file src="../../../.gitbook/assets/aene-2019-20.xlsx" %}
+
+Example pivot table with the following parameters:
+
+* **Filter**: none
+* **Columns**: Budget Phase; Amount Kind
+* **Rows**: Department
+* **Values**: Amount \(sum\)
+
+![](../../../.gitbook/assets/screenshot_2020-07-22_12-34-07.png)
 
 ### National Expenditure Audit Outcomes data
 
