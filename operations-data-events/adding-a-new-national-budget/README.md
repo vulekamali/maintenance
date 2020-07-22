@@ -25,8 +25,8 @@ The following is required to add a new national budget to vulekamali
    * see the [section for specifics on ENE conventions](../../operations-actions/adding-modifying-information-on-the-site/bulk-uploading-department-specific-documents.md#estimates-of-national-expenditure-vote-chapters) to ensure you upload them correctly
 3. The [ENE  structured fiscal dataset must be added to OpenSpending, and the data on OpenSpending added to CKAN ](../../operations-actions/adding-modifying-information-on-the-site/adding-structured-fiscal-data-to-openspending/#estimates-of-national-expenditure)
 4. The[ new CPI Inflation dataset must be added to the CKAN Datastore ](adding-cpi-inflation-data.md)
-5. The Budget vs Actual dataset must be updated with the new Main Appropriation data from the ENE
-6. The Consolidated budget structured fiscal data must be added to OpenSpending, and the data on OpenSpending added to CKAN
+5. The [Budget vs Actual National Expenditure structured fiscal dataset](../../operations-actions/adding-modifying-information-on-the-site/adding-structured-fiscal-data-to-openspending/#budgeted-and-actual-national-expenditure) must be updated with the new Main Appropriation data from the ENE
+6. The [Consolidated budget structured fiscal data must be added to OpenSpending, and the data on OpenSpending added to CKAN](../../operations-actions/adding-modifying-information-on-the-site/adding-structured-fiscal-data-to-openspending/#consolidated-budget)
 7. [National Infrastructure Projects must be updated](adding-updating-infrastructure-projects.md)
 
 ### Publish the new financial year
