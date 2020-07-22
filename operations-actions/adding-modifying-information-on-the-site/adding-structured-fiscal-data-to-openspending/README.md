@@ -371,9 +371,9 @@ In this order:
 
 #### CKAN Metadata <a id="ckan-metadata"></a>
 
-* Group:
-* Sphere:
-* Dimensions
+* Group: Adjusted Estimates of National Expenditure
+* Sphere: National
+* Dimensions: As per fields below
 
 #### CKAN Resources <a id="ckan-resources"></a>
 

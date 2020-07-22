@@ -20,7 +20,7 @@ The following is required to add a new national budget to vulekamali
 ### Structured data for updated charts and department pages
 
 1. The [new financial year, sphere, government, and departments must be added to the ma](adding-new-year-sphere-government-departments.md)in site Admin
-2. The ENE Vote e-publications and accompanying per-vote Excel files must be added to the Datastore
+2. The ENE Vote e-publications and accompanying per-vote Excel files must be added to the CKAN to show up on department pages
    * Follow the [bulk-uploading procedure](../../operations-actions/adding-modifying-information-on-the-site/bulk-uploading-department-specific-documents.md) to upload the documents, and
    * see the [section for specifics on ENE conventions](../../operations-actions/adding-modifying-information-on-the-site/bulk-uploading-department-specific-documents.md#estimates-of-national-expenditure-vote-chapters) to ensure you upload them correctly
 3. The [ENE  structured fiscal dataset must be added to OpenSpending, and the data on OpenSpending added to CKAN ](../../operations-actions/adding-modifying-information-on-the-site/adding-structured-fiscal-data-to-openspending/#estimates-of-national-expenditure)
