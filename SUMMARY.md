@@ -27,6 +27,7 @@
   * [Uploading key budget documents](operations-actions/adding-modifying-information-on-the-site/uploading-key-budget-documents.md)
   * [Adding a new dataset category](operations-actions/adding-modifying-information-on-the-site/adding-a-new-dataset-category.md)
   * [Linking a dataset category to a guide](operations-actions/adding-modifying-information-on-the-site/linking-a-dataset-category-to-a-guide.md)
+  * [Linking to resources from Department pages](operations-actions/adding-modifying-information-on-the-site/linking-to-resources-from-department-pages.md)
   * [Uploading \(IRM\) infrastructure project data](operations-actions/adding-modifying-information-on-the-site/uploading-provincial-infrastructure-project-data.md)
   * [Updating content pages](operations-actions/adding-modifying-information-on-the-site/updating-simple-pages.md)
   * [Add external resource overview](operations-actions/adding-modifying-information-on-the-site/add.md)
