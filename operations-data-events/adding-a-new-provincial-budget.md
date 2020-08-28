@@ -4,7 +4,7 @@
 
 ### When the budgets are tabled
 
-[Upload the key budget documents for each provincial government](../operations-actions/adding-modifying-information-on-the-site/uploading-key-budget-documents.md#original-budget-1)
+[Upload the key budget documents for each provincial government](../operations-actions/adding-modifying-information-on-the-site/uploading-key-budget-documents.md#provincial-budget-documents)
 
 ### When the structured fiscal data has been verified by IGR
 
