@@ -298,6 +298,7 @@ Fields:
 | FunctionGroup1 | functional-classification:generic:level1:code |  |
 | FinancialYear | date:fiscal-year |  |
 | BudgetPhase | phase:id | Valid values are `Audited Outcome`, `Adjusted appropriation`, `Main appropriation`, `Medium Term Estimates`. While the newly-tabled budget is classified under `Medium Term Estimates` in some tables in the ENE documents, we classify it under `Main appropriation` for the purposes of analysis from this dataset. |
+| Value | value | ZAR |
 
 #### Examples
 
@@ -456,7 +457,7 @@ Example pivot table with the following parameters:
 | FinancialYear | Integer, e.g. `2018` for the year `2018-19` |  |
 | BudgetPhase | `Audited Outcome`, `Adjusted appropriation`, `Main appropriation`, |  |
 | AmountKind | value-kind:code | A type like `Total` or `Adjustments - Roll-overs` |
-| Value | Rands, not thousands of rands |  |
+| Value | value - Rands, not thousands of rands |  |
 |  |  |  |
 
 ### Provincial Expenditure Audit Outcomes
@@ -528,7 +529,7 @@ Example pivot table with the following parameters:
 | EconomicClassification2 |  | Economic Classification level 1 |
 | EconomicClassification3 |  | Economic Classification level 2 |
 | FinancialYear |  | As an integer - e.g. 2019-20 is `2019` |
-| Value | value-kind:code | Rands, not Thousands of Rands |
+| Value | value | Rands, not Thousands of Rands |
 
 ## Adding a dataset to OpenSpending
 
