@@ -10,7 +10,7 @@ CSV is very commonly used for tabular data from a few rows, to many gigabytes of
 
 We follow the following conventions, as expected by common tools:
 
-* Encode the file as UTF-8
+* [Encode the file as UTF-8](data-formats.md#saving-a-csv-as-utf-8-encoded-text)
 * Use comma `,` as field delimiter
 * Use double-quote `"` to denote fields that contain commas in the value, to avoid that comma being interpreted as a field delimiter
   * e.g. `1,some-text,"Some text, which has a comma"` denotes three columns with values
@@ -27,7 +27,7 @@ We follow the following conventions, as expected by common tools:
 
 See also [https://en.wikipedia.org/wiki/Comma-separated\_values\#RFC\_4180\_standard](https://en.wikipedia.org/wiki/Comma-separated_values#RFC_4180_standard)
 
-## Saving a CSV as UTF-8 encoded text
+### Saving a CSV as UTF-8 encoded text
 
 Excel does not always allow you to save a file as UTF-8 encoded text.
 
