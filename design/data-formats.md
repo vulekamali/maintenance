@@ -27,6 +27,12 @@ We follow the following conventions, as expected by common tools:
 
 See also [https://en.wikipedia.org/wiki/Comma-separated\_values\#RFC\_4180\_standard](https://en.wikipedia.org/wiki/Comma-separated_values#RFC_4180_standard)
 
+## Saving a CSV as UTF-8 encoded text
+
+Excel does not always allow you to save a file as UTF-8 encoded text.
+
+In that case, [you can convert the \(often Windows-1252 -encoded text\) in UTF-8 format by opening the file in notepad and then saving it as UTF-8.](https://www.webtoffee.com/how-to-save-csv-excel-file-as-utf-8-encoded/#save-csv-notepad)
+
 
 
 
