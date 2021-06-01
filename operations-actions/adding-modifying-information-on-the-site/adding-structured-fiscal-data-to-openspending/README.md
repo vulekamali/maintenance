@@ -614,3 +614,17 @@ Copy this link and add it as a CSV type resource of the dataset
 
 These will then show up in vulekamali as a Dataset and in data summaries and demonstrations.
 
+## Troubleshooting
+
+### OpenSpending
+
+#### Integrity Error: duplicate key value violates unique constraint
+
+![](../../../.gitbook/assets/screenshot_2021-06-01_14-29-12.png)
+
+This is caused by multiple rows in the uploaded dataset having the exact same values across all dimensions \(also known as classifying columns\).
+
+Remember each row must be uniquely classified by the dimension columns.
+
+The fix for this is usually to sum together the rows with the same classification \(if you're going from more granular data to this set\). This can for example be done with a pivot table that sums on the Value column.
+
