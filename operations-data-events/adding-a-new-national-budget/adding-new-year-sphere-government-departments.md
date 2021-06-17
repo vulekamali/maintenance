@@ -49,6 +49,18 @@ Add the new national government with name `South Africa`. Add each provincial go
 
 Departments are related to the government as defined in a given financial year. That helps to distinguish information related to a department's configuration in that year, and show historical information following function shifts.
 
+#### Objective
+
+Create a page for each department for the new financial year
+
+![Departments are listed on the department list page for the financial year](../../.gitbook/assets/screenshot_2021-06-17_10-09-16.png)
+
+![The department page exists. Ideally the department has a vote purpose and mandate section as in the ENE or EPRE](../../.gitbook/assets/screenshot_2021-06-17_10-10-07.png)
+
+
+
+#### Actions
+
 ![](../../.gitbook/assets/screenshot-at-2019-05-16-09-47-44.png)
 
 Departments can be added using the admin form. Since it can take a lot of time to add all the metadata for all the departments, this can be done in bulk by uploading a CSV file from either the admin interface or a [command line](https://github.com/vulekamali/datamanager#loading-departments-in-bulk).
