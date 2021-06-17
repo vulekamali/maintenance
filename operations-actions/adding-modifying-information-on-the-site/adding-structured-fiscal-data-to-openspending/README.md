@@ -503,7 +503,9 @@ Example pivot table with the following parameters:
 
 ### Consolidated budget
 
+#### Objective
 
+![The homepage shows the latest consolidated budget](../../../.gitbook/assets/screenshot_2021-06-17_10-18-06.png)
 
 #### OpenSpending Metadata
 
