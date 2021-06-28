@@ -87,6 +87,8 @@ The departments section in the admin interface links to an [import screen](https
 
 {% file src="../../.gitbook/assets/departments-national-2019-20.csv" caption="Example department metadata ready for bulk upload" %}
 
+{% file src="../../.gitbook/assets/provincial-departments-2016-17.csv" caption="Example provincial department metadata ready for bulk upload" %}
+
 [Markdown syntax](https://daringfireball.net/projects/markdown/syntax#header) must be used for formatting `intro`. e.g. 2 line breaks will result in new paragraphs. Use headings like `## Vote purpose`.
 
 ![](../../.gitbook/assets/screenshot-at-2019-05-16-09-31-09.png)
