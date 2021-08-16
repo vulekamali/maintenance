@@ -549,6 +549,8 @@ Login to the vulekamali account on OS Packager and [follow the upload wizard](ht
 
 This can be done per-column based on the table of column types shown above, or by uploading the data-checks schema file for the dataset \(if available\), which includes column type mappings.
 
+![Selecting types manually](../../../.gitbook/assets/screenshot_2021-08-16_11-27-24.png)
+
 ![Upload a schema file to assign types to your columns](../../../.gitbook/assets/os-packager-column-types.png)
 
 Enter the dataset metadata as per the [specifications for the dataset](./#specific-dataset-requirements).
