@@ -545,7 +545,9 @@ Any data transformation tools can be used to ensure the data meets the above req
 
 Login to the vulekamali account on OS Packager and [follow the upload wizard](https://openspending.org/packager/provide-data).
 
-Assign column types by uploading the data-checks schema file for the dataset, which includes column type mappings.
+#### Assign types to columns
+
+This can be done per-column based on the table of column types shown above, or by uploading the data-checks schema file for the dataset \(if available\), which includes column type mappings.
 
 ![Upload a schema file to assign types to your columns](../../../.gitbook/assets/os-packager-column-types.png)
 
