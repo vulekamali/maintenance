@@ -2,7 +2,7 @@
 
 At key budget events like the tabling of the Main Appropriation and Adjustments Appropriation, and release of Annual Report Expenditure data, we upload structured data OpenSpending and make it accessible via CKAN and vulekamali. This data is intended to support further analysis by the public, and is used for summaries and demonstration of the capability of the data on vulekamali.
 
-To allow automated summaries of the data in vulekamali, the Data Manager has very specific expectations of the structure and values in the data, and how the [Fiscal Data Package](http://frictionlessdata.io/specs/fiscal-data-package/) types used when uploading the data to [OpenSpending](http://openspending.org/).
+To allow automated summaries of the data in vulekamali, the Data Manager has very specific expectations of the structure and values in the data, and how the [Fiscal Data Package](http://frictionlessdata.io/specs/fiscal-data-package/) types used when uploading the data to [OpenSpending](https://openspending-dedicated.vulekamali.gov.za/).
 
 The consequence of not adhering to these requirements is that the summaries and demonstrations on vulekamali will not work, and will either be broken, or warn that data for the relevant demonstration is missing.
 
@@ -569,30 +569,30 @@ Create a dataset with the following resources, and metadata as per the [specific
 
 Add the OpenSpending API Model URL as a resource of the dataset.
 
-
-
 The model URL can be constructed by entering the dataset ID in OpenSpending in the following template:
 
 ```text
-https://openspending.org/api/3/cubes/...Dataset ID.../model/
+https://openspending-dedicated.vulekamali.gov.za/api/3/cubes/...Dataset ID.../model/
 ```
 
-The Dataset ID is the combination of the OpenSpending account ID \(`owner` in the Fiscal Data Package JSON file\), and the Fiscal Data Package `name`, with a colon in between. The Fiscal Data Package JSON file can be found at the bottom of the OpenSpending Viewer for the dataset \(_Download Data Package\)_:
+The Dataset ID is the combination of the OpenSpending account ID \(`owner` in the Fiscal Data Package JSON file\), and the Fiscal Data Package `name`, with a colon in between. 
 
-![Click on Download Data Package to find the OpenSpending account owner id and data package name](../../../.gitbook/assets/openspending-datapackage-json.png)
-
-![](../../../.gitbook/assets/openspending-datapackage-json-file.png)
-
-So for the above example, the dataset ID is
+If the Viewer URL is 
 
 ```text
-b9d2af843f3a7ca223eea07fb608e62a:adjusted-estimates-of-national-expenditure-2016-17
+https://openspending-dedicated.vulekamali.gov.za/viewer/b9d2af843f3a7ca223eea07fb608e62a:estimates-of-provincial-expenditure-of-south-africa-2021-22-uploaded-2021-05-28-1228?lang=en
+```
+
+the dataset ID is
+
+```text
+b9d2af843f3a7ca223eea07fb608e62a:estimates-of-provincial-expenditure-of-south-africa-2021-22-uploaded-2021-05-28-1228
 ```
 
 and thus the Model URL is
 
 ```text
-https://openspending.org/api/3/cubes/b9d2af843f3a7ca223eea07fb608e62a:adjusted-estimates-of-national-expenditure-2016-17/model/
+https://openspending-dedicated.vulekamali.gov.za/api/3/cubes/b9d2af843f3a7ca223eea07fb608e62a:estimates-of-provincial-expenditure-of-south-africa-2021-22-uploaded-2021-05-28-1228/model/
 ```
 
 **OpenSpending metadata:**
