@@ -350,8 +350,8 @@ In this order:
 | Column Name | Description | OpenSpending Fiscal Data type |
 | :--- | :--- | :--- |
 | Government | Spelled out and capitalised normally, i.e. one of `Eastern Cape`, `Free State`, `Gauteng`, `KwaZulu-Natal`, `Limpopo`, `Mpumalanga`, `Northern Cape`, `North West`, `Western Cape` | source:geo-source:code |
-| VoteNumber | integer |  |
-| Department | Capitalised and hyphenated correctly - this must be consistent across all datasets on vulekamali otherwise undercounting or errors could occur. |  |
+| VoteNumber | integer | Administrative &gt; Non-standard &gt; Top Level &gt;  Unique Identifier |
+| Department | Capitalised and hyphenated correctly - this must be consistent across all datasets on vulekamali otherwise undercounting or errors could occur. | Administrative &gt; Non-standard &gt; Top Level &gt; Display Name |
 | ProgNumber | integer |  |
 | Programme | Must be capitalised as it should be presented. |  |
 | SubprogNumber | integer |  |
@@ -365,7 +365,7 @@ In this order:
 | FunctionGroup2 |  |  |
 | FinancialYear | Integer, e.g. `2018` for the year `2018-19` |  |
 | BudgetPhase | Valid values are `Audited Outcome`, `Adjusted appropriation`, `Main appropriation`, `Medium Term Estimates`. While the newly-tabled budget is classified under `Medium Term Estimates` in some tables in the budget documents, we classify it under `Main appropriation` for the purposes of analysis from this dataset. E.g. the EPRE 2019-20 dataset should have budget phase `Main appropriation` for rows where FinancialYear is `2019` |  |
-| Value | Rands, not thousands of rands |  |
+| Value | Rands, not thousands of rands | Amount |
 |  |  |  |
 
 ### Adjusted Estimates of National Expenditure
