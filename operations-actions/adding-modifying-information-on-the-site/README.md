@@ -15,10 +15,9 @@ Changes to public datasets in CKAN, e.g. their title, description or resources m
 Data summaries and charts are based on
 
 * One or more datasets in CKAN
-* The[ Data Manager](../../services/vulekamali.gov.za.md) making the summary or chart data available in [Page Data]() for vulekamali.gov.za
-  * querying the relevant Data API\(s\) for the right data for that page
+* The[ Data Manager](../../services/vulekamali.gov.za.md) making the summary or chart data available in [Page Data](broken-reference) for vulekamali.gov.za
+  * querying the relevant Data API(s) for the right data for that page
   * perhaps transforming the data to be easy to use in vulekamali.gov.za
 * vulekamali.gov.za presenting the data found in Page Data to the user
 
 Data summaries and charts that depend on custom processing for presentation on vulekamali in the DataManager require a software developer to modify or add, unless it is simply a case of updating the source data or adding another period of data and annotating it properly in the CKAN as documented in this manual.
-

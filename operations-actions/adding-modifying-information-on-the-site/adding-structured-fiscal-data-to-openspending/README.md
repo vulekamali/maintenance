@@ -632,3 +632,9 @@ This is caused by multiple rows in the uploaded dataset having the exact same va
 Remember each row must be uniquely classified by the dimension columns.
 
 The fix for this is usually to sum together the rows with the same classification (if you're going from more granular data to this set). This can for example be done with a pivot table that sums on the Value column.
+
+#### KeyError: 'primaryKey'
+
+![](../../../.gitbook/assets/Screenshot\_2022-07-21\_17-47-33.png)
+
+We've seen this when including a column as "Unknown - String" type. Removing the column from the dataset and rolling up the data to the remaining columns for uniqueness solved it.
