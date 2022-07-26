@@ -68,6 +68,10 @@ Example metadata file for AENE 2017 vote documents
 
 After uploading your metadata file, the Bulk Upload interface will check the metadata against the departments in the Data Manager and the datasets in CKAN and show what actions it will take.
 
+{% hint style="info" %}
+It is recommended that you first try a metadata file with only one or two rows, to make sure understand how it works correct. This would minimise the amount of work [fixing any mistakes](bulk-uploading-department-specific-documents.md#correcting-mistakes) the first time you're using this.
+{% endhint %}
+
 If you click submit while the Bulk Upload interface shows a preview, it will queue any pending (blue) actions.
 
 {% hint style="info" %}
@@ -81,10 +85,6 @@ If upload the same metadata file again, it will re-check your metadata without q
 * Red indicates something is wrong
 
 Hover your mouse over the cells in the table to see an explanation of that items current state, e.g. what action it would take(blue), or what the problem is (red).
-
-{% hint style="info" %}
-It is recommended that you first try a metadata file with only one or two rows, to make sure understand how it works correct. This would minimise the amount of work [fixing any mistakes](bulk-uploading-department-specific-documents.md#correcting-mistakes) the first time you're using this.
-{% endhint %}
 
 When you are ready to upload the documents, click **Submit** below the preview table.
 
