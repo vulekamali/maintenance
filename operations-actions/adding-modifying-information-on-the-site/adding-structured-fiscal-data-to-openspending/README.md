@@ -124,7 +124,7 @@ This dataset consists of all of the following datasets, for each financial year 
 * Adjusted Estimates of National Expenditure (only for rows where `Budget Phase` is equal to `Adjusted appropriation`)
 * Audit Outcomes dataset (only for rows where `Budget Phase` is equal to `Audit Outcome` or `Final Appropriation`)
 
-![Which rows are included for each source dataset for each year](<../../../.gitbook/assets/Budget vs Actual dataset construction (1).png>)
+![](<../../../.gitbook/assets/Budget vs Actual dataset construction (2).png>)
 
 When each of the above datasets are released, the new year's data is added to this dataset. Only the rows for where `Financial Year` is equal to the ENE, AENE or AR dataset's year is included in this combined dataset (e.g. for `ENE 2015-16` adds rows where `Financial Year` is equal to `2015` and `Budget Phase` is equal to `Main Appropriation`. AENE 2019-20 adds rows where `FinancialYear` is `2019` and `Budget Phase` is `Adjusted appropriation`).
 
