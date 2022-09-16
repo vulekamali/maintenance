@@ -21,7 +21,9 @@ It is strongly recommended that upload timestamps of the form 2019-08-12 01:18 (
 ## General requirements for data uploaded to OpenSpending
 
 * At least one "measure" is needed, e.g. the value column - named `Value`
-* The value column must be in Rands, **not** Thousands of Rands
+  * The value column must be in Rands, **not** Thousands of Rands
+  * The decimal separator must be period (.) and not a comma.
+  * There must be no thousand separator.
 * The combination of the non-measure columns must be unique on each row
 * Financial year must be an integer - for National and Provincial budget data we use the starting year, as is convention. So for 2018-19, we use `2018`.
 * Department names and budget phases must match what is used in the Data Manager precisely. That includes capitalisation and punctuation, including hyphenation and commas. Avoid stray spaces at the beginning and end of values. See dataset specifics below.
