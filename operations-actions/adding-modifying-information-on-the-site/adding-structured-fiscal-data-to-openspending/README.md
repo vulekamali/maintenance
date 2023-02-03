@@ -323,6 +323,23 @@ Adjusted appropriation,Public Service and Administration,Capital,Payments for ca
 Note this dataset is called Estimates of Provincial Expenditure, not Estimates of Provincial Revenue and Expenditure because it only contains expenditure data. While it might throw those who know what the EPRE is, it tries to make sense to users of expenditure data and not leave users wondering where the revenue data is if it was called EPRE.
 {% endhint %}
 
+#### Example to check correctness
+
+Once prepared according to the specifications below, you can produce the following pivot table and quickly check
+
+* Columns: FinancialYear
+* Rows: BudgetPhase
+* Value: Value
+
+Checklist:
+
+1. are the correct budget phases available for the correct years?
+2. are the budget phases capitalised correctly?
+3. are the total for each phase for each year similar in size? Of course they will differ a bit
+4. are all the years available?
+
+<figure><img src="../../../.gitbook/assets/Screenshot_2023-02-03_12-51-29.png" alt=""><figcaption></figcaption></figure>
+
 #### OpenSpending Metadata
 
 * **Human-readable name:** Estimates of Provincial Expenditure of South Africa 2019-20 uploaded 2019-06-05 16:15
