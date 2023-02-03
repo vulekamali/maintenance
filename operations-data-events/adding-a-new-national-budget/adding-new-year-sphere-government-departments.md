@@ -47,15 +47,17 @@ Add the new national government with name `South Africa`. Add each provincial go
 
 ### Add new Departments
 
-Departments are related to the government as defined in a given financial year. That helps to distinguish information related to a department's configuration in that year, and show historical information following function shifts.
+Departments are related to the government as defined in a given financial year. **They can change year to year.** That helps to distinguish information related to a department's configuration in that year, and show historical information following function shifts.
+
+It is important to use the official names with correct capitalisation and punctuation of departments. The appropriation bill (national and provincial bills) contain the authoritative names of departments. You can use the Excel versions of tables in the ENE and EPREs as a base dataset but verify that they actually match the authoritative copies every year.
 
 #### Objective
 
 Create a page for each department for the new financial year
 
-![Departments are listed on the department list page for the financial year](../../.gitbook/assets/screenshot_2021-06-17_10-09-16.png)
+![Departments are listed on the department list page for the financial year](../../.gitbook/assets/screenshot\_2021-06-17\_10-09-16.png)
 
-![The department page exists. Ideally the department has a vote purpose and mandate section as in the ENE or EPRE](../../.gitbook/assets/screenshot_2021-06-17_10-10-07.png)
+![The department page exists. Ideally the department has a vote purpose and mandate section as in the ENE or EPRE](../../.gitbook/assets/screenshot\_2021-06-17\_10-10-07.png)
 
 
 
@@ -79,25 +81,30 @@ The departments section in the admin interface links to an [import screen](https
 * `government` - government name
 * `department_name`
 * `vote_number`
-* `is_vote_primary` - TRUE or FALSE \(optional\)
-* `intro` \(optional\)
-* `website_url` \(optional\)
+* `is_vote_primary` - TRUE or FALSE (optional)
+* `intro` (optional)
+* `website_url` (optional)
 
-{% file src="../../.gitbook/assets/dept-and-programme-purposes.xlsx" caption="Example department purposes source data" %}
+{% file src="../../.gitbook/assets/dept-and-programme-purposes.xlsx" %}
+Example department purposes source data
+{% endfile %}
 
-{% file src="../../.gitbook/assets/departments-national-2019-20.csv" caption="Example department metadata ready for bulk upload" %}
+{% file src="../../.gitbook/assets/departments-national-2019-20.csv" %}
+Example department metadata ready for bulk upload
+{% endfile %}
 
-{% file src="../../.gitbook/assets/provincial-departments-2016-17.csv" caption="Example provincial department metadata ready for bulk upload" %}
+{% file src="../../.gitbook/assets/provincial-departments-2016-17.csv" %}
+Example provincial department metadata ready for bulk upload
+{% endfile %}
 
 [Markdown syntax](https://daringfireball.net/projects/markdown/syntax#header) must be used for formatting `intro`. e.g. 2 line breaks will result in new paragraphs. Use headings like `## Vote purpose`.
 
 ![](../../.gitbook/assets/screenshot-at-2019-05-16-09-31-09.png)
 
-The interface will check your file for any errors and display errors that have been detected. You can reselect a file to upload after you have fixed the errors.  
+The interface will check your file for any errors and display errors that have been detected. You can reselect a file to upload after you have fixed the errors. &#x20;
 
 ![](../../.gitbook/assets/screenshot-at-2019-05-16-00-48-15.png)
 
 If your file contains no errors, a preview of the data that will be imported will be shown. You can click on "Confirm Import" to do the import and create/edit the departments.
 
 ![](../../.gitbook/assets/screenshot-at-2019-05-16-09-31-27.png)
-
