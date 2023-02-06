@@ -1,4 +1,16 @@
-# Uploading EQPRS data
+# EQPRS data
+
+The EQPRS data is available on vulekamali as tabular data that can be searched and filtered for relevant indicators. This shows the Quarterly Performance Reporting indicators shown in the Annual Performance Plans, Strategic Plans, ENE and EPRE documents, as well as Annual Reports.
+
+The data looks like this on vulekamali&#x20;
+
+<figure><img src="../../.gitbook/assets/Screenshot_2023-02-06_18-06-00.png" alt=""><figcaption></figcaption></figure>
+
+It looks like this in EQPRS:
+
+<figure><img src="../../.gitbook/assets/Screenshot_2023-02-06_18-08-23.png" alt=""><figcaption></figcaption></figure>
+
+## Uploading EQPRS data
 
 Uploading EQPRS data to vulekamali involves downloading a few departments at a time, and uploading each file to vulekamali. Vulekamali automatically figures out which financial year, sphere, government and department each indicator belongs to.
 
