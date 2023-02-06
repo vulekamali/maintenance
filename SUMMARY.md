@@ -2,7 +2,7 @@
 
 * [Home](README.md)
 
-## 1. Operations: Data Events <a id="operations-data-events"></a>
+## 1. Operations: Data Events <a href="#operations-data-events" id="operations-data-events"></a>
 
 * [February: Adding a new national budget](operations-data-events/adding-a-new-national-budget/README.md)
   * [Update the homepage state](operations-data-events/adding-a-new-national-budget/update-the-homepage-state.md)
@@ -21,14 +21,14 @@
 * [Annual PPP Infrastructure Project updates](operations-data-events/annual-ppp-infrastructure-project-updates.md)
 * [Stage 4 draft features](operations-data-events/phase-4-draft-features.md)
 
-## 2. Operations: actions <a id="operations-actions"></a>
+## 2. Operations: actions <a href="#operations-actions" id="operations-actions"></a>
 
 * [Adding/modifying data and data descriptions](operations-actions/adding-modifying-information-on-the-site/README.md)
   * [Uploading key budget documents](operations-actions/adding-modifying-information-on-the-site/uploading-key-budget-documents.md)
   * [Adding a new dataset category](operations-actions/adding-modifying-information-on-the-site/adding-a-new-dataset-category.md)
   * [Linking a dataset category to a guide](operations-actions/adding-modifying-information-on-the-site/linking-a-dataset-category-to-a-guide.md)
   * [Linking to resources from Department pages](operations-actions/adding-modifying-information-on-the-site/linking-to-resources-from-department-pages.md)
-  * [Uploading \(IRM\) infrastructure project data](operations-actions/adding-modifying-information-on-the-site/uploading-provincial-infrastructure-project-data.md)
+  * [Uploading (IRM) infrastructure project data](operations-actions/adding-modifying-information-on-the-site/uploading-provincial-infrastructure-project-data.md)
   * [Updating content pages](operations-actions/adding-modifying-information-on-the-site/updating-simple-pages.md)
   * [Add external resource overview](operations-actions/adding-modifying-information-on-the-site/add.md)
   * [Bulk-uploading department-specific documents](operations-actions/adding-modifying-information-on-the-site/bulk-uploading-department-specific-documents.md)
@@ -38,23 +38,24 @@
   * [Updating procurement spend analysis data](operations-actions/adding-modifying-information-on-the-site/updating-procurement-spend-analysis-data.md)
   * [Adding a new Division of Revenue bill](operations-actions/adding-modifying-information-on-the-site/adding-a-new-division-of-revenue-bill.md)
   * [Editing the menu items](operations-actions/adding-modifying-information-on-the-site/editing-the-menu-items.md)
+  * [Uploading EQPRS data](operations-actions/adding-modifying-information-on-the-site/uploading-eqprs-data.md)
 * [Contributed Data](operations-actions/adding-a-non-treasury-contributor.md)
 * [Adding Admin users](operations-actions/adding-data-manager-admin-users.md)
-* [Content Management System \(CMS\)](operations-actions/content-management-system-cms.md)
+* [Content Management System (CMS)](operations-actions/content-management-system-cms.md)
 * [Adding CKAN Admin users](operations-actions/adding-datastore-admin-users.md)
 * [Troubleshooting](operations-actions/troubleshooting.md)
 
-## 3. Services <a id="services"></a>
+## 3. Services <a href="#services" id="services"></a>
 
-* [vulekamali.gov.za \(Main site\)](services/vulekamali.gov.za.md)
-* [data.vulekamali.gov.za \(CKAN\)](services/vulekamali-ckan/README.md)
+* [vulekamali.gov.za (Main site)](services/vulekamali.gov.za.md)
+* [data.vulekamali.gov.za (CKAN)](services/vulekamali-ckan/README.md)
   * [CKAN Datastore](services/vulekamali-ckan/ckan-datastore.md)
 * [procurement.vulekamali.gov.za](services/procurement.vulekamali.gov.za.md)
 * [create.vulekamali.gov.za](services/create.vulekamali.gov.za.md)
 * [openspending.org](services/openspending.org.md)
 * [OCPO Data Warehouse](services/ocpo-data-warehouse.md)
 
-## 4. Design <a id="design"></a>
+## 4. Design <a href="#design" id="design"></a>
 
 * [Architecture](design/architecture/README.md)
   * [0000 Architecture Decision Record template](design/architecture/0000-architecture-decision-document-template.md)
@@ -63,8 +64,7 @@
 * [Style/brand guide](design/style-brand-guide.md)
 * [Classifying public finance data and documents in CKAN](design/classifying-public-finance-data-documents-ckan.md)
 
-## Communications <a id="communications-1"></a>
+## Communications <a href="#communications-1" id="communications-1"></a>
 
 * [Communications](communications-1/communications.md)
 * [Support desk](communications-1/support-desk.md)
-
