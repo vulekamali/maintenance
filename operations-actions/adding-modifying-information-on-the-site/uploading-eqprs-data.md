@@ -34,3 +34,36 @@ When this happens, all you can do is reload the page and start again, selecting 
 <figure><img src="../../.gitbook/assets/Screenshot_2023-02-06_17-11-49.png" alt=""><figcaption></figcaption></figure>
 
 ### Upload data to vulekamali
+
+1. In the **Performance** > **EQPRS File Uploads** section of the Admin site, click **Add EQPRS file upload**.
+
+<figure><img src="../../.gitbook/assets/2023-02-06_17-46.png" alt=""><figcaption></figcaption></figure>
+
+2. Select the CSV file that was dowloaded from EQPRS and click Save
+
+<figure><img src="../../.gitbook/assets/2023-02-06_17-37.png" alt=""><figcaption></figcaption></figure>
+
+After clicking Save, the list of EQPRS file uploads is shown. The Processing completed column shows a question mark (?) for items where processing has not completed yet.
+
+3. Reload the page every few seconds until the question mark changes to a tick or a cross.
+
+A green tick is shown when a file has been completely processed. This does not mean all its data was imported - only that the file was fully processed.&#x20;
+
+A red cross is shown when there was some error and the file could not be fully processed. In this case,&#x20;
+
+* check whether you followed the instructions correctly, and try it again
+* check for errors in relevant tasks in the **Django Q** > **Failed Tasks** section in admin and see if the error report helps you to troubleshoot the issue
+* contact the developers if you fail to solve it yourself.
+
+4. If a green tick is indicating that the file was fully processed, check if the **Number of rows we could not import column is zero**.&#x20;
+5. If it is not zero, open the upload task detail by clicking on the creation date.
+
+<figure><img src="../../.gitbook/assets/Screenshot_2023-02-06_18-00-30.png" alt=""><figcaption></figcaption></figure>
+
+6. Check the import report and note that the indicators for the departments listed here were not imported because the names in EQPRS do not match the names in Vuelakamli.
+
+{% hint style="danger" %}
+**Do not change the department names in vulekamali to match EQPRS**
+
+Vulekamali reflects official department names as per the appropriation acts of each financial years. Budget and actual spending data should be normalised to match these names. Support for non-matching names in EQPRS may be added to vulekamali in future.
+{% endhint %}
