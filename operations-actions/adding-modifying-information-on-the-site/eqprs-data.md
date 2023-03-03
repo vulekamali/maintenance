@@ -79,3 +79,26 @@ A red cross is shown when there was some error and the file could not be fully p
 
 Vulekamali reflects official department names as per the appropriation acts of each financial years. Budget and actual spending data should be normalised to match these names. Support for non-matching names in EQPRS may be added to vulekamali in future.
 {% endhint %}
+
+## Dealing with department name mismatches
+
+Department names can differ between Vulekamali and EQPRS.
+
+Some examples of name differences are
+
+* a different name is used, e.g. EQPRS uses `South African Police Service` while Vulekamali uses `Police`
+* Some provincial department names include the province in the name, e.g. `Eastern Cape: Human Settlements` while the department is named `Human Settlements` in Vulekamali and won't match.
+* There are instances where a financial year or other information is included in the name, e.g. `Human Settlements 2018/19`
+* Sometimes there are spelling mistakes or differences in capitalisation or punctuation, e.g. `Sport, arts and culture` vs `Sports, Arts, and Culture`
+
+<figure><img src="../../.gitbook/assets/Screenshot_2023-01-13_09-57-56 (1).png" alt=""><figcaption><p>Province names as prefixes to department names will be trimmed away automatically</p></figcaption></figure>
+
+When importing EQPRS data, Vulekamali will automatically strip the government name (usually the province name) from the department name. e.g. it would treat `Eastern Cape: Human Settlements` as if it was `Human Settlements`.
+
+Any other name mismatches can be handled by creating an alias from the name in EQPRS for the department for a specific financial year. Note that department names may differ from year to year both in Vulekamali and in EQPRS. Pay attention to the import report to see which department name was not found, and requires a mapping.
+
+<figure><img src="../../.gitbook/assets/Screenshot_2023-03-03_14-23-12.png" alt=""><figcaption><p>An alias should be created for each department that is not matched automatically for each financial year</p></figcaption></figure>
+
+You can search for a department name by typing its name and year in the department search box while creating an alias:
+
+<figure><img src="../../.gitbook/assets/Screenshot_2023-03-03_14-23-32.png" alt=""><figcaption><p>Search for a department using parts of its name and the financial year</p></figcaption></figure>
