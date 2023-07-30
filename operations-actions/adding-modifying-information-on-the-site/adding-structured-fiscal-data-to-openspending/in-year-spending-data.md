@@ -2,17 +2,6 @@
 
 The in-year spending data is quarterly updates of monthly spend actuals. You can find the details of the format of the file that should be uploaded below. Also [see the dataset guide](https://vulekamali.gov.za/learning-resources/guides/-year-spending-data/) for details of fields and what's expected.
 
-We upload the data in various forms to help users with different data tools access the data. The top priority is to get the data released - **the following shows the formats in priority order** - it is better to publish just some formats, rather than delaying publication.:
-
-| Format                                 | Use case                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Excel with all data raw in a worksheet | <p>This is the most flexible format - it's compressed so it isn't a massive download, and many tools can open data in Excel form (including some that can't access PowerPivot data).</p><p></p><p>Save as XLSB for the smallest file size that is still usable by non-Excel tools.</p><p></p><p>If example pivot tables based on that data worksheet, that is very helpful to users, but don't delay publication for this.</p> |
-| Per-department files                   | Some users are interested in specific departments - department-specific slices of the data allow them to work a bit more efficiently without needing to download and open the entire dataset. See previous versions of the dataset on vulekamali for the selection of datasets.                                                                                                                                                |
-| Excel PowerPivot                       | Excel power users - this format is quite small and efficient, but is only usable in Microsoft Excel and is quite a power-user feature.                                                                                                                                                                                                                                                                                         |
-| CSV                                    | <p>This is useful for many data tools that don't support Excel, but do support massive tabular data - e.g. databases and OpenSpending.org</p><p></p><p>Compress this in a Zip file to reduce file size.</p>                                                                                                                                                                                                                    |
-
-See previous versions for the selection of departments provided individually.
-
 ## Uploading the data
 
 *   To upload IYM data using the CMS, click the "Add" button next to "Iym file uploads"
