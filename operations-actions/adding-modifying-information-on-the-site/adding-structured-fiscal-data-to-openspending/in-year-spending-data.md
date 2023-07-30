@@ -1,6 +1,6 @@
 # In-year spending data
 
-The in-year spending data is quarterly updates of monthly spend actuals. [See the dataset guide](https://vulekamali.gov.za/learning-resources/guides/-year-spending-data/) for details of fields and what's expected.
+The in-year spending data is quarterly updates of monthly spend actuals. You can find the details of the format of the file that should be uploaded below. Also [see the dataset guide](https://vulekamali.gov.za/learning-resources/guides/-year-spending-data/) for details of fields and what's expected.
 
 We upload the data in various forms to help users with different data tools access the data. The top priority is to get the data released - **the following shows the formats in priority order** - it is better to publish just some formats, rather than delaying publication.:
 
@@ -13,11 +13,7 @@ We upload the data in various forms to help users with different data tools acce
 
 See previous versions for the selection of departments provided individually.
 
-Name the dataset according to the sphere and latest financial year and quarter included - e.g. `National in-year spending 2019-20 Quarter 2`
-
 ## Uploading the data
-
-We keep historical versions so that reference links don't break. Storage space is not an issue on this platform.
 
 *   To upload IYM data using the CMS, click the "Add" button next to "Iym file uploads"
 
@@ -129,7 +125,10 @@ We keep historical versions so that reference links don't break. Storage space i
 
 {% file src="../../../.gitbook/assets/test-zip.zip" %}
 
-*   Once you select the financial year, latest quarter and the file to be uploaded clicking "Save" button will start the upload process. The file will be uploaded to Openspending. A dataset will be created in the CKAN and the url of the file will be added as a resource to the CKAN dataset\
+*   Once you select the financial year, latest quarter and the file to be uploaded clicking "Save" button will start the upload process. The file will be uploaded to Openspending. A dataset will be created in the CKAN and the url of the file will be added as a resource to the CKAN dataset. Subsequent uploads for the same financial year will replace the data in OpenSpending and update latest\_quarter property of the dataset.\
 
 
     <figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+
+* Upload the quarterly zip file and Excel PowerPivot to the dataset in CKAN for people who want to download the whole file. Name the file according to the sphere and latest financial year and quarter included - e.g. `National in-year spending 2019-20 Quarter 2`
