@@ -30,7 +30,7 @@ It is strongly recommended that upload timestamps of the form 2019-08-12 01:18 (
 * Text and numeric values must be consistent. Occasional inconsistencies like stray spaces at the start or end of a value result in that category being treated as a different category, just like it would in a pivot table.
 * [CSV files must be saved with UTF-8 encoding](https://www.ibm.com/support/knowledgecenter/SSWU4L/Data/imc\_Data/Data\_q\_a\_watson\_assistant/A\_Simple\_Way\_to\_UTF-8\_Encode\_your\_CSV\_fi191.html)
 
-After adding the dataset to CKAN, [add it to the right group and add the right metadata](./#specific-dataset-requirements) so that the [Data Manager](../../../services/vulekamali.gov.za.md) can find each dataset to prepare the summaries for each financial year using the correct dataset.
+After adding the dataset to CKAN, [add it to the right group and add the right metadata](./#specific-dataset-requirements) so that the [Data Manager](../../../services/vulekamali.gov.za/) can find each dataset to prepare the summaries for each financial year using the correct dataset.
 
 ## Automated data checks
 

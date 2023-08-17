@@ -15,7 +15,7 @@ This manual is structured as follows. The numbers in these sections refer to the
 Intended audience: Website/data administrators
 
 1. Step by step instructions for specific events
-2. How to carry out the common actions as directed by specific budget events in \(1\)
+2. How to carry out the common actions as directed by specific budget events in (1)
 
 ### 3. Service overview
 
@@ -27,18 +27,18 @@ Services are documented under the 'Services' category, outlining what each servi
 
 Intended audience: software developers, visual designers, product developers
 
-For developers, instructions and information regarding developing and staging/deploying software for each service is also included on each service page, like [Data Manager](services/vulekamali.gov.za.md)
+For developers, instructions and information regarding developing and staging/deploying software for each service is also included on each service page, like [Data Manager](services/vulekamali.gov.za/)
 
 ### 5. Development and hosting details
 
-Intended audience: Software developers, system administrators  
+Intended audience: Software developers, system administrators\
 For specific instructions on how to install or configure a service web app, please see the relevant README on the project's Github repository. An example of this can be seen on the [Data Manager github repository](https://github.com/OpenUpSA/vulekamali-datamanager).
 
 ## Roles
 
 * **Portal Lead** - Andisile Best
 * **Treasury Comms** - Daleen Marais, Ntsakisi Ramunasi
-  * Responsible for wording  \("copy"\) and marketing vulekamali
+  * Responsible for wording  ("copy") and marketing vulekamali
 * **Budget event coordinator** - Mpho Leeu
   * At budget events, take overall responsibility for ensuring the various people involved with that event are aware that it’s coming, what’s expected of them, and when.
 * **Content Manager** - Bakang Tseladimitloa
@@ -58,4 +58,3 @@ For specific instructions on how to install or configure a service web app, plea
   * Technical support for administrators
 * **Developers**
   * Implementing new features and fixing critical bugs
-

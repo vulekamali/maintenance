@@ -4,7 +4,7 @@
 
 
 
-{% file src="../.gitbook/assets/vulekamali.webflow (various changes-20230817).zip" %}
+{% file src="../../.gitbook/assets/vulekamali.webflow (various changes-20230817).zip" %}
 
 1. Added "Filter by funding years" to search options
 2. Moved "Filter by project status" to advanced search options
