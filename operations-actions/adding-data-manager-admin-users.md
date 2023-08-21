@@ -1,6 +1,6 @@
 # Adding Admin users
 
-Exiting Vulekamali admins can make other users admins.
+Existing Vulekamali admins can make other users admins.
 
 ## Get the user's username
 
@@ -13,4 +13,3 @@ You might also be able to find them in the [user list](https://vulekamali.gov.za
 When you have their username, find it in the [user list](https://vulekamali.gov.za/admin/auth/user/), and click on their username to edit their user account.
 
 Ensure the "Superuser status" and "Staff status" checkboxes are checked, and click Save.
-
