@@ -129,3 +129,9 @@ A dataset will be created in the CKAN and the url of the file will be added as a
 
 
 Upload the quarterly zip file and Excel PowerPivot to the dataset in CKAN for people who want to download the whole file. Name the _file_ and _resource_ according to the sphere and latest financial year and quarter included - e.g. `National in-year spending 2019-20 Quarter 2`
+
+## Troubleshooting
+
+### Error: Selection is not a valid field or field index: _column-name_
+
+This can happen when an expected column is not found. That can occur when the file is formatted incorrectly, e.g. when semicolons are used as the field separator instead of comma. See the CSV Formatting guidelines [https://maintenance.vulekamali.gov.za/design/data-formats](https://maintenance.vulekamali.gov.za/design/data-formats)
