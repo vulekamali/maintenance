@@ -2,13 +2,26 @@
 
 The EQPRS data is available on vulekamali as tabular data that can be searched and filtered for relevant indicators. This shows the Quarterly Performance Reporting indicators shown in the Annual Performance Plans, Strategic Plans, ENE and EPRE documents, as well as Annual Reports.
 
-The data looks like this on vulekamali&#x20;
+On the search/list page [https://vulekamali.gov.za/performance/](https://vulekamali.gov.za/performance/) users can search by keywords and filter by a number of important fields. They can also download the data in Excel format.
 
 <figure><img src="../../.gitbook/assets/Screenshot_2023-02-06_18-06-00.png" alt=""><figcaption></figcaption></figure>
 
-It looks like this in EQPRS:
+On department pages users can see a summary of the information for indicators related to that department, organised by programme. Indicators with targets and values that are clearly numerical without any additional text are shown as little vertical bars with a target line indicating whether a target has been reached (and sometimes exceeded). Any text other than numbers or % signs mean the indicator is interpreted as qualitative and shown only as an info icon. By clicking the icon, the target and value text  for the quarter or year is shown.
+
+<figure><img src="../../.gitbook/assets/Screenshot_2023-07-19_10-01-17.png" alt=""><figcaption></figcaption></figure>
+
+From here, users can opt to show more indicators per programme, or click through to the search page shown above to see and download all EQPRS data.
+
+In EQPRS the data is shown in tables listing indicators as per the selected options. It can be downloaded in Excel form from here.
 
 <figure><img src="../../.gitbook/assets/Screenshot_2023-02-06_18-08-23.png" alt=""><figcaption></figcaption></figure>
+
+## Enabling the feature
+
+The EQPRS Performance Data is only shown on the department page once the feature is enabled, to allow time for uploading all the data. When ready to release the feature to the public
+
+* Enable the EQPRS\_DATA\_ENABLED option in the [Constance Config](../site-wide-options.md)
+* Optionally add a link to the search page to the [main menu](editing-the-menu-items.md) or the featured items cards
 
 ## Uploading EQPRS data
 
