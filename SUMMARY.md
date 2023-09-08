@@ -39,6 +39,7 @@
   * [Adding a new Division of Revenue bill](operations-actions/adding-modifying-information-on-the-site/adding-a-new-division-of-revenue-bill.md)
   * [Editing the menu items](operations-actions/adding-modifying-information-on-the-site/editing-the-menu-items.md)
   * [EQPRS data](operations-actions/adding-modifying-information-on-the-site/eqprs-data.md)
+* [Site-wide options](operations-actions/site-wide-options.md)
 * [Contributed Data](operations-actions/adding-a-non-treasury-contributor.md)
 * [Adding Admin users](operations-actions/adding-data-manager-admin-users.md)
 * [Content Management System (CMS)](operations-actions/content-management-system-cms.md)

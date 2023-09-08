@@ -2,6 +2,14 @@
 
 The in-year spending data is quarterly updates of monthly spend actuals. You can find the details of the format of the file that should be uploaded below. Also [see the dataset guide](https://vulekamali.gov.za/learning-resources/guides/-year-spending-data/) for details of fields and what's expected.
 
+## Enabling the feature
+
+The feature is disabled upon release, to be enabled when the data is all uploaded and ready for presentation.
+
+Once ready for use, enable presentation of the data in charts using the IN\_YEAR\_SPENDING\_ENABLED [Constance Config option](../../site-wide-options.md)
+
+
+
 ## Uploading the data
 
 To upload IYM data using the CMS, click the "Add" button next to "Iym file uploads"
