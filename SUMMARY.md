@@ -54,8 +54,9 @@
   * [CKAN Datastore](services/vulekamali-ckan/ckan-datastore.md)
 * [procurement.vulekamali.gov.za](services/procurement.vulekamali.gov.za.md)
 * [create.vulekamali.gov.za](services/create.vulekamali.gov.za.md)
-* [openspending.org](services/openspending.org.md)
+* [openspending-dedicated.vulekamali.gov.za](services/openspending.org.md)
 * [OCPO Data Warehouse](services/ocpo-data-warehouse.md)
+* [ocds-summary.vulekamali.gov.za](services/ocds-summary.vulekamali.gov.za.md)
 
 ## 4. Design <a href="#design" id="design"></a>
 
