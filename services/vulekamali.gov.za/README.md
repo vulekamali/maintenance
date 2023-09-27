@@ -1,4 +1,4 @@
-# vulekamali.gov.za \(Main site\)
+# vulekamali.gov.za (Main site)
 
 ## Environments
 
@@ -14,11 +14,11 @@ A test installation of vulekamali where operations can be practised by administr
 
 Admin login: [sandbox.vulekamali.gov.za/admin](https://sandbox.vulekamali.gov.za/admin)
 
-### Staging
+## Development and operations
 
-A staging instance of vulekamali for trying out changes before deploying to production.
+The source code and development setup instructions are available at [https://github.com/vulekamali/datamanager](https://github.com/vulekamali/datamanager)
 
-_**Staging normally uses the Production database, so be careful what data changes you make there to troubleshoot things.**_
+The production and sandbox deployment is configured using the ansible playbook at [https://github.com/OpenUpSA/ansible-config/blob/master/apps/vulekamali/budgetportal.yml](https://github.com/OpenUpSA/ansible-config/blob/master/apps/vulekamali/budgetportal.yml)
 
-
+Read more about running the ansible playbook at [https://github.com/OpenUpSA/ansible-config#installing-apps](https://github.com/OpenUpSA/ansible-config#installing-apps)
 

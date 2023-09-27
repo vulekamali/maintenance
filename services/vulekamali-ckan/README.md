@@ -1,4 +1,4 @@
-# data.vulekamali.gov.za \(CKAN\)
+# data.vulekamali.gov.za (CKAN)
 
 Vulekamali uses an installation of [CKAN](https://ckan.org/) to organise data with groups, formats and other metadata, provide a data discovery API.
 
@@ -8,7 +8,7 @@ Vulekamali uses an installation of [CKAN](https://ckan.org/) to organise data wi
 
 **Sandbox**: [https://sandbox-data.vulekamali.gov.za/](https://sandbox-data.vulekamali.gov.za/)
 
-vulekamali CKAN is used to manage the data displayed on Vulekamali, for example \(but not limited to\):
+vulekamali CKAN is used to manage the data displayed on Vulekamali, for example (but not limited to):
 
 ### [Datasets](https://data.vulekamali.gov.za/dataset)
 
@@ -16,7 +16,7 @@ Datasets contain Resources and metadata.
 
 Metadata is just data about data, e.g. the description of what's contained in the dataset, and also classifying information like a specific financial year, sphere, department, or government that the dataset relates to.
 
-Resources can be files \(structured data, semi-structured data, documents\), or links \(URLs\) to these or just to other websites.
+Resources can be files (structured data, semi-structured data, documents), or links (URLs) to these or just to other websites.
 
 Examples of structured data on vulekamali:
 
@@ -24,7 +24,7 @@ Examples of structured data on vulekamali:
 * Audit Outcomes data
 * Estimates of Provincial Expenditure data
 
-### [Groups ](https://data.vulekamali.gov.za/group)\(Vulekamali categories\)
+### [Groups ](https://data.vulekamali.gov.za/group)(Vulekamali categories)
 
 Groups allow us to categorise datasets
 
@@ -45,3 +45,4 @@ Groups allow us to categorise datasets
 
 The [github repository](https://github.com/vulekamali/treasury-ckan) contains the code for the vulekamali CKAN installation.
 
+Use the Sandbox CKAN configuration playbook for deployment reference [https://github.com/OpenUpSA/ansible-config/blob/master/apps/vulekamali/ckan-sandbox.yml](https://github.com/OpenUpSA/ansible-config/blob/master/apps/vulekamali/ckan-sandbox.yml)
