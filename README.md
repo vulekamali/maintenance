@@ -21,7 +21,7 @@ Intended audience: Website/data administrators
 
 Intended audience: All administrators and developers
 
-Services are documented under the 'Services' category, outlining what each service provides. e.g. the main website, and CKAN where datasets are organised.
+Services are documented under the 'Services' category, outlining what each service provides. e.g. [the main website](services/vulekamali.gov.za/), and [CKAN, where datasets are organised](services/vulekamali-ckan/ckan-datastore.md).
 
 ### 4. Design overview
 
