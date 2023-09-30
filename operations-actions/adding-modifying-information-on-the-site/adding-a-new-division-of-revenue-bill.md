@@ -107,5 +107,41 @@ Update the Profile indicator in Wazimap ([admin guide](https://openup.gitbook.io
 
 #### Equitable Share to municipalities
 
+Prepare the dataset
 
+1. Open the latest version of this dataset, e.g. by downloading the file uploaded to the latest version of this dataset on Wazimap in Excel
+2. Find the latest Division of Revenue Bill Schedules in Excel Format On the [National Treasury website](https://www.treasury.gov.za/documents/national%20budget/default.aspx) under _Division of Revenue and Provincial and Municipal Budget Information_
+3. Copy the provinces and tabled budget year columns from _Schedule 3 -_ DETERMINATION OF EACH MUNICIPALITY'S EQUITABLE SHARE OF THE LOCAL GOVERNMENT SPHERE'S SHARE OF REVENUE RAISED NATIONALLY
+4. Paste these columns as new rows below the old ones
+5. Fill in the Financial Year values for the new rows.
+6. Ensure the formatting is consistent and save as CSV:
+
+* Use the same province codes
+* No decimal or thousand separator for amounts
+* Amounts in thousands of rands
+
+Create the dataset in Wazimap ([admin guide](https://openup.gitbook.io/wazimap-ng/profile-admin/creating-datasets))
+
+1. name the dataset _Equitable Share to Municipalities up to 2022-23_ (Updating to the correct latest year
+2. Choose _Public_ permission
+3. Select 2016 demarcation version
+4. Upload the dataset created above
+5. Click through to the `financial year` _group_ ([admin guide](https://openup.gitbook.io/wazimap-ng/profile-admin/subindicator-groups))
+6. Un-check _Can aggregate_ and ensure the years are ordered, and save.
+
+Create the Variable in Wazimap ([admin guide](https://openup.gitbook.io/wazimap-ng/profile-admin/uploading-datasets))
+
+1. name the variable _Equitable Share to Municipalities up to 2022-23_ (Updating to the correct latest year
+2. Select the dataset you just created.
+3. Select `financial year` as the group. This means these values will be the categories you can select from the menu.
+
+Update the Profile indicator in Wazimap ([admin guide](https://openup.gitbook.io/wazimap-ng/profile-admin/untitled))
+
+1. Open the _Equitable Share to Municipalities (thou. Rands)_ Profile Indicator to edit in Admin
+2. Change the variable to the one you just created.
+3. Ensure the choropleth method is "Sibling", meaning the amounts add up to 100%
+4. Ensure the profile indicator has the following configuration to format the numbers correctly:\
+   `{ "types": { "Value": { "formatting": ",.0f" } } }`
+5. Ensure the Profile Indicator has the following description:\
+   The allocation of the Municipal Sphere segment of equitable share to each municipality in thousands of rands.
 
