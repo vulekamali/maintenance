@@ -70,7 +70,7 @@ Prepare the dataset
 3. Copy the provinces and tabled budget year columns from _Schedule 2 - DETERMINATION OF EACH PROVINCE'S EQUITABLE SHARE OF THE PROVINCIAL SPHERE'S SHARE OF REVENUE RAISED NATIONALLY_
 4. Paste these columns as new rows below the old ones
 5. Fill in the Financial Year values for the new rows.
-6. Ensure the formatting is consistent:
+6. Ensure the formatting is consistent and save as CSV:
 
 * Use the same province codes
 * No decimal or thousand separator for amounts
@@ -79,16 +79,19 @@ Prepare the dataset
 Create the dataset in Wazimap ([admin guide](https://openup.gitbook.io/wazimap-ng/profile-admin/creating-datasets))
 
 1. name the dataset _Equitable Share to Provinces up to 2022-23_ (Updating to the correct latest year
-2. Click through to the `financial year` _group_ ([admin guide](https://openup.gitbook.io/wazimap-ng/profile-admin/subindicator-groups))
-3. Un-check _aggregatable_ and ensure the years are ordered, and save.
+2. Choose _Public_ permission
+3. Select 2016 demarcation version
+4. Upload the dataset created above
+5. Click through to the `financial year` _group_ ([admin guide](https://openup.gitbook.io/wazimap-ng/profile-admin/subindicator-groups))
+6. Un-check _aggregatable_ and ensure the years are ordered, and save.
 
-Create the Variable in Wazimap
+Create the Variable in Wazimap ([admin guide](https://openup.gitbook.io/wazimap-ng/profile-admin/uploading-datasets))
 
 1. name the variable _Equitable Share to Provinces up to 2022-23_ (Updating to the correct latest year
 2. Select the dataset you just created.
 3. Select `financial year` as the group. This means these values will be the categories you can select from the menu.
 
-Update the Profile indicator in Wazimap
+Update the Profile indicator in Wazimap ([admin guide](https://openup.gitbook.io/wazimap-ng/profile-admin/untitled))
 
 1. Open the _Equitable Share to Provinces (thou. Rands)_ Profile Indicator to edit in Admin
 2. Change the variable to the one you just created.
@@ -96,7 +99,7 @@ Update the Profile indicator in Wazimap
 4. Ensure the profile indicator has the following configuration to format the numbers correctly:\
    `{ "types": { "Value": { "formatting": ",.0f" } } }`
 5. Ensure the Profile Indicator has the following description:\
-   The allocation of equitable share to each province.
+   The allocation of the Provincial Sphere segment of equitable share to each province.
 
 #### Equitable Share to municipalities
 
