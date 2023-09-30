@@ -76,23 +76,26 @@ Prepare the dataset
 * No decimal or thousand separator for amounts
 * Amounts in thousands of rands
 
-Create the dataset in Wazimap
+Create the dataset in Wazimap ([admin guide](https://openup.gitbook.io/wazimap-ng/profile-admin/creating-datasets))
 
 1. name the dataset _Equitable Share to Provinces up to 2022-23_ (Updating to the correct latest year
-2. Click through to the `financial year` _group_
+2. Click through to the `financial year` _group_ ([admin guide](https://openup.gitbook.io/wazimap-ng/profile-admin/subindicator-groups))
 3. Un-check _aggregatable_ and ensure the years are ordered, and save.
 
 Create the Variable in Wazimap
 
 1. name the variable _Equitable Share to Provinces up to 2022-23_ (Updating to the correct latest year
 2. Select the dataset you just created.
+3. Select `financial year` as the group. This means these values will be the categories you can select from the menu.
 
 Update the Profile indicator in Wazimap
 
-1. Change the variable to the one you just created.
-2. Ensure the profile indicator has the following configuration to format the numbers correctly:\
+1. Open the _Equitable Share to Provinces (thou. Rands)_ Profile Indicator to edit in Admin
+2. Change the variable to the one you just created.
+3. Ensure the choropleth method is "Sibling", meaning the amounts add up to 100%
+4. Ensure the profile indicator has the following configuration to format the numbers correctly:\
    `{ "types": { "Value": { "formatting": ",.0f" } } }`
-3. Ensure the Profile Indicator has the following description:\
+5. Ensure the Profile Indicator has the following description:\
    The allocation of equitable share to each province.
 
 #### Equitable Share to municipalities
