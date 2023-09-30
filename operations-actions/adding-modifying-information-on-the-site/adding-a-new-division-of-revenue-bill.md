@@ -63,12 +63,39 @@ Example equitable share allocations
 
 #### Equitable Share to Provinces
 
-1. Division of Revenue Bill Schedules in Excel Format
-2. DETERMINATION OF EACH PROVINCE'S EQUITABLE SHARE OF THE PROVINCIAL SPHERE'S SHARE OF REVENUE RAISED NATIONALLY&#x20;
-3. extra column "Allocation (thou. rands)"
-4. mark the financial year column as non-aggregatable
-5. name dataset Equitable Share to Provinces up to 2022-23
-6.
+Prepare the dataset
+
+1. Open the latest version of this dataset, e.g. by downloading the file uploaded to the latest version of this dataset on Wazimap in Excel
+2. Find the latest Division of Revenue Bill Schedules in Excel Format On the [National Treasury website](https://www.treasury.gov.za/documents/national%20budget/default.aspx) under _Division of Revenue and Provincial and Municipal Budget Information_
+3. Copy the provinces and tabled budget year columns from _Schedule 2 - DETERMINATION OF EACH PROVINCE'S EQUITABLE SHARE OF THE PROVINCIAL SPHERE'S SHARE OF REVENUE RAISED NATIONALLY_
+4. Paste these columns as new rows below the old ones
+5. Fill in the Financial Year values for the new rows.
+6. Ensure the formatting is consistent:
+
+* Use the same province codes
+* No decimal or thousand separator for amounts
+* Amounts in thousands of rands
+
+Create the dataset in Wazimap
+
+1. name the dataset _Equitable Share to Provinces up to 2022-23_ (Updating to the correct latest year
+2. Click through to the `financial year` _group_
+3. Un-check _aggregatable_ and ensure the years are ordered, and save.
+
+Create the Variable in Wazimap
+
+1. name the variable _Equitable Share to Provinces up to 2022-23_ (Updating to the correct latest year
+2. Select the dataset you just created.
+
+Update the Profile indicator in Wazimap
+
+1. Change the variable to the one you just created.
+2. Ensure the profile indicator has the following configuration to format the numbers correctly:\
+   `{ "types": { "Value": { "formatting": ",.0f" } } }`
+3. Ensure the Profile Indicator has the following description:\
+   The allocation of equitable share to each province.
+
+#### Equitable Share to municipalities
 
 
 
