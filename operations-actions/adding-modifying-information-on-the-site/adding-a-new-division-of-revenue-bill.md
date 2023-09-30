@@ -65,6 +65,16 @@ Example equitable share allocations
 
 ### Format for the Allocation of Equitable Share for Wazimap
 
+<div>
+
+<figure><img src="../../.gitbook/assets/Screenshot_2023-09-30_13-36-44.png" alt=""><figcaption><p>On the Data Mapper</p></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/Screenshot_2023-09-30_13-36-14.png" alt=""><figcaption><p>In the Rich Data view</p></figcaption></figure>
+
+</div>
+
 #### Equitable Share to Provinces
 
 Prepare the dataset
@@ -118,7 +128,15 @@ Update the Profile indicator in Wazimap ([admin guide](https://openup.gitbook.io
 
 #### Equitable Share to municipalities
 
+<div>
 
+<figure><img src="../../.gitbook/assets/Screenshot_2023-09-30_13-34-16.png" alt=""><figcaption><p>In the Rich Data view</p></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/Screenshot_2023-09-30_13-33-48.png" alt=""><figcaption><p>On the Data Mapper</p></figcaption></figure>
+
+</div>
 
 Prepare the dataset
 
