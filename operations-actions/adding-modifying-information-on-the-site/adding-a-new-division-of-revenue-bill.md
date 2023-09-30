@@ -6,11 +6,13 @@ description: >-
 
 # Adding a new Division of Revenue bill
 
-## Locating the Division of Revenue bill
+## Updating the division of revenue page data
+
+### Locating the Division of Revenue bill
 
 It can be found on[ National Treasury's website](http://www.treasury.gov.za) under "Budget Information -> National -> {YEAR}"
 
-## Upload to CKAN
+### Upload to CKAN
 
 The Division of Revenue bill must be uploaded to the [CKAN](https://data.vulekamali.gov.za/).
 
@@ -34,11 +36,11 @@ Use the naming convention from previous years.
 
 Each DOR should be in the "Division of Revenue Bills" group.
 
-## Adding to vulekamali
+### Adding to vulekamali
 
 After the dataset has been uploaded to CKAN, it should show up at [https://vulekamali.gov.za/datasets/division-of-revenue-bills](https://vulekamali.gov.za/datasets/division-of-revenue-bills).
 
-## Format for the Allocation of Equitable Share for CKAN
+### Format for the Allocation of Equitable Share for CKAN
 
 This is a structured file that must be formatted precisely as specified for the charts using its data online to work properly.
 
@@ -58,6 +60,8 @@ This is a structured file that must be formatted precisely as specified for the 
 {% file src="../../.gitbook/assets/equitable-share-allocations-2020-03-15t1130.xlsx" %}
 Example equitable share allocations
 {% endfile %}
+
+## Update the data in the spatial planning viewer ([Wazimap](http://wazimap.com/))
 
 ### Format for the Allocation of Equitable Share for Wazimap
 
@@ -99,7 +103,7 @@ Update the Profile indicator in Wazimap ([admin guide](https://openup.gitbook.io
 4. Ensure the profile indicator has the following configuration to format the numbers correctly:\
    `{ "types": { "Value": { "formatting": ",.0f" } } }`
 5. Ensure the Profile Indicator has the following description:\
-   The allocation of the Provincial Sphere segment of equitable share to each province.
+   The allocation of the Provincial Sphere segment of equitable share to each province in thousands of rands.
 
 #### Equitable Share to municipalities
 
