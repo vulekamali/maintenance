@@ -99,7 +99,7 @@ Update the Profile indicator in Wazimap ([admin guide](https://openup.gitbook.io
 
 1. Open the _Equitable Share to Provinces (thou. Rands)_ Profile Indicator to edit in Admin
 2. Change the variable to the one you just created.
-3. Ensure the choropleth method is "Sibling", meaning the amounts add up to 100%
+3. Ensure the choropleth method is "absolute\_value"
 4. Ensure the profile indicator has the following configuration to format the numbers correctly:\
    `{ "types": { "Value": { "formatting": ",.0f" } } }`
 5. Ensure the Profile Indicator has the following description:\
@@ -139,7 +139,7 @@ Update the Profile indicator in Wazimap ([admin guide](https://openup.gitbook.io
 
 1. Open the _Equitable Share to Municipalities (thou. Rands)_ Profile Indicator to edit in Admin
 2. Change the variable to the one you just created.
-3. Ensure the choropleth method is "Sibling", meaning the amounts add up to 100%
+3. Ensure the choropleth method is "absolute\_value"
 4. Ensure the profile indicator has the following configuration to format the numbers correctly:\
    `{ "types": { "Value": { "formatting": ",.0f" } } }`
 5. Ensure the Profile Indicator has the following description:\
