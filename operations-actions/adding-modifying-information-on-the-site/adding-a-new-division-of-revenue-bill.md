@@ -100,12 +100,25 @@ Update the Profile indicator in Wazimap ([admin guide](https://openup.gitbook.io
 1. Open the _Equitable Share to Provinces (thou. Rands)_ Profile Indicator to edit in Admin
 2. Change the variable to the one you just created.
 3. Ensure the choropleth method is "absolute\_value"
-4. Ensure the profile indicator has the following configuration to format the numbers correctly:\
-   `{ "types": { "Value": { "formatting": ",.0f" } } }`
+4.  Ensure the profile indicator has the following configuration to format the numbers correctly:
+
+    ```json
+    {
+      "types": {
+        "Value": {
+          "formatting": ",.0f"
+        }
+      },
+      "defaultType": "Value",
+      "disableToggle": true
+    }
+    ```
 5. Ensure the Profile Indicator has the following description:\
    The allocation of the Provincial Sphere segment of equitable share to each province in thousands of rands.
 
 #### Equitable Share to municipalities
+
+
 
 Prepare the dataset
 
@@ -140,8 +153,20 @@ Update the Profile indicator in Wazimap ([admin guide](https://openup.gitbook.io
 1. Open the _Equitable Share to Municipalities (thou. Rands)_ Profile Indicator to edit in Admin
 2. Change the variable to the one you just created.
 3. Ensure the choropleth method is "absolute\_value"
-4. Ensure the profile indicator has the following configuration to format the numbers correctly:\
-   `{ "types": { "Value": { "formatting": ",.0f" } } }`
-5. Ensure the Profile Indicator has the following description:\
+4. Ensure the profile indicator has the following configuration to format the numbers correctly:
+
+```json
+{
+  "types": {
+    "Value": {
+      "formatting": ",.0f"
+    }
+  },
+  "defaultType": "Value",
+  "disableToggle": true
+}
+```
+
+1. Ensure the Profile Indicator has the following description:\
    The allocation of the Municipal Sphere segment of equitable share to each municipality in thousands of rands.
 
